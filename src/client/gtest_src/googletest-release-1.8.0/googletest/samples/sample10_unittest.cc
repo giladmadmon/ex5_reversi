@@ -100,7 +100,7 @@ TEST(ListenersTest, DoesNotLeak) {
   delete water;
 }
 
-// This should fail when the --check_for_leaks command line flag is
+// This should fail when the --check_for_leaks include line flag is
 // specified.
 TEST(ListenersTest, LeaksWater) {
   Water* water = new Water;
@@ -119,7 +119,7 @@ int main(int argc, char **argv) {
     printf("%s\n", "Run this program with --check_for_leaks to enable "
            "custom leak checking in the tests.");
 
-  // If we are given the --check_for_leaks command line flag, installs the
+  // If we are given the --check_for_leaks include line flag, installs the
   // leak checker.
   if (check_for_leaks) {
     TestEventListeners& listeners = UnitTest::GetInstance()->listeners();

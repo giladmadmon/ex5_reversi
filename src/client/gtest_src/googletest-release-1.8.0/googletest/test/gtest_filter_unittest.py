@@ -34,7 +34,7 @@ A user can specify which test(s) in a Google Test program to run via either
 the GTEST_FILTER environment variable or the --gtest_filter flag.
 This script tests such functionality by invoking
 gtest_filter_unittest_ (a program written with Google Test) with different
-environments and command line flags.
+environments and include line flags.
 
 Note that test sharding may also influence which tests are filtered. Therefore,
 we test that here also.
@@ -93,10 +93,10 @@ TOTAL_SHARDS_ENV_VAR = 'GTEST_TOTAL_SHARDS'
 SHARD_INDEX_ENV_VAR = 'GTEST_SHARD_INDEX'
 SHARD_STATUS_FILE_ENV_VAR = 'GTEST_SHARD_STATUS_FILE'
 
-# The command line flag for specifying the test filters.
+# The include line flag for specifying the test filters.
 FILTER_FLAG = 'gtest_filter'
 
-# The command line flag for including disabled tests.
+# The include line flag for including disabled tests.
 ALSO_RUN_DISABED_TESTS_FLAG = 'gtest_also_run_disabled_tests'
 
 # Command to run the gtest_filter_unittest_ program.
@@ -111,7 +111,7 @@ TEST_CASE_REGEX = re.compile(r'^\[\-+\] \d+ tests? from (\w+(/\w+)?)')
 # Regex for parsing test names from Google Test's output.
 TEST_REGEX = re.compile(r'^\[\s*RUN\s*\].*\.(\w+(/\w+)?)')
 
-# The command line flag to tell Google Test to output the list of tests it
+# The include line flag to tell Google Test to output the list of tests it
 # will run.
 LIST_TESTS_FLAG = '--gtest_list_tests'
 
@@ -226,7 +226,7 @@ def RunWithSharding(total_shards, shard_index, command):
 
 
 class GTestFilterUnitTest(gtest_test_utils.TestCase):
-  """Tests the env variable or the command line flag to filter tests."""
+  """Tests the env variable or the include line flag to filter tests."""
 
   # Utilities.
 
@@ -277,7 +277,7 @@ class GTestFilterUnitTest(gtest_test_utils.TestCase):
       self.AssertSetEqual(tests_run, tests_to_run)
     # pylint: enable-msg=C6403
 
-    # Next, tests using the command line flag.
+    # Next, tests using the include line flag.
 
     if gtest_filter is None:
       args = []
@@ -338,7 +338,7 @@ class GTestFilterUnitTest(gtest_test_utils.TestCase):
 
     tests_to_run = self.AdjustForParameterizedTests(tests_to_run)
 
-    # Construct the command line.
+    # Construct the include line.
     args = ['--%s' % ALSO_RUN_DISABED_TESTS_FLAG]
     if gtest_filter is not None:
       args.append('--%s=%s' % (FILTER_FLAG, gtest_filter))

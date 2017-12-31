@@ -9,7 +9,7 @@
 
 using namespace std;
 void ReversiGame::PlayGame() {
-  while (!logic_.GameOver(board_)) {
+  while (!logic_.GameOver(board_) && !game_closed_) {
     PlayOneTurn();
   }
 
@@ -31,9 +31,13 @@ void ReversiGame::PlayOneTurn() {
   if (possible_moves.empty()) {
     current_player->MakeAMove(possible_moves, printer_, current_turn);
   } else {
-    Position chosen_position(0, 0);
+    Position chosen_position = current_player->MakeAMove(possible_moves, printer_, current_turn);
 
-    chosen_position = current_player->MakeAMove(possible_moves, printer_, current_turn);
+    if (chosen_position.GetColumn() <= 0 || chosen_position.GetRow() <= 0) {
+      game_closed_ = true;
+      return;
+    }
+
     printer_.PrintMove(chosen_position, current_turn);
 
     logic_.PlaceAToken(current_turn, chosen_position.GetRow(), chosen_position.GetColumn(), board_);
@@ -43,7 +47,7 @@ void ReversiGame::PlayOneTurn() {
 }
 
 void ReversiGame::EndTurn() {
-  if (client_ != NULL) {
+  if (client_ != NULL && !game_closed_) {
     client_->SendMsg(END_GAME_MSG);
   }
 }
@@ -67,7 +71,8 @@ ReversiGame::ReversiGame(Player &black_player,
       logic_(logic),
       board_(board),
       printer_(printer),
-      client_(client) {
+      client_(client),
+      game_closed_(false) {
   this->NewGame();
 }
 

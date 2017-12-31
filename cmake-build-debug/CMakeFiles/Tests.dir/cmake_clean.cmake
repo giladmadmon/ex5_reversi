@@ -10,6 +10,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Tests.dir/src/client/src/LocalPlayer.cpp.o"
   "CMakeFiles/Tests.dir/src/client/src/ClientConfigParser.cpp.o"
   "CMakeFiles/Tests.dir/src/client/src/RemotePlayer.cpp.o"
+  "CMakeFiles/Tests.dir/src/client/src/Convert.cpp.o"
   "CMakeFiles/Tests.dir/src/client/test/BoardTest.cpp.o"
   "CMakeFiles/Tests.dir/src/client/test/ClassicLogicTest.cpp.o"
   "CMakeFiles/Tests.dir/src/client/test/AIPlayerTest.cpp.o"

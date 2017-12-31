@@ -27,6 +27,8 @@ Logic.h
 /home/gilad/CLionProjects/Task_05/src/client/include/Client.h
 string
 -
+sstream
+-
 Printer.h
 /home/gilad/CLionProjects/Task_05/src/client/include/Printer.h
 
@@ -39,6 +41,10 @@ vector
 -
 Printer.h
 /home/gilad/CLionProjects/Task_05/src/client/include/Printer.h
+
+/home/gilad/CLionProjects/Task_05/src/client/include/Convert.h
+iostream
+-
 
 /home/gilad/CLionProjects/Task_05/src/client/include/HumanPlayer.h
 vector
@@ -149,6 +155,8 @@ string.h
 -
 unistd.h
 -
+cstdlib
+-
 
 /home/gilad/CLionProjects/Task_05/src/client/src/ClientConfigParser.cpp
 iostream
@@ -169,6 +177,12 @@ iomanip
 -
 ../include/ConsolePrinter.h
 /home/gilad/CLionProjects/Task_05/src/client/include/ConsolePrinter.h
+
+/home/gilad/CLionProjects/Task_05/src/client/src/Convert.cpp
+sstream
+-
+../include/Convert.h
+/home/gilad/CLionProjects/Task_05/src/client/include/Convert.h
 
 /home/gilad/CLionProjects/Task_05/src/client/src/HumanPlayer.cpp
 limits
@@ -195,8 +209,6 @@ sstream
 /home/gilad/CLionProjects/Task_05/src/client/src/LocalPlayer.cpp
 ../include/LocalPlayer.h
 /home/gilad/CLionProjects/Task_05/src/client/include/LocalPlayer.h
-sstream
--
 
 /home/gilad/CLionProjects/Task_05/src/client/src/Logic.cpp
 ../include/Logic.h
@@ -209,16 +221,14 @@ sstream
 /home/gilad/CLionProjects/Task_05/src/client/src/RemotePlayer.cpp
 vector
 -
-cstring
--
-cstdlib
--
 ../include/Position.h
 /home/gilad/CLionProjects/Task_05/src/client/include/Position.h
 ../include/Printer.h
 /home/gilad/CLionProjects/Task_05/src/client/include/Printer.h
 ../include/RemotePlayer.h
 /home/gilad/CLionProjects/Task_05/src/client/include/RemotePlayer.h
+../../server/include/Convert.h
+/home/gilad/CLionProjects/Task_05/src/server/include/Convert.h
 
 /home/gilad/CLionProjects/Task_05/src/client/src/ReversiGame.cpp
 cstdio
@@ -246,5 +256,11 @@ iostream
 ../include/RemotePlayer.h
 /home/gilad/CLionProjects/Task_05/src/client/include/RemotePlayer.h
 limits
+-
+algorithm
+-
+
+/home/gilad/CLionProjects/Task_05/src/server/include/Convert.h
+iostream
 -
 

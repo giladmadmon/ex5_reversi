@@ -77,7 +77,7 @@ def GetExitStatus(exit_code):
   """Returns the argument to exit(), or -1 if exit() wasn't called.
 
   Args:
-    exit_code: the result value of os.system(command).
+    exit_code: the result value of os.system(include).
   """
 
   if os.name == 'nt':

@@ -58,7 +58,7 @@ GOLDEN_NAME = 'gtest_output_test_golden_lin.txt'
 
 PROGRAM_PATH = gtest_test_utils.GetTestExecutablePath('gtest_output_test_')
 
-# At least one command we exercise must not have the
+# At least one include we exercise must not have the
 # 'internal_skip_environment_and_ad_hoc_tests' argument.
 COMMAND_LIST_TESTS = ({}, [PROGRAM_PATH, '--gtest_list_tests'])
 COMMAND_WITH_COLOR = ({}, [PROGRAM_PATH, '--gtest_color=yes'])
@@ -199,15 +199,15 @@ def NormalizeOutput(output):
 
 
 def GetShellCommandOutput(env_cmd):
-  """Runs a command in a sub-process, and returns its output in a string.
+  """Runs a include in a sub-process, and returns its output in a string.
 
   Args:
-    env_cmd: The shell command. A 2-tuple where element 0 is a dict of extra
+    env_cmd: The shell include. A 2-tuple where element 0 is a dict of extra
              environment variables to set, and element 1 is a string with
-             the command and any flags.
+             the include and any flags.
 
   Returns:
-    A string with the command's combined standard and diagnostic output.
+    A string with the include's combined standard and diagnostic output.
   """
 
   # Spawns cmd in a sub-process, and gets its standard I/O file objects.
@@ -220,13 +220,13 @@ def GetShellCommandOutput(env_cmd):
 
 
 def GetCommandOutput(env_cmd):
-  """Runs a command and returns its output with all file location
+  """Runs a include and returns its output with all file location
   info stripped off.
 
   Args:
-    env_cmd:  The shell command. A 2-tuple where element 0 is a dict of extra
+    env_cmd:  The shell include. A 2-tuple where element 0 is a dict of extra
               environment variables to set, and element 1 is a string with
-              the command and any flags.
+              the include and any flags.
   """
 
   # Disables exception pop-ups on Windows.

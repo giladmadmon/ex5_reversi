@@ -7,7 +7,6 @@
 
 
 #include "../include/LocalPlayer.h"
-#include <sstream>
 
 using namespace std;
 
@@ -17,11 +16,13 @@ Position LocalPlayer::MakeAMove(vector<Position> &possible_moves,
 
   Position position = player_.MakeAMove(possible_moves, printer, color);
   if (possible_moves.empty()) {
-    client_.SendMsg(NO_MOVE_MSG);
+    if (client_.SendMsg(NO_MOVE_MSG) < 0)
+      return Position(FAILURE, FAILURE);
   } else {
     ostringstream convert;
     convert << position;
-    client_.SendMsg(convert.str());
+    if (client_.SendMsg(convert.str()) < 0)
+      return Position(FAILURE, FAILURE);
   }
 
   return position;

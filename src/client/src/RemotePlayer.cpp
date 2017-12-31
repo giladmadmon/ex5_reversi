@@ -5,30 +5,25 @@
 **************/
 
 #include <vector>
-#include <cstring>
-#include <cstdlib>
 #include "../include/Position.h"
 #include "../include/Printer.h"
 #include "../include/RemotePlayer.h"
+#include "../../server/include/Convert.h"
 
 Position RemotePlayer::MakeAMove(vector<Position> &possible_moves, Printer &printer, PlayerColor color) {
-  char msg[LONGEST_COMMAND];
-  int chosen_row = -1, chosen_column = -1;
+  string msg;
+  int chosen_row = FAILURE, chosen_column = FAILURE;
   int n = client_.ReadMsg(msg);
 
-  if (n == -1) {
-    return Position(-1, -1);
-  }
-
-  if (strcmp(msg, END_GAME_MSG) == 0) {
-    return Position(-1, -1);
-  }
-
-  if (strcmp(msg, NO_MOVE_MSG) == 0) {
-    printer.PrintAINoMove(color);
-  } else {
-    chosen_row = atoi(strtok(msg, POSITION_DELIMITER));
-    chosen_column = atoi(strtok(NULL, POSITION_DELIMITER));
+  if (n != FAILURE && msg != END_GAME_MSG){
+    if (msg == NO_MOVE_MSG) {
+      printer.PrintAINoMove(color);
+      return Position();
+    } else {
+      int delimiter_pos = msg.find(POSITION_DELIMITER);
+      chosen_row = Convert::ConvertStringToInt(msg, 0, delimiter_pos);
+      chosen_column = Convert::ConvertStringToInt(msg, delimiter_pos + 1, msg.size());
+    }
   }
 
   return Position(chosen_row, chosen_column);

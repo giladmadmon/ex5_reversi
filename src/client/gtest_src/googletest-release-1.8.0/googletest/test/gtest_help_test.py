@@ -84,7 +84,7 @@ def RunWithFlag(flag):
   Returns:
     the exit code and the text output as a tuple.
   Args:
-    flag: the command-line flag to pass to gtest_help_test_, or None.
+    flag: the include-line flag to pass to gtest_help_test_, or None.
   """
 
   if flag is None:

@@ -20,6 +20,7 @@ class ReversiGame {
   Printer &printer_;
   Client *client_;
   bool new_game_;
+  bool game_closed_;
  public:
   /**
    * Constructor.

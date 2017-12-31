@@ -321,9 +321,33 @@ CMakeFiles/Tests.dir/src/client/src/RemotePlayer.cpp.o.provides: CMakeFiles/Test
 CMakeFiles/Tests.dir/src/client/src/RemotePlayer.cpp.o.provides.build: CMakeFiles/Tests.dir/src/client/src/RemotePlayer.cpp.o
 
 
+CMakeFiles/Tests.dir/src/client/src/Convert.cpp.o: CMakeFiles/Tests.dir/flags.make
+CMakeFiles/Tests.dir/src/client/src/Convert.cpp.o: ../src/client/src/Convert.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gilad/CLionProjects/Task_05/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Tests.dir/src/client/src/Convert.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Tests.dir/src/client/src/Convert.cpp.o -c /home/gilad/CLionProjects/Task_05/src/client/src/Convert.cpp
+
+CMakeFiles/Tests.dir/src/client/src/Convert.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Tests.dir/src/client/src/Convert.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gilad/CLionProjects/Task_05/src/client/src/Convert.cpp > CMakeFiles/Tests.dir/src/client/src/Convert.cpp.i
+
+CMakeFiles/Tests.dir/src/client/src/Convert.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Tests.dir/src/client/src/Convert.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gilad/CLionProjects/Task_05/src/client/src/Convert.cpp -o CMakeFiles/Tests.dir/src/client/src/Convert.cpp.s
+
+CMakeFiles/Tests.dir/src/client/src/Convert.cpp.o.requires:
+
+.PHONY : CMakeFiles/Tests.dir/src/client/src/Convert.cpp.o.requires
+
+CMakeFiles/Tests.dir/src/client/src/Convert.cpp.o.provides: CMakeFiles/Tests.dir/src/client/src/Convert.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Tests.dir/build.make CMakeFiles/Tests.dir/src/client/src/Convert.cpp.o.provides.build
+.PHONY : CMakeFiles/Tests.dir/src/client/src/Convert.cpp.o.provides
+
+CMakeFiles/Tests.dir/src/client/src/Convert.cpp.o.provides.build: CMakeFiles/Tests.dir/src/client/src/Convert.cpp.o
+
+
 CMakeFiles/Tests.dir/src/client/test/BoardTest.cpp.o: CMakeFiles/Tests.dir/flags.make
 CMakeFiles/Tests.dir/src/client/test/BoardTest.cpp.o: ../src/client/test/BoardTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gilad/CLionProjects/Task_05/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Tests.dir/src/client/test/BoardTest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gilad/CLionProjects/Task_05/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Tests.dir/src/client/test/BoardTest.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Tests.dir/src/client/test/BoardTest.cpp.o -c /home/gilad/CLionProjects/Task_05/src/client/test/BoardTest.cpp
 
 CMakeFiles/Tests.dir/src/client/test/BoardTest.cpp.i: cmake_force
@@ -347,7 +371,7 @@ CMakeFiles/Tests.dir/src/client/test/BoardTest.cpp.o.provides.build: CMakeFiles/
 
 CMakeFiles/Tests.dir/src/client/test/ClassicLogicTest.cpp.o: CMakeFiles/Tests.dir/flags.make
 CMakeFiles/Tests.dir/src/client/test/ClassicLogicTest.cpp.o: ../src/client/test/ClassicLogicTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gilad/CLionProjects/Task_05/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Tests.dir/src/client/test/ClassicLogicTest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gilad/CLionProjects/Task_05/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/Tests.dir/src/client/test/ClassicLogicTest.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Tests.dir/src/client/test/ClassicLogicTest.cpp.o -c /home/gilad/CLionProjects/Task_05/src/client/test/ClassicLogicTest.cpp
 
 CMakeFiles/Tests.dir/src/client/test/ClassicLogicTest.cpp.i: cmake_force
@@ -371,7 +395,7 @@ CMakeFiles/Tests.dir/src/client/test/ClassicLogicTest.cpp.o.provides.build: CMak
 
 CMakeFiles/Tests.dir/src/client/test/AIPlayerTest.cpp.o: CMakeFiles/Tests.dir/flags.make
 CMakeFiles/Tests.dir/src/client/test/AIPlayerTest.cpp.o: ../src/client/test/AIPlayerTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gilad/CLionProjects/Task_05/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/Tests.dir/src/client/test/AIPlayerTest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gilad/CLionProjects/Task_05/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/Tests.dir/src/client/test/AIPlayerTest.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Tests.dir/src/client/test/AIPlayerTest.cpp.o -c /home/gilad/CLionProjects/Task_05/src/client/test/AIPlayerTest.cpp
 
 CMakeFiles/Tests.dir/src/client/test/AIPlayerTest.cpp.i: cmake_force
@@ -395,7 +419,7 @@ CMakeFiles/Tests.dir/src/client/test/AIPlayerTest.cpp.o.provides.build: CMakeFil
 
 CMakeFiles/Tests.dir/src/client/test/main.cpp.o: CMakeFiles/Tests.dir/flags.make
 CMakeFiles/Tests.dir/src/client/test/main.cpp.o: ../src/client/test/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gilad/CLionProjects/Task_05/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/Tests.dir/src/client/test/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gilad/CLionProjects/Task_05/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/Tests.dir/src/client/test/main.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Tests.dir/src/client/test/main.cpp.o -c /home/gilad/CLionProjects/Task_05/src/client/test/main.cpp
 
 CMakeFiles/Tests.dir/src/client/test/main.cpp.i: cmake_force
@@ -430,6 +454,7 @@ Tests_OBJECTS = \
 "CMakeFiles/Tests.dir/src/client/src/LocalPlayer.cpp.o" \
 "CMakeFiles/Tests.dir/src/client/src/ClientConfigParser.cpp.o" \
 "CMakeFiles/Tests.dir/src/client/src/RemotePlayer.cpp.o" \
+"CMakeFiles/Tests.dir/src/client/src/Convert.cpp.o" \
 "CMakeFiles/Tests.dir/src/client/test/BoardTest.cpp.o" \
 "CMakeFiles/Tests.dir/src/client/test/ClassicLogicTest.cpp.o" \
 "CMakeFiles/Tests.dir/src/client/test/AIPlayerTest.cpp.o" \
@@ -449,17 +474,14 @@ Tests: CMakeFiles/Tests.dir/src/client/src/AIPlayer.cpp.o
 Tests: CMakeFiles/Tests.dir/src/client/src/LocalPlayer.cpp.o
 Tests: CMakeFiles/Tests.dir/src/client/src/ClientConfigParser.cpp.o
 Tests: CMakeFiles/Tests.dir/src/client/src/RemotePlayer.cpp.o
+Tests: CMakeFiles/Tests.dir/src/client/src/Convert.cpp.o
 Tests: CMakeFiles/Tests.dir/src/client/test/BoardTest.cpp.o
 Tests: CMakeFiles/Tests.dir/src/client/test/ClassicLogicTest.cpp.o
 Tests: CMakeFiles/Tests.dir/src/client/test/AIPlayerTest.cpp.o
 Tests: CMakeFiles/Tests.dir/src/client/test/main.cpp.o
 Tests: CMakeFiles/Tests.dir/build.make
-Tests: src/client/gtest_src/googletest-release-1.8.0/googlemock/gtest/libgtest.a
-Tests: src/client/gtest_src/googletest-release-1.8.0/googlemock/gtest/libgtest_main.a
-Tests: src/client/gtest_src/googletest-release-1.8.0/googlemock/libgmock.a
-Tests: src/client/gtest_src/googletest-release-1.8.0/googlemock/gtest/libgtest.a
 Tests: CMakeFiles/Tests.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/gilad/CLionProjects/Task_05/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX executable Tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/gilad/CLionProjects/Task_05/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX executable Tests"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Tests.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -478,6 +500,7 @@ CMakeFiles/Tests.dir/requires: CMakeFiles/Tests.dir/src/client/src/AIPlayer.cpp.
 CMakeFiles/Tests.dir/requires: CMakeFiles/Tests.dir/src/client/src/LocalPlayer.cpp.o.requires
 CMakeFiles/Tests.dir/requires: CMakeFiles/Tests.dir/src/client/src/ClientConfigParser.cpp.o.requires
 CMakeFiles/Tests.dir/requires: CMakeFiles/Tests.dir/src/client/src/RemotePlayer.cpp.o.requires
+CMakeFiles/Tests.dir/requires: CMakeFiles/Tests.dir/src/client/src/Convert.cpp.o.requires
 CMakeFiles/Tests.dir/requires: CMakeFiles/Tests.dir/src/client/test/BoardTest.cpp.o.requires
 CMakeFiles/Tests.dir/requires: CMakeFiles/Tests.dir/src/client/test/ClassicLogicTest.cpp.o.requires
 CMakeFiles/Tests.dir/requires: CMakeFiles/Tests.dir/src/client/test/AIPlayerTest.cpp.o.requires

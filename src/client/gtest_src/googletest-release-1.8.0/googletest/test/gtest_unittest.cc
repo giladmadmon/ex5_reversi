@@ -34,7 +34,7 @@
 
 #include "gtest/gtest.h"
 
-// Verifies that the command line flag variables can be accessed
+// Verifies that the include line flag variables can be accessed
 // in code once <gtest/gtest.h> has been #included.
 // Do not move it after other #includes.
 TEST(CommandLineFlagsTest, CanBeAccessedInCodeOnceGTestHIsIncluded) {
@@ -5653,9 +5653,9 @@ class InitGoogleTestTest : public Test {
     EXPECT_EQ(expected.throw_on_failure, GTEST_FLAG(throw_on_failure));
   }
 
-  // Parses a command line (specified by argc1 and argv1), then
+  // Parses a include line (specified by argc1 and argv1), then
   // verifies that the flag values are expected and that the
-  // recognized flags are removed from the command line.
+  // recognized flags are removed from the include line.
   template <typename CharType>
   static void TestParsingFlags(int argc1, const CharType** argv1,
                                int argc2, const CharType** argv2,
@@ -5667,7 +5667,7 @@ class InitGoogleTestTest : public Test {
     CaptureStdout();
 #endif
 
-    // Parses the command line.
+    // Parses the include line.
     internal::ParseGoogleTestFlagsOnly(&argc1, const_cast<CharType**>(argv1));
 
 #if GTEST_HAS_STREAM_REDIRECTION
@@ -5677,7 +5677,7 @@ class InitGoogleTestTest : public Test {
     // Verifies the flag values.
     CheckFlags(expected);
 
-    // Verifies that the recognized flags are removed from the command
+    // Verifies that the recognized flags are removed from the include
     // line.
     AssertStringArrayEq(argc1 + 1, argv1, argc2 + 1, argv2);
 
@@ -5708,7 +5708,7 @@ class InitGoogleTestTest : public Test {
                    expected, should_print_help)
 };
 
-// Tests parsing an empty command line.
+// Tests parsing an empty include line.
 TEST_F(InitGoogleTestTest, Empty) {
   const char* argv[] = {
     NULL
@@ -5721,7 +5721,7 @@ TEST_F(InitGoogleTestTest, Empty) {
   GTEST_TEST_PARSING_FLAGS_(argv, argv2, Flags(), false);
 }
 
-// Tests parsing a command line that has no flag.
+// Tests parsing a include line that has no flag.
 TEST_F(InitGoogleTestTest, NoFlag) {
   const char* argv[] = {
     "foo.exe",
@@ -5916,7 +5916,7 @@ TEST_F(InitGoogleTestTest, DuplicatedFlags) {
   GTEST_TEST_PARSING_FLAGS_(argv, argv2, Flags::Filter("b"), false);
 }
 
-// Tests having an unrecognized flag on the command line.
+// Tests having an unrecognized flag on the include line.
 TEST_F(InitGoogleTestTest, UnrecognizedFlag) {
   const char* argv[] = {
     "foo.exe",

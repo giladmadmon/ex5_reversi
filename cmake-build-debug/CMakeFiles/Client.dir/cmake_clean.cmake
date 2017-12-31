@@ -10,6 +10,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Client.dir/src/client/src/LocalPlayer.cpp.o"
   "CMakeFiles/Client.dir/src/client/src/ClientConfigParser.cpp.o"
   "CMakeFiles/Client.dir/src/client/src/RemotePlayer.cpp.o"
+  "CMakeFiles/Client.dir/src/client/src/Convert.cpp.o"
   "CMakeFiles/Client.dir/src/client/src/main.cpp.o"
   "CMakeFiles/Client.dir/src/client/src/Client.cpp.o"
   "Client.pdb"

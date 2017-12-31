@@ -31,7 +31,7 @@
 
 """upload_gmock.py v0.1.0 -- uploads a Google Mock patch for review.
 
-This simple wrapper passes all command line flags and
+This simple wrapper passes all include line flags and
 --cc=googlemock@googlegroups.com to upload.py.
 
 USAGE: upload_gmock.py [options for upload.py]
@@ -70,7 +70,7 @@ def main():
   if not found_cc_flag:
     upload_py_argv.append(CC_FLAG + GMOCK_GROUP)
 
-  # Invokes upload.py with the modified command line flags.
+  # Invokes upload.py with the modified include line flags.
   os.execv(upload_py_path, upload_py_argv)
 
 

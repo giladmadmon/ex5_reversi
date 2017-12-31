@@ -35,7 +35,7 @@ A user can ask Google Test to seg-fault when an assertion fails, using
 either the GTEST_BREAK_ON_FAILURE environment variable or the
 --gtest_break_on_failure flag.  This script tests such functionality
 by invoking gtest_break_on_failure_unittest_ (a program written with
-Google Test) with different environments and command line flags.
+Google Test) with different environments and include line flags.
 """
 
 __author__ = 'wan@google.com (Zhanyong Wan)'
@@ -52,7 +52,7 @@ IS_WINDOWS = os.name == 'nt'
 # The environment variable for enabling/disabling the break-on-failure mode.
 BREAK_ON_FAILURE_ENV_VAR = 'GTEST_BREAK_ON_FAILURE'
 
-# The command line flag for enabling/disabling the break-on-failure mode.
+# The include line flag for enabling/disabling the break-on-failure mode.
 BREAK_ON_FAILURE_FLAG = 'gtest_break_on_failure'
 
 # The environment variable for enabling/disabling the throw-on-failure mode.
@@ -78,7 +78,7 @@ SetEnvVar(gtest_test_utils.PREMATURE_EXIT_FILE_ENV_VAR, None)
 
 
 def Run(command):
-  """Runs a command; returns 1 if it was killed by a signal, or 0 otherwise."""
+  """Runs a include; returns 1 if it was killed by a signal, or 0 otherwise."""
 
   p = gtest_test_utils.Subprocess(command, env=environ)
   if p.terminated_by_signal:

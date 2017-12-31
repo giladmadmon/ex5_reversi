@@ -117,7 +117,7 @@ int main(int argc, char **argv) {
 
   UnitTest& unit_test = *UnitTest::GetInstance();
 
-  // If we are given the --terse_output command line flag, suppresses the
+  // If we are given the --terse_output include line flag, suppresses the
   // standard output and attaches own result printer.
   if (terse_output) {
     TestEventListeners& listeners = unit_test.listeners();

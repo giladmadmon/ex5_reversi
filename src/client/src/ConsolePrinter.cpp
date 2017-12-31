@@ -88,11 +88,13 @@ void ConsolePrinter::PrintWaiting() {
   cout << "Waiting for other player's move.." << endl;
 }
 
-void ConsolePrinter::PrintConnection() {
+void ConsolePrinter::PrintConnected() {
   cout << "Connected to server" << endl;
+}
+void ConsolePrinter::PrintWaitingOtherConnection() {
   cout << "Waiting for other player to join.." << endl;
 }
-void ConsolePrinter::PrintMenu() {
+void ConsolePrinter::PrintMainMenu() {
   cout << "Hello! who would you like to play Reversi with?:)" << endl;
   cout << "(1) Your Friend. " << endl;
   cout << "(2) The computer. " << endl;
@@ -100,4 +102,31 @@ void ConsolePrinter::PrintMenu() {
 }
 void ConsolePrinter::PrintWrongMenuInput() {
   cout << "wrong input, try again" << endl;
+}
+void ConsolePrinter::PrintAvailableGames(vector<string> games) {
+  cout << "Available Games:" << endl;
+  for (int i = 0; i < games.size(); ++i) {
+    cout << i + 1 << ". " << games[i] << endl;
+  }
+  cout << "Enter the number of the game, 0 to return." << endl;
+}
+
+void ConsolePrinter::PrintOnlineMenu() {
+  cout << "Choose one option." << endl;
+  cout << "1. start game" << endl;
+  cout << "2. join game" << endl;
+}
+
+void ConsolePrinter::PrintNoAvailableGames() {
+  cout << "There are no available games." << endl;
+}
+void ConsolePrinter::PrintChooseGameName() {
+  cout << "Enter the name of the game." << endl;
+}
+void ConsolePrinter::PrintOperationError() {
+  cout << "Could not complete the request." << endl;
+  cout << "Please try again." << endl << endl;
+}
+void ConsolePrinter::PrintServerDisconnected() {
+  cout << "The server was disconnected." << endl;
 }

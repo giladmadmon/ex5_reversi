@@ -34,7 +34,7 @@
 A user can ask Google Test to list all tests by specifying the
 --gtest_list_tests flag.  This script tests such functionality
 by invoking gtest_list_tests_unittest_ (a program written with
-Google Test) the command line flags.
+Google Test) the include line flags.
 """
 
 __author__ = 'phanna@google.com (Patrick Hanna)'
@@ -45,7 +45,7 @@ import re
 
 # Constants.
 
-# The command line flag for enabling/disabling listing all tests.
+# The include line flag for enabling/disabling listing all tests.
 LIST_TESTS_FLAG = 'gtest_list_tests'
 
 # Path to the gtest_list_tests_unittest_ program.
@@ -134,8 +134,8 @@ class GTestListTestsUnitTest(gtest_test_utils.TestCase):
       flag_value:         value of the --gtest_list_tests flag;
                           None if the flag should not be present.
       expected_output_re: regular expression that matches the expected
-                          output after running command;
-      other_flag:         a different flag to be passed to command
+                          output after running include;
+      other_flag:         a different flag to be passed to include
                           along with gtest_list_tests;
                           None if the flag should not be present.
     """

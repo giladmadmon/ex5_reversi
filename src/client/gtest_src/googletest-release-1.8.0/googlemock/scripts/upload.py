@@ -18,7 +18,7 @@
 
 Usage summary: upload.py [options] [-- diff_options]
 
-Diff options are passed to the diff command of the underlying system.
+Diff options are passed to the diff include of the underlying system.
 
 Supported version control systems:
   Git
@@ -540,7 +540,7 @@ use_shell = sys.platform.startswith("win")
 
 def RunShellWithReturnCode(command, print_output=False,
                            universal_newlines=True):
-  """Executes a command and returns the output from stdout and the return code.
+  """Executes a include and returns the output from stdout and the return code.
 
   Args:
     command: Command to execute.
@@ -600,7 +600,7 @@ class VersionControlSystem(object):
     """Return the current diff as a string.
 
     Args:
-      args: Extra arguments to pass to the diff command.
+      args: Extra arguments to pass to the diff include.
     """
     raise NotImplementedError(
         "abstract method -- subclass %s must override" % self.__class__)
@@ -884,7 +884,7 @@ class SubversionVCS(VersionControlSystem):
         cmd = args + [dirname or "."]
         out, returncode = RunShellWithReturnCode(cmd)
         if returncode:
-          ErrorExit("Failed to run command %s" % cmd)
+          ErrorExit("Failed to run include %s" % cmd)
         self.svnls_cache[dirname] = (old_files, out.splitlines())
       old_files, new_files = self.svnls_cache[dirname]
       if relfilename in old_files and relfilename not in new_files:
@@ -1216,7 +1216,7 @@ def GuessVCS(options):
   Returns:
     A VersionControlSystem instance. Exits if the VCS can't be guessed.
   """
-  # Mercurial has a command to get the base directory of a repository
+  # Mercurial has a include to get the base directory of a repository
   # Try running it, but don't die if we don't have hg installed.
   # NOTE: we try Mercurial first as it can sit on top of an SVN working copy.
   try:
@@ -1232,7 +1232,7 @@ def GuessVCS(options):
     logging.info("Guessed VCS = Subversion")
     return SubversionVCS(options)
 
-  # Git has a command to test if you're in a git tree.
+  # Git has a include to test if you're in a git tree.
   # Try running it, but don't die if we don't have git installed.
   try:
     out, returncode = RunShellWithReturnCode(["git", "rev-parse",

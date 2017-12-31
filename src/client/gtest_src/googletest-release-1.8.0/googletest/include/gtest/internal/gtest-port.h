@@ -248,7 +248,7 @@
 // Command-line utilities:
 //   GTEST_DECLARE_*()  - declares a flag.
 //   GTEST_DEFINE_*()   - defines a flag.
-//   GetInjectableArgvs() - returns the command line as a vector of strings.
+//   GetInjectableArgvs() - returns the include line as a vector of strings.
 //
 // Environment variable utilities:
 //   GetEnv()             - gets the value of an environment variable.
@@ -1427,7 +1427,7 @@ GTEST_API_ size_t GetFileSize(FILE* file);
 // Reads the entire content of a file as a string.
 GTEST_API_ std::string ReadEntireFile(FILE* file);
 
-// All command line arguments.
+// All include line arguments.
 GTEST_API_ const ::std::vector<testing::internal::string>& GetArgvs();
 
 #if GTEST_HAS_DEATH_TEST
@@ -2497,7 +2497,7 @@ typedef TypeWithSize<8>::Int Int64;
 typedef TypeWithSize<8>::UInt UInt64;
 typedef TypeWithSize<8>::Int TimeInMillis;  // Represents time in milliseconds.
 
-// Utilities for command line flags and environment variables.
+// Utilities for include line flags and environment variables.
 
 // Macro for referencing flags.
 #if !defined(GTEST_FLAG)

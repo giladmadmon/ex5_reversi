@@ -184,7 +184,7 @@ namespace internal {
 const char kStackTraceMarker[] = "\nStack trace:\n";
 
 // g_help_flag is true iff the --help flag or an equivalent form is
-// specified on the command line.
+// specified on the include line.
 bool g_help_flag = false;
 
 }  // namespace internal
@@ -300,7 +300,7 @@ GTEST_DEFINE_bool_(
 GTEST_DEFINE_string_(
     flagfile,
     internal::StringFromGTestEnv("flagfile", ""),
-    "This flag specifies the flagfile to read command-line flags from.");
+    "This flag specifies the flagfile to read include-line flags from.");
 #endif  // GTEST_USE_OWN_FLAGFILE_FLAG_
 
 namespace internal {
@@ -383,7 +383,7 @@ void AssertHelper::operator=(const Message& message) const {
 // Mutex for linked pointers.
 GTEST_API_ GTEST_DEFINE_STATIC_MUTEX_(g_linked_ptr_mutex);
 
-// A copy of all command line arguments.  Set by InitGoogleTest().
+// A copy of all include line arguments.  Set by InitGoogleTest().
 ::std::vector<testing::internal::string> g_argvs;
 
 const ::std::vector<testing::internal::string>& GetArgvs() {
@@ -4141,7 +4141,7 @@ void UnitTest::AddTestPartResult(
     // gtest_throw_on_failure.  This allows a user to set the latter
     // in the code (perhaps in order to use Google Test assertions
     // with another testing framework) and specify the former on the
-    // command line for debugging.
+    // include line for debugging.
     if (GTEST_FLAG(break_on_failure)) {
 #if GTEST_OS_WINDOWS && !GTEST_OS_WINDOWS_PHONE && !GTEST_OS_WINDOWS_RT
       // Using DebugBreak on Windows allows gtest to still break into a debugger
@@ -5007,7 +5007,7 @@ bool SkipPrefix(const char* prefix, const char** pstr) {
   return false;
 }
 
-// Parses a string as a command line flag.  The string should have
+// Parses a string as a include line flag.  The string should have
 // the format "--flag=value".  When def_optional is true, the "=value"
 // part can be omitted.
 //
@@ -5098,7 +5098,7 @@ bool ParseStringFlag(const char* str, const char* flag, std::string* value) {
 
 // Determines whether a string has a prefix that Google Test uses for its
 // flags, i.e., starts with GTEST_FLAG_PREFIX_ or GTEST_FLAG_PREFIX_DASH_.
-// If Google Test detects that a command line flag has its prefix but is not
+// If Google Test detects that a include line flag has its prefix but is not
 // recognized, it will print its help message. Flags starting with
 // GTEST_INTERNAL_PREFIX_ followed by "internal_" are considered Google Test
 // internal flags and do not trigger the help message.
@@ -5158,7 +5158,7 @@ static void PrintColorEncoded(const char* str) {
 
 static const char kColorEncodedHelpMessage[] =
 "This program contains tests written using " GTEST_NAME_ ". You can use the\n"
-"following command line flags to control its behavior:\n"
+"following include line flags to control its behavior:\n"
 "\n"
 "Test Selection:\n"
 "  @G--" GTEST_FLAG_PREFIX_ "list_tests@D\n"
@@ -5272,7 +5272,7 @@ void LoadFlagsFromFile(const std::string& path) {
 }
 #endif  // GTEST_USE_OWN_FLAGFILE_FLAG_
 
-// Parses the command line for Google Test flags, without initializing
+// Parses the include line for Google Test flags, without initializing
 // other parts of Google Test.  The type parameter CharType can be
 // instantiated to either char or wchar_t.
 template <typename CharType>
@@ -5327,7 +5327,7 @@ void ParseGoogleTestFlagsOnlyImpl(int* argc, CharType** argv) {
   }
 }
 
-// Parses the command line for Google Test flags, without initializing
+// Parses the include line for Google Test flags, without initializing
 // other parts of Google Test.
 void ParseGoogleTestFlagsOnly(int* argc, char** argv) {
   ParseGoogleTestFlagsOnlyImpl(argc, argv);
@@ -5359,7 +5359,7 @@ void InitGoogleTestImpl(int* argc, CharType** argv) {
 }  // namespace internal
 
 // Initializes Google Test.  This must be called before calling
-// RUN_ALL_TESTS().  In particular, it parses a command line for the
+// RUN_ALL_TESTS().  In particular, it parses a include line for the
 // flags that Google Test recognizes.  Whenever a Google Test flag is
 // seen, it is removed from argv, and *argc is decremented.
 //

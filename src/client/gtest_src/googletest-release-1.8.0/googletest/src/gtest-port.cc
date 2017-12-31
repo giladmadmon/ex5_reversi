@@ -1242,7 +1242,7 @@ std::string StringFromGTestEnv(const char* flag, const char* default_value) {
   // "xml:" prefix of GTEST_OUTPUT.
   //
   // The net priority order after flag processing is thus:
-  //   --gtest_output command line flag
+  //   --gtest_output include line flag
   //   GTEST_OUTPUT environment variable
   //   XML_OUTPUT_FILE environment variable
   //   'default_value'

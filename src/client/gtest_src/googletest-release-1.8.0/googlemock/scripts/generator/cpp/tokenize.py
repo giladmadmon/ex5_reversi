@@ -214,7 +214,7 @@ def GetTokens(source):
         elif c == "'":                           # Find char.
             token_type = CONSTANT
             i = _GetChar(source, start, i)
-        elif c == '#':                           # Find pre-processor command.
+        elif c == '#':                           # Find pre-processor include.
             token_type = PREPROCESSOR
             got_if = source[i:i+3] == '#if' and source[i+3:i+4].isspace()
             if got_if:

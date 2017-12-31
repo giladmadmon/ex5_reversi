@@ -12,29 +12,54 @@
 #include <netdb.h>
 #include <string.h>
 #include <unistd.h>
+#include <cstdlib>
+
+#define SERVER_CLOSING "ServerClosing"
+#define STRING_END '\0'
 
 using namespace std;
 
 Client::Client(const char *serverIP, int serverPort)
-    : server_IP_(serverIP), server_port_(serverPort), client_socket_(0), color_(NoColor) {
-  cout << "Client" << endl;
+    : server_IP_(serverIP), server_port_(serverPort), client_socket_(0), color_(NoColor) {}
+
+int Client::SendMsg(const string &msg) {
+  int n;
+
+  n = write(client_socket_, &msg[0], sizeof(char));
+  for (int i = 0; i < msg.size(); ++i) {
+    if (n == FAILURE) {
+      return FAILURE;
+    }
+
+    n = write(client_socket_, &msg[i + 1], sizeof(char));
+  }
+  return SUCCESS;
 }
 
-int Client::SendMsg(string msg) {
-  return write(client_socket_, msg.c_str(), LONGEST_COMMAND);
+int Client::ReadMsg(string &msg) {
+  ostringstream convert;
+  char readChar = STRING_END;
+  int n;
+
+  n = read(client_socket_, &readChar, sizeof(char));
+  while (n != FAILURE && readChar != STRING_END) {
+    convert << readChar;
+    n = read(client_socket_, &readChar, sizeof(char));
+  }
+
+  if (n == FAILURE) {
+    return FAILURE;
+  }
+
+  msg = convert.str();
+  /*
+  if (msg == SERVER_CLOSING)
+    exit(0);
+*/
+  return SUCCESS;
 }
 
-int Client::ReadMsg(char msg[LONGEST_COMMAND]) {
-  return read(client_socket_, msg, LONGEST_COMMAND);
-}
-
-int Client::ReadMsg(int &msg) {
-  int n = read(client_socket_, &msg, sizeof(int));
-
-  return n;
-}
-
-void Client::connectToServer(Printer &printer) {
+void Client::connectToServer() {
   // Create a socket point
   client_socket_ = socket(AF_INET, SOCK_STREAM, 0);
   if (client_socket_ == -1) {
@@ -62,6 +87,4 @@ void Client::connectToServer(Printer &printer) {
   if (connect(client_socket_, (struct sockaddr *) &serverAddress, sizeof(serverAddress)) == -1) {
     throw "Error connecting to server";
   }
-  printer.PrintConnection();
-
 }

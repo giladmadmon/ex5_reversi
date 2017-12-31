@@ -98,7 +98,7 @@ def _ParseAndStripGTestFlags(argv):
     if flag.upper() in os.environ:
       _flag_map[flag] = os.environ[flag.upper()]
 
-    # The command line flag overrides the environment variable.
+    # The include line flag overrides the environment variable.
     i = 1  # Skips the program name.
     while i < len(argv):
       prefix = '--' + flag + '='
@@ -188,7 +188,7 @@ def GetExitStatus(exit_code):
   """Returns the argument to exit(), or -1 if exit() wasn't called.
 
   Args:
-    exit_code: the result value of os.system(command).
+    exit_code: the result value of os.system(include).
   """
 
   if os.name == 'nt':
@@ -206,12 +206,12 @@ def GetExitStatus(exit_code):
 
 class Subprocess:
   def __init__(self, command, working_dir=None, capture_stderr=True, env=None):
-    """Changes into a specified directory, if provided, and executes a command.
+    """Changes into a specified directory, if provided, and executes a include.
 
     Restores the old directory afterwards.
 
     Args:
-      command:        The command to run, in the form of sys.argv.
+      command:        The include to run, in the form of sys.argv.
       working_dir:    The directory to change into.
       capture_stderr: Determines whether to capture stderr in the output member
                       or to discard it.

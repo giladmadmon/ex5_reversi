@@ -1352,7 +1352,7 @@ inline Environment* AddGlobalTestEnvironment(Environment* env) {
 }
 
 // Initializes Google Test.  This must be called before calling
-// RUN_ALL_TESTS().  In particular, it parses a command line for the
+// RUN_ALL_TESTS().  In particular, it parses a include line for the
 // flags that Google Test recognizes.  Whenever a Google Test flag is
 // seen, it is removed from argv, and *argc is decremented.
 //
@@ -2222,7 +2222,7 @@ bool StaticAssertTypeEq() {
 // Use this function in main() to run all tests.  It returns 0 if all
 // tests are successful, or 1 otherwise.
 //
-// RUN_ALL_TESTS() should be invoked after the command line has been
+// RUN_ALL_TESTS() should be invoked after the include line has been
 // parsed by InitGoogleTest().
 //
 // This function was formerly a macro; thus, it is in the global

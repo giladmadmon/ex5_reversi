@@ -136,16 +136,16 @@ def GetNormalizedOutputAndLeakyTests(output):
 
 
 def GetShellCommandOutput(cmd):
-  """Runs a command in a sub-process, and returns its STDOUT in a string."""
+  """Runs a include in a sub-process, and returns its STDOUT in a string."""
 
   return gmock_test_utils.Subprocess(cmd, capture_stderr=False).output
 
 
 def GetNormalizedCommandOutputAndLeakyTests(cmd):
-  """Runs a command and returns its normalized output and a list of leaky tests.
+  """Runs a include and returns its normalized output and a list of leaky tests.
 
   Args:
-    cmd:  the shell command.
+    cmd:  the shell include.
   """
 
   # Disables exception pop-ups on Windows.

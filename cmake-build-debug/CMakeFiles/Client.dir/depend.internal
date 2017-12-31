@@ -40,6 +40,9 @@ CMakeFiles/Client.dir/src/client/src/ConsolePrinter.cpp.o
  /home/gilad/CLionProjects/Task_05/src/client/include/Position.h
  /home/gilad/CLionProjects/Task_05/src/client/include/Printer.h
  /home/gilad/CLionProjects/Task_05/src/client/src/ConsolePrinter.cpp
+CMakeFiles/Client.dir/src/client/src/Convert.cpp.o
+ /home/gilad/CLionProjects/Task_05/src/client/include/Convert.h
+ /home/gilad/CLionProjects/Task_05/src/client/src/Convert.cpp
 CMakeFiles/Client.dir/src/client/src/HumanPlayer.cpp.o
  /home/gilad/CLionProjects/Task_05/src/client/include/Board.h
  /home/gilad/CLionProjects/Task_05/src/client/include/HumanPlayer.h
@@ -78,6 +81,7 @@ CMakeFiles/Client.dir/src/client/src/RemotePlayer.cpp.o
  /home/gilad/CLionProjects/Task_05/src/client/include/Printer.h
  /home/gilad/CLionProjects/Task_05/src/client/include/RemotePlayer.h
  /home/gilad/CLionProjects/Task_05/src/client/src/RemotePlayer.cpp
+ /home/gilad/CLionProjects/Task_05/src/server/include/Convert.h
 CMakeFiles/Client.dir/src/client/src/ReversiGame.cpp.o
  /home/gilad/CLionProjects/Task_05/src/client/include/Board.h
  /home/gilad/CLionProjects/Task_05/src/client/include/Client.h

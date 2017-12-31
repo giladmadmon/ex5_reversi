@@ -56,30 +56,6 @@ CMAKE_BINARY_DIR = /home/gilad/CLionProjects/Task_05/cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target install/strip
-install/strip: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/opt/clion-2017.2.3/bin/cmake/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip
-
-# Special rule for the target install/strip
-install/strip/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/opt/clion-2017.2.3/bin/cmake/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip/fast
-
-# Special rule for the target install/local
-install/local: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/opt/clion-2017.2.3/bin/cmake/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
-.PHONY : install/local
-
-# Special rule for the target install/local
-install/local/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/opt/clion-2017.2.3/bin/cmake/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
-.PHONY : install/local/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -101,28 +77,6 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
-
-# Special rule for the target install
-install: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/opt/clion-2017.2.3/bin/cmake/bin/cmake -P cmake_install.cmake
-.PHONY : install
-
-# Special rule for the target install
-install/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/opt/clion-2017.2.3/bin/cmake/bin/cmake -P cmake_install.cmake
-.PHONY : install/fast
-
-# Special rule for the target list_install_components
-list_install_components:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
-.PHONY : list_install_components
-
-# Special rule for the target list_install_components
-list_install_components/fast: list_install_components
-
-.PHONY : list_install_components/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -194,58 +148,6 @@ Client: cmake_check_build_system
 Client/fast:
 	$(MAKE) -f CMakeFiles/Client.dir/build.make CMakeFiles/Client.dir/build
 .PHONY : Client/fast
-
-#=============================================================================
-# Target rules for targets named gmock_main
-
-# Build rule for target.
-gmock_main: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 gmock_main
-.PHONY : gmock_main
-
-# fast build rule for target.
-gmock_main/fast:
-	$(MAKE) -f src/client/gtest_src/googletest-release-1.8.0/googlemock/CMakeFiles/gmock_main.dir/build.make src/client/gtest_src/googletest-release-1.8.0/googlemock/CMakeFiles/gmock_main.dir/build
-.PHONY : gmock_main/fast
-
-#=============================================================================
-# Target rules for targets named gmock
-
-# Build rule for target.
-gmock: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 gmock
-.PHONY : gmock
-
-# fast build rule for target.
-gmock/fast:
-	$(MAKE) -f src/client/gtest_src/googletest-release-1.8.0/googlemock/CMakeFiles/gmock.dir/build.make src/client/gtest_src/googletest-release-1.8.0/googlemock/CMakeFiles/gmock.dir/build
-.PHONY : gmock/fast
-
-#=============================================================================
-# Target rules for targets named gtest_main
-
-# Build rule for target.
-gtest_main: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 gtest_main
-.PHONY : gtest_main
-
-# fast build rule for target.
-gtest_main/fast:
-	$(MAKE) -f src/client/gtest_src/googletest-release-1.8.0/googlemock/gtest/CMakeFiles/gtest_main.dir/build.make src/client/gtest_src/googletest-release-1.8.0/googlemock/gtest/CMakeFiles/gtest_main.dir/build
-.PHONY : gtest_main/fast
-
-#=============================================================================
-# Target rules for targets named gtest
-
-# Build rule for target.
-gtest: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 gtest
-.PHONY : gtest
-
-# fast build rule for target.
-gtest/fast:
-	$(MAKE) -f src/client/gtest_src/googletest-release-1.8.0/googlemock/gtest/CMakeFiles/gtest.dir/build.make src/client/gtest_src/googletest-release-1.8.0/googlemock/gtest/CMakeFiles/gtest.dir/build
-.PHONY : gtest/fast
 
 src/client/src/AIPlayer.o: src/client/src/AIPlayer.cpp.o
 
@@ -423,6 +325,36 @@ src/client/src/ConsolePrinter.cpp.s:
 	$(MAKE) -f CMakeFiles/Tests.dir/build.make CMakeFiles/Tests.dir/src/client/src/ConsolePrinter.cpp.s
 	$(MAKE) -f CMakeFiles/Client.dir/build.make CMakeFiles/Client.dir/src/client/src/ConsolePrinter.cpp.s
 .PHONY : src/client/src/ConsolePrinter.cpp.s
+
+src/client/src/Convert.o: src/client/src/Convert.cpp.o
+
+.PHONY : src/client/src/Convert.o
+
+# target to build an object file
+src/client/src/Convert.cpp.o:
+	$(MAKE) -f CMakeFiles/Tests.dir/build.make CMakeFiles/Tests.dir/src/client/src/Convert.cpp.o
+	$(MAKE) -f CMakeFiles/Client.dir/build.make CMakeFiles/Client.dir/src/client/src/Convert.cpp.o
+.PHONY : src/client/src/Convert.cpp.o
+
+src/client/src/Convert.i: src/client/src/Convert.cpp.i
+
+.PHONY : src/client/src/Convert.i
+
+# target to preprocess a source file
+src/client/src/Convert.cpp.i:
+	$(MAKE) -f CMakeFiles/Tests.dir/build.make CMakeFiles/Tests.dir/src/client/src/Convert.cpp.i
+	$(MAKE) -f CMakeFiles/Client.dir/build.make CMakeFiles/Client.dir/src/client/src/Convert.cpp.i
+.PHONY : src/client/src/Convert.cpp.i
+
+src/client/src/Convert.s: src/client/src/Convert.cpp.s
+
+.PHONY : src/client/src/Convert.s
+
+# target to generate assembly for a file
+src/client/src/Convert.cpp.s:
+	$(MAKE) -f CMakeFiles/Tests.dir/build.make CMakeFiles/Tests.dir/src/client/src/Convert.cpp.s
+	$(MAKE) -f CMakeFiles/Client.dir/build.make CMakeFiles/Client.dir/src/client/src/Convert.cpp.s
+.PHONY : src/client/src/Convert.cpp.s
 
 src/client/src/HumanPlayer.o: src/client/src/HumanPlayer.cpp.o
 
@@ -739,113 +671,356 @@ src/client/test/main.cpp.s:
 	$(MAKE) -f CMakeFiles/Tests.dir/build.make CMakeFiles/Tests.dir/src/client/test/main.cpp.s
 .PHONY : src/client/test/main.cpp.s
 
-src/server/ConsoleServerPrinter.o: src/server/ConsoleServerPrinter.cpp.o
+src/server/src/ClientHandler.o: src/server/src/ClientHandler.cpp.o
 
-.PHONY : src/server/ConsoleServerPrinter.o
-
-# target to build an object file
-src/server/ConsoleServerPrinter.cpp.o:
-	$(MAKE) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/src/server/ConsoleServerPrinter.cpp.o
-.PHONY : src/server/ConsoleServerPrinter.cpp.o
-
-src/server/ConsoleServerPrinter.i: src/server/ConsoleServerPrinter.cpp.i
-
-.PHONY : src/server/ConsoleServerPrinter.i
-
-# target to preprocess a source file
-src/server/ConsoleServerPrinter.cpp.i:
-	$(MAKE) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/src/server/ConsoleServerPrinter.cpp.i
-.PHONY : src/server/ConsoleServerPrinter.cpp.i
-
-src/server/ConsoleServerPrinter.s: src/server/ConsoleServerPrinter.cpp.s
-
-.PHONY : src/server/ConsoleServerPrinter.s
-
-# target to generate assembly for a file
-src/server/ConsoleServerPrinter.cpp.s:
-	$(MAKE) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/src/server/ConsoleServerPrinter.cpp.s
-.PHONY : src/server/ConsoleServerPrinter.cpp.s
-
-src/server/Server.o: src/server/Server.cpp.o
-
-.PHONY : src/server/Server.o
+.PHONY : src/server/src/ClientHandler.o
 
 # target to build an object file
-src/server/Server.cpp.o:
-	$(MAKE) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/src/server/Server.cpp.o
-.PHONY : src/server/Server.cpp.o
+src/server/src/ClientHandler.cpp.o:
+	$(MAKE) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/src/server/src/ClientHandler.cpp.o
+.PHONY : src/server/src/ClientHandler.cpp.o
 
-src/server/Server.i: src/server/Server.cpp.i
+src/server/src/ClientHandler.i: src/server/src/ClientHandler.cpp.i
 
-.PHONY : src/server/Server.i
+.PHONY : src/server/src/ClientHandler.i
 
 # target to preprocess a source file
-src/server/Server.cpp.i:
-	$(MAKE) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/src/server/Server.cpp.i
-.PHONY : src/server/Server.cpp.i
+src/server/src/ClientHandler.cpp.i:
+	$(MAKE) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/src/server/src/ClientHandler.cpp.i
+.PHONY : src/server/src/ClientHandler.cpp.i
 
-src/server/Server.s: src/server/Server.cpp.s
+src/server/src/ClientHandler.s: src/server/src/ClientHandler.cpp.s
 
-.PHONY : src/server/Server.s
+.PHONY : src/server/src/ClientHandler.s
 
 # target to generate assembly for a file
-src/server/Server.cpp.s:
-	$(MAKE) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/src/server/Server.cpp.s
-.PHONY : src/server/Server.cpp.s
+src/server/src/ClientHandler.cpp.s:
+	$(MAKE) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/src/server/src/ClientHandler.cpp.s
+.PHONY : src/server/src/ClientHandler.cpp.s
 
-src/server/ServerConfigParser.o: src/server/ServerConfigParser.cpp.o
+src/server/src/CommandJoin.o: src/server/src/CommandJoin.cpp.o
 
-.PHONY : src/server/ServerConfigParser.o
+.PHONY : src/server/src/CommandJoin.o
 
 # target to build an object file
-src/server/ServerConfigParser.cpp.o:
-	$(MAKE) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/src/server/ServerConfigParser.cpp.o
-.PHONY : src/server/ServerConfigParser.cpp.o
+src/server/src/CommandJoin.cpp.o:
+	$(MAKE) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/src/server/src/CommandJoin.cpp.o
+.PHONY : src/server/src/CommandJoin.cpp.o
 
-src/server/ServerConfigParser.i: src/server/ServerConfigParser.cpp.i
+src/server/src/CommandJoin.i: src/server/src/CommandJoin.cpp.i
 
-.PHONY : src/server/ServerConfigParser.i
+.PHONY : src/server/src/CommandJoin.i
 
 # target to preprocess a source file
-src/server/ServerConfigParser.cpp.i:
-	$(MAKE) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/src/server/ServerConfigParser.cpp.i
-.PHONY : src/server/ServerConfigParser.cpp.i
+src/server/src/CommandJoin.cpp.i:
+	$(MAKE) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/src/server/src/CommandJoin.cpp.i
+.PHONY : src/server/src/CommandJoin.cpp.i
 
-src/server/ServerConfigParser.s: src/server/ServerConfigParser.cpp.s
+src/server/src/CommandJoin.s: src/server/src/CommandJoin.cpp.s
 
-.PHONY : src/server/ServerConfigParser.s
+.PHONY : src/server/src/CommandJoin.s
 
 # target to generate assembly for a file
-src/server/ServerConfigParser.cpp.s:
-	$(MAKE) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/src/server/ServerConfigParser.cpp.s
-.PHONY : src/server/ServerConfigParser.cpp.s
+src/server/src/CommandJoin.cpp.s:
+	$(MAKE) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/src/server/src/CommandJoin.cpp.s
+.PHONY : src/server/src/CommandJoin.cpp.s
 
-src/server/main.o: src/server/main.cpp.o
+src/server/src/CommandListGames.o: src/server/src/CommandListGames.cpp.o
 
-.PHONY : src/server/main.o
+.PHONY : src/server/src/CommandListGames.o
 
 # target to build an object file
-src/server/main.cpp.o:
-	$(MAKE) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/src/server/main.cpp.o
-.PHONY : src/server/main.cpp.o
+src/server/src/CommandListGames.cpp.o:
+	$(MAKE) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/src/server/src/CommandListGames.cpp.o
+.PHONY : src/server/src/CommandListGames.cpp.o
 
-src/server/main.i: src/server/main.cpp.i
+src/server/src/CommandListGames.i: src/server/src/CommandListGames.cpp.i
 
-.PHONY : src/server/main.i
+.PHONY : src/server/src/CommandListGames.i
 
 # target to preprocess a source file
-src/server/main.cpp.i:
-	$(MAKE) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/src/server/main.cpp.i
-.PHONY : src/server/main.cpp.i
+src/server/src/CommandListGames.cpp.i:
+	$(MAKE) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/src/server/src/CommandListGames.cpp.i
+.PHONY : src/server/src/CommandListGames.cpp.i
 
-src/server/main.s: src/server/main.cpp.s
+src/server/src/CommandListGames.s: src/server/src/CommandListGames.cpp.s
 
-.PHONY : src/server/main.s
+.PHONY : src/server/src/CommandListGames.s
 
 # target to generate assembly for a file
-src/server/main.cpp.s:
-	$(MAKE) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/src/server/main.cpp.s
-.PHONY : src/server/main.cpp.s
+src/server/src/CommandListGames.cpp.s:
+	$(MAKE) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/src/server/src/CommandListGames.cpp.s
+.PHONY : src/server/src/CommandListGames.cpp.s
+
+src/server/src/CommandManager.o: src/server/src/CommandManager.cpp.o
+
+.PHONY : src/server/src/CommandManager.o
+
+# target to build an object file
+src/server/src/CommandManager.cpp.o:
+	$(MAKE) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/src/server/src/CommandManager.cpp.o
+.PHONY : src/server/src/CommandManager.cpp.o
+
+src/server/src/CommandManager.i: src/server/src/CommandManager.cpp.i
+
+.PHONY : src/server/src/CommandManager.i
+
+# target to preprocess a source file
+src/server/src/CommandManager.cpp.i:
+	$(MAKE) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/src/server/src/CommandManager.cpp.i
+.PHONY : src/server/src/CommandManager.cpp.i
+
+src/server/src/CommandManager.s: src/server/src/CommandManager.cpp.s
+
+.PHONY : src/server/src/CommandManager.s
+
+# target to generate assembly for a file
+src/server/src/CommandManager.cpp.s:
+	$(MAKE) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/src/server/src/CommandManager.cpp.s
+.PHONY : src/server/src/CommandManager.cpp.s
+
+src/server/src/CommandStart.o: src/server/src/CommandStart.cpp.o
+
+.PHONY : src/server/src/CommandStart.o
+
+# target to build an object file
+src/server/src/CommandStart.cpp.o:
+	$(MAKE) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/src/server/src/CommandStart.cpp.o
+.PHONY : src/server/src/CommandStart.cpp.o
+
+src/server/src/CommandStart.i: src/server/src/CommandStart.cpp.i
+
+.PHONY : src/server/src/CommandStart.i
+
+# target to preprocess a source file
+src/server/src/CommandStart.cpp.i:
+	$(MAKE) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/src/server/src/CommandStart.cpp.i
+.PHONY : src/server/src/CommandStart.cpp.i
+
+src/server/src/CommandStart.s: src/server/src/CommandStart.cpp.s
+
+.PHONY : src/server/src/CommandStart.s
+
+# target to generate assembly for a file
+src/server/src/CommandStart.cpp.s:
+	$(MAKE) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/src/server/src/CommandStart.cpp.s
+.PHONY : src/server/src/CommandStart.cpp.s
+
+src/server/src/Communication.o: src/server/src/Communication.cpp.o
+
+.PHONY : src/server/src/Communication.o
+
+# target to build an object file
+src/server/src/Communication.cpp.o:
+	$(MAKE) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/src/server/src/Communication.cpp.o
+.PHONY : src/server/src/Communication.cpp.o
+
+src/server/src/Communication.i: src/server/src/Communication.cpp.i
+
+.PHONY : src/server/src/Communication.i
+
+# target to preprocess a source file
+src/server/src/Communication.cpp.i:
+	$(MAKE) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/src/server/src/Communication.cpp.i
+.PHONY : src/server/src/Communication.cpp.i
+
+src/server/src/Communication.s: src/server/src/Communication.cpp.s
+
+.PHONY : src/server/src/Communication.s
+
+# target to generate assembly for a file
+src/server/src/Communication.cpp.s:
+	$(MAKE) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/src/server/src/Communication.cpp.s
+.PHONY : src/server/src/Communication.cpp.s
+
+src/server/src/ConsoleServerPrinter.o: src/server/src/ConsoleServerPrinter.cpp.o
+
+.PHONY : src/server/src/ConsoleServerPrinter.o
+
+# target to build an object file
+src/server/src/ConsoleServerPrinter.cpp.o:
+	$(MAKE) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/src/server/src/ConsoleServerPrinter.cpp.o
+.PHONY : src/server/src/ConsoleServerPrinter.cpp.o
+
+src/server/src/ConsoleServerPrinter.i: src/server/src/ConsoleServerPrinter.cpp.i
+
+.PHONY : src/server/src/ConsoleServerPrinter.i
+
+# target to preprocess a source file
+src/server/src/ConsoleServerPrinter.cpp.i:
+	$(MAKE) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/src/server/src/ConsoleServerPrinter.cpp.i
+.PHONY : src/server/src/ConsoleServerPrinter.cpp.i
+
+src/server/src/ConsoleServerPrinter.s: src/server/src/ConsoleServerPrinter.cpp.s
+
+.PHONY : src/server/src/ConsoleServerPrinter.s
+
+# target to generate assembly for a file
+src/server/src/ConsoleServerPrinter.cpp.s:
+	$(MAKE) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/src/server/src/ConsoleServerPrinter.cpp.s
+.PHONY : src/server/src/ConsoleServerPrinter.cpp.s
+
+src/server/src/Convert.o: src/server/src/Convert.cpp.o
+
+.PHONY : src/server/src/Convert.o
+
+# target to build an object file
+src/server/src/Convert.cpp.o:
+	$(MAKE) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/src/server/src/Convert.cpp.o
+.PHONY : src/server/src/Convert.cpp.o
+
+src/server/src/Convert.i: src/server/src/Convert.cpp.i
+
+.PHONY : src/server/src/Convert.i
+
+# target to preprocess a source file
+src/server/src/Convert.cpp.i:
+	$(MAKE) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/src/server/src/Convert.cpp.i
+.PHONY : src/server/src/Convert.cpp.i
+
+src/server/src/Convert.s: src/server/src/Convert.cpp.s
+
+.PHONY : src/server/src/Convert.s
+
+# target to generate assembly for a file
+src/server/src/Convert.cpp.s:
+	$(MAKE) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/src/server/src/Convert.cpp.s
+.PHONY : src/server/src/Convert.cpp.s
+
+src/server/src/Game.o: src/server/src/Game.cpp.o
+
+.PHONY : src/server/src/Game.o
+
+# target to build an object file
+src/server/src/Game.cpp.o:
+	$(MAKE) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/src/server/src/Game.cpp.o
+.PHONY : src/server/src/Game.cpp.o
+
+src/server/src/Game.i: src/server/src/Game.cpp.i
+
+.PHONY : src/server/src/Game.i
+
+# target to preprocess a source file
+src/server/src/Game.cpp.i:
+	$(MAKE) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/src/server/src/Game.cpp.i
+.PHONY : src/server/src/Game.cpp.i
+
+src/server/src/Game.s: src/server/src/Game.cpp.s
+
+.PHONY : src/server/src/Game.s
+
+# target to generate assembly for a file
+src/server/src/Game.cpp.s:
+	$(MAKE) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/src/server/src/Game.cpp.s
+.PHONY : src/server/src/Game.cpp.s
+
+src/server/src/GameManager.o: src/server/src/GameManager.cpp.o
+
+.PHONY : src/server/src/GameManager.o
+
+# target to build an object file
+src/server/src/GameManager.cpp.o:
+	$(MAKE) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/src/server/src/GameManager.cpp.o
+.PHONY : src/server/src/GameManager.cpp.o
+
+src/server/src/GameManager.i: src/server/src/GameManager.cpp.i
+
+.PHONY : src/server/src/GameManager.i
+
+# target to preprocess a source file
+src/server/src/GameManager.cpp.i:
+	$(MAKE) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/src/server/src/GameManager.cpp.i
+.PHONY : src/server/src/GameManager.cpp.i
+
+src/server/src/GameManager.s: src/server/src/GameManager.cpp.s
+
+.PHONY : src/server/src/GameManager.s
+
+# target to generate assembly for a file
+src/server/src/GameManager.cpp.s:
+	$(MAKE) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/src/server/src/GameManager.cpp.s
+.PHONY : src/server/src/GameManager.cpp.s
+
+src/server/src/Server.o: src/server/src/Server.cpp.o
+
+.PHONY : src/server/src/Server.o
+
+# target to build an object file
+src/server/src/Server.cpp.o:
+	$(MAKE) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/src/server/src/Server.cpp.o
+.PHONY : src/server/src/Server.cpp.o
+
+src/server/src/Server.i: src/server/src/Server.cpp.i
+
+.PHONY : src/server/src/Server.i
+
+# target to preprocess a source file
+src/server/src/Server.cpp.i:
+	$(MAKE) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/src/server/src/Server.cpp.i
+.PHONY : src/server/src/Server.cpp.i
+
+src/server/src/Server.s: src/server/src/Server.cpp.s
+
+.PHONY : src/server/src/Server.s
+
+# target to generate assembly for a file
+src/server/src/Server.cpp.s:
+	$(MAKE) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/src/server/src/Server.cpp.s
+.PHONY : src/server/src/Server.cpp.s
+
+src/server/src/ServerConfigParser.o: src/server/src/ServerConfigParser.cpp.o
+
+.PHONY : src/server/src/ServerConfigParser.o
+
+# target to build an object file
+src/server/src/ServerConfigParser.cpp.o:
+	$(MAKE) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/src/server/src/ServerConfigParser.cpp.o
+.PHONY : src/server/src/ServerConfigParser.cpp.o
+
+src/server/src/ServerConfigParser.i: src/server/src/ServerConfigParser.cpp.i
+
+.PHONY : src/server/src/ServerConfigParser.i
+
+# target to preprocess a source file
+src/server/src/ServerConfigParser.cpp.i:
+	$(MAKE) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/src/server/src/ServerConfigParser.cpp.i
+.PHONY : src/server/src/ServerConfigParser.cpp.i
+
+src/server/src/ServerConfigParser.s: src/server/src/ServerConfigParser.cpp.s
+
+.PHONY : src/server/src/ServerConfigParser.s
+
+# target to generate assembly for a file
+src/server/src/ServerConfigParser.cpp.s:
+	$(MAKE) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/src/server/src/ServerConfigParser.cpp.s
+.PHONY : src/server/src/ServerConfigParser.cpp.s
+
+src/server/src/main.o: src/server/src/main.cpp.o
+
+.PHONY : src/server/src/main.o
+
+# target to build an object file
+src/server/src/main.cpp.o:
+	$(MAKE) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/src/server/src/main.cpp.o
+.PHONY : src/server/src/main.cpp.o
+
+src/server/src/main.i: src/server/src/main.cpp.i
+
+.PHONY : src/server/src/main.i
+
+# target to preprocess a source file
+src/server/src/main.cpp.i:
+	$(MAKE) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/src/server/src/main.cpp.i
+.PHONY : src/server/src/main.cpp.i
+
+src/server/src/main.s: src/server/src/main.cpp.s
+
+.PHONY : src/server/src/main.s
+
+# target to generate assembly for a file
+src/server/src/main.cpp.s:
+	$(MAKE) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/src/server/src/main.cpp.s
+.PHONY : src/server/src/main.cpp.s
 
 # Help Target
 help:
@@ -853,19 +1028,11 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... install/strip"
-	@echo "... install/local"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Server"
-	@echo "... install"
-	@echo "... list_install_components"
 	@echo "... Tests"
 	@echo "... Client"
-	@echo "... gmock_main"
-	@echo "... gmock"
-	@echo "... gtest_main"
-	@echo "... gtest"
 	@echo "... src/client/src/AIPlayer.o"
 	@echo "... src/client/src/AIPlayer.i"
 	@echo "... src/client/src/AIPlayer.s"
@@ -884,6 +1051,9 @@ help:
 	@echo "... src/client/src/ConsolePrinter.o"
 	@echo "... src/client/src/ConsolePrinter.i"
 	@echo "... src/client/src/ConsolePrinter.s"
+	@echo "... src/client/src/Convert.o"
+	@echo "... src/client/src/Convert.i"
+	@echo "... src/client/src/Convert.s"
 	@echo "... src/client/src/HumanPlayer.o"
 	@echo "... src/client/src/HumanPlayer.i"
 	@echo "... src/client/src/HumanPlayer.s"
@@ -917,18 +1087,45 @@ help:
 	@echo "... src/client/test/main.o"
 	@echo "... src/client/test/main.i"
 	@echo "... src/client/test/main.s"
-	@echo "... src/server/ConsoleServerPrinter.o"
-	@echo "... src/server/ConsoleServerPrinter.i"
-	@echo "... src/server/ConsoleServerPrinter.s"
-	@echo "... src/server/Server.o"
-	@echo "... src/server/Server.i"
-	@echo "... src/server/Server.s"
-	@echo "... src/server/ServerConfigParser.o"
-	@echo "... src/server/ServerConfigParser.i"
-	@echo "... src/server/ServerConfigParser.s"
-	@echo "... src/server/main.o"
-	@echo "... src/server/main.i"
-	@echo "... src/server/main.s"
+	@echo "... src/server/src/ClientHandler.o"
+	@echo "... src/server/src/ClientHandler.i"
+	@echo "... src/server/src/ClientHandler.s"
+	@echo "... src/server/src/CommandJoin.o"
+	@echo "... src/server/src/CommandJoin.i"
+	@echo "... src/server/src/CommandJoin.s"
+	@echo "... src/server/src/CommandListGames.o"
+	@echo "... src/server/src/CommandListGames.i"
+	@echo "... src/server/src/CommandListGames.s"
+	@echo "... src/server/src/CommandManager.o"
+	@echo "... src/server/src/CommandManager.i"
+	@echo "... src/server/src/CommandManager.s"
+	@echo "... src/server/src/CommandStart.o"
+	@echo "... src/server/src/CommandStart.i"
+	@echo "... src/server/src/CommandStart.s"
+	@echo "... src/server/src/Communication.o"
+	@echo "... src/server/src/Communication.i"
+	@echo "... src/server/src/Communication.s"
+	@echo "... src/server/src/ConsoleServerPrinter.o"
+	@echo "... src/server/src/ConsoleServerPrinter.i"
+	@echo "... src/server/src/ConsoleServerPrinter.s"
+	@echo "... src/server/src/Convert.o"
+	@echo "... src/server/src/Convert.i"
+	@echo "... src/server/src/Convert.s"
+	@echo "... src/server/src/Game.o"
+	@echo "... src/server/src/Game.i"
+	@echo "... src/server/src/Game.s"
+	@echo "... src/server/src/GameManager.o"
+	@echo "... src/server/src/GameManager.i"
+	@echo "... src/server/src/GameManager.s"
+	@echo "... src/server/src/Server.o"
+	@echo "... src/server/src/Server.i"
+	@echo "... src/server/src/Server.s"
+	@echo "... src/server/src/ServerConfigParser.o"
+	@echo "... src/server/src/ServerConfigParser.i"
+	@echo "... src/server/src/ServerConfigParser.s"
+	@echo "... src/server/src/main.o"
+	@echo "... src/server/src/main.i"
+	@echo "... src/server/src/main.s"
 .PHONY : help
 
 

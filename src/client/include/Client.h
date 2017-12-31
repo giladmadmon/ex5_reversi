@@ -10,8 +10,11 @@
 #define NO_MOVE_MSG "NoMove"
 #define END_GAME_MSG "End"
 #define LONGEST_COMMAND 27
+#define SUCCESS 1
+#define FAILURE -1
 
 #include <string>
+#include <sstream>
 #include "Printer.h"
 class Client {
  public:
@@ -25,16 +28,18 @@ class Client {
    * Connect the player to rhe server.
    * @param printer the printer used to print messages along the connection process.
    */
-  void connectToServer(Printer &printer);
+  void connectToServer();
 
   /**
   * Sends a message  to the server.
-  * @param printer the printer used to print messages along the game.
+   * @param msg the message to send.
   */
-
-  int SendMsg(string msg);
-  int ReadMsg(char msg[LONGEST_COMMAND]);
-  int ReadMsg(int &msg);
+  int SendMsg(const string &msg);
+  /**
+  * Reads a message  to the server.
+   * @param the received string.
+  */
+  int ReadMsg(string &msg);
 
  private:
   const char *server_IP_;

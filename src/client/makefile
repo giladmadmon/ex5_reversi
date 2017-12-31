@@ -6,7 +6,7 @@ a.out: compile
 	rm -f *.o
 
 compile:
-	g++ -Iinclude/ -c src/*.cpp
+	g++ -Iinclude/ -c src/*.cpp -g
 
 run:
 	./client.out

@@ -73,7 +73,7 @@ GMOCK_DECLARE_bool_(catch_leaked_mocks);
 GMOCK_DECLARE_string_(verbose);
 
 // Initializes Google Mock.  This must be called before running the
-// tests.  In particular, it parses the command line for the flags
+// tests.  In particular, it parses the include line for the flags
 // that Google Mock recognizes.  Whenever a Google Mock flag is seen,
 // it is removed from argv, and *argc is decremented.
 //

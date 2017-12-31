@@ -89,7 +89,7 @@ def GetTestsForAllIterations(extra_env, args):
 
   Args:
     extra_env: a map from environment variables to their values
-    args: command line flags to pass to gtest_shuffle_test_
+    args: include line flags to pass to gtest_shuffle_test_
 
   Returns:
     A list where the i-th element is the list of tests run in the i-th

@@ -12,6 +12,7 @@ using namespace std;
 
 #include "Printer.h"
 
+
 class ConsolePrinter : public Printer {
  public:
 
@@ -91,31 +92,66 @@ class ConsolePrinter : public Printer {
   virtual void PrintMove(Position &position, PlayerColor color);
 
   /**
-  * Prints the move the AIPlayer did.
-  * @param position the move the was played
-  * @param color the player who did the move
-  */
+    * Prints the move the AIPlayer did.
+    * @param position the move the was played
+    * @param color the player who did the move
+    */
   virtual void PrintAINoMove(PlayerColor color);
 
   /**
- * Prints that we are waiting for other player's move
- */
+    * Prints that we are waiting for other player's move
+    */
   virtual void PrintWaiting();
 
-/**
- * Prints that we are connected and waiting for other player's to connect
- */
-  virtual void PrintConnection();
+  /**
+    * Prints that we are connected
+    */
+  virtual void PrintConnected();
 
-/**
- * Prints that the client disconnected to server
- */
-  virtual void PrintMenu();
+  /**
+    * Prints that we are  waiting for other player's to connect
+    */
+  virtual void PrintWaitingOtherConnection();
 
-/**
- * Prints that the client disconnected to server
- */
+  /**
+    * Prints that the client disconnected to server
+    */
+  virtual void PrintMainMenu();
+
+  /**
+    * Prints that the client disconnected to server
+    */
   virtual void PrintWrongMenuInput();
+  /**
+  * Prints the available games.
+  * @param games the available games.
+  */
+  virtual void PrintAvailableGames(vector<string> games);
+
+  /**
+    * Prints no available games message.
+    */
+  virtual void PrintNoAvailableGames();
+
+  /**
+   * Prints online game options.
+   */
+  virtual void PrintOnlineMenu();
+
+  /**
+   * Prints the player to enter the name of the game he wants to open.
+   */
+  virtual void PrintChooseGameName();
+
+  /**
+   * Prints an error occurred during operation.
+   */
+  virtual void PrintOperationError();
+
+  /**
+   * Prints that the server was disconnected.
+   */
+  virtual void PrintServerDisconnected();
 
 };
 #endif //ASS2_CONSOLE_PRINTER_H

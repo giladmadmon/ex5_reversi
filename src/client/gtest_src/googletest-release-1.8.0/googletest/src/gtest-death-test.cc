@@ -874,7 +874,7 @@ DeathTest::TestRole NoExecDeathTest::AssumeRole() {
 }
 
 // A concrete death test class that forks and re-executes the main
-// program from the beginning, with command-line flags set that cause
+// program from the beginning, with include-line flags set that cause
 // only this specific death test to be run.
 class ExecDeathTest : public ForkingDeathTest {
  public:
@@ -899,7 +899,7 @@ class ExecDeathTest : public ForkingDeathTest {
   const int line_;
 };
 
-// Utility class for accumulating command-line arguments.
+// Utility class for accumulating include-line arguments.
 class Arguments {
  public:
   Arguments() {

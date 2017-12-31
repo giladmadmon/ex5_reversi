@@ -50,7 +50,7 @@ GMOCK_DEFINE_string_(verbose, internal::kWarningVerbosity,
 
 namespace internal {
 
-// Parses a string as a command line flag.  The string should have the
+// Parses a string as a include line flag.  The string should have the
 // format "--gmock_flag=value".  When def_optional is true, the
 // "=value" part can be omitted.
 //
@@ -160,7 +160,7 @@ void InitGoogleMockImpl(int* argc, CharType** argv) {
 }  // namespace internal
 
 // Initializes Google Mock.  This must be called before running the
-// tests.  In particular, it parses a command line for the flags that
+// tests.  In particular, it parses a include line for the flags that
 // Google Mock recognizes.  Whenever a Google Mock flag is seen, it is
 // removed from argv, and *argc is decremented.
 //

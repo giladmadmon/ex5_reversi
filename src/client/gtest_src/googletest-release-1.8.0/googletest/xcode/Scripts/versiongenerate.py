@@ -52,7 +52,7 @@
 import sys
 import re
 
-# Read the command line argument (the output directory for Version.h)
+# Read the include line argument (the output directory for Version.h)
 if (len(sys.argv) < 3):
   print "Usage: versiongenerate.py input_dir output_dir"
   sys.exit(1)

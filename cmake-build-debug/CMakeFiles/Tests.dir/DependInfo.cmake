@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/gilad/CLionProjects/Task_05/src/client/src/ClassicLogic.cpp" "/home/gilad/CLionProjects/Task_05/cmake-build-debug/CMakeFiles/Tests.dir/src/client/src/ClassicLogic.cpp.o"
   "/home/gilad/CLionProjects/Task_05/src/client/src/ClientConfigParser.cpp" "/home/gilad/CLionProjects/Task_05/cmake-build-debug/CMakeFiles/Tests.dir/src/client/src/ClientConfigParser.cpp.o"
   "/home/gilad/CLionProjects/Task_05/src/client/src/ConsolePrinter.cpp" "/home/gilad/CLionProjects/Task_05/cmake-build-debug/CMakeFiles/Tests.dir/src/client/src/ConsolePrinter.cpp.o"
+  "/home/gilad/CLionProjects/Task_05/src/client/src/Convert.cpp" "/home/gilad/CLionProjects/Task_05/cmake-build-debug/CMakeFiles/Tests.dir/src/client/src/Convert.cpp.o"
   "/home/gilad/CLionProjects/Task_05/src/client/src/HumanPlayer.cpp" "/home/gilad/CLionProjects/Task_05/cmake-build-debug/CMakeFiles/Tests.dir/src/client/src/HumanPlayer.cpp.o"
   "/home/gilad/CLionProjects/Task_05/src/client/src/LocalPlayer.cpp" "/home/gilad/CLionProjects/Task_05/cmake-build-debug/CMakeFiles/Tests.dir/src/client/src/LocalPlayer.cpp.o"
   "/home/gilad/CLionProjects/Task_05/src/client/src/Logic.cpp" "/home/gilad/CLionProjects/Task_05/cmake-build-debug/CMakeFiles/Tests.dir/src/client/src/Logic.cpp.o"
@@ -35,9 +36,6 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/gilad/CLionProjects/Task_05/cmake-build-debug/src/client/gtest_src/googletest-release-1.8.0/googlemock/gtest/CMakeFiles/gtest.dir/DependInfo.cmake"
-  "/home/gilad/CLionProjects/Task_05/cmake-build-debug/src/client/gtest_src/googletest-release-1.8.0/googlemock/gtest/CMakeFiles/gtest_main.dir/DependInfo.cmake"
-  "/home/gilad/CLionProjects/Task_05/cmake-build-debug/src/client/gtest_src/googletest-release-1.8.0/googlemock/CMakeFiles/gmock.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

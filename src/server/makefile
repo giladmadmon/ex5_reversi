@@ -2,11 +2,11 @@
 # Dafna Magid
 
 a.out: compile
-	g++ -o server.out *.o 
+	g++ -o server.out *.o -pthread
 	rm -f *.o
 
 compile:
-	g++ -c *.cpp
+	g++ -Iinclude/ -c src/*.cpp -g
 	
 run:
 	./server.out

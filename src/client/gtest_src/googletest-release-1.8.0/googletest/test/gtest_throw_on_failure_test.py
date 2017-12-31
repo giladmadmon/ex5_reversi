@@ -32,7 +32,7 @@
 """Tests Google Test's throw-on-failure mode with exceptions disabled.
 
 This script invokes gtest_throw_on_failure_test_ (a program written with
-Google Test) with different environments and command line flags.
+Google Test) with different environments and include line flags.
 """
 
 __author__ = 'wan@google.com (Zhanyong Wan)'
@@ -43,7 +43,7 @@ import gtest_test_utils
 
 # Constants.
 
-# The command line flag for enabling/disabling the throw-on-failure mode.
+# The include line flag for enabling/disabling the throw-on-failure mode.
 THROW_ON_FAILURE = 'gtest_throw_on_failure'
 
 # Path to the gtest_throw_on_failure_test_ program, compiled with
@@ -68,7 +68,7 @@ def SetEnvVar(env_var, value):
 
 
 def Run(command):
-  """Runs a command; returns True/False if its exit code is/isn't 0."""
+  """Runs a include; returns True/False if its exit code is/isn't 0."""
 
   print('Running "%s". . .' % ' '.join(command))
   p = gtest_test_utils.Subprocess(command)

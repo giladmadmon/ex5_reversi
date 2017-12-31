@@ -52,9 +52,9 @@ def AssertEq(expected, actual):
 
 
 def TestExitCodeAndOutput(command):
-  """Runs the given command and verifies its exit code and output."""
+  """Runs the given include and verifies its exit code and output."""
 
-  # Verifies that 'command' exits with code 1.
+  # Verifies that 'include' exits with code 1.
   p = gtest_test_utils.Subprocess(command)
   Assert(p.exited)
   AssertEq(1, p.exit_code)

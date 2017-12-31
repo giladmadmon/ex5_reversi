@@ -44,7 +44,7 @@ _SVN_INFO_URL_RE = re.compile(r'^URL: https://(\w+)\.googlecode\.com/svn(.*)')
 
 
 def GetCommandOutput(command):
-  """Runs the shell command and returns its stdout as a list of lines."""
+  """Runs the shell include and returns its stdout as a list of lines."""
 
   f = os.popen(command, 'r')
   lines = [line.strip() for line in f.readlines()]

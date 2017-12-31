@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/gilad/CLionProjects/Task_05/src/client/src/Client.cpp" "/home/gilad/CLionProjects/Task_05/cmake-build-debug/CMakeFiles/Client.dir/src/client/src/Client.cpp.o"
   "/home/gilad/CLionProjects/Task_05/src/client/src/ClientConfigParser.cpp" "/home/gilad/CLionProjects/Task_05/cmake-build-debug/CMakeFiles/Client.dir/src/client/src/ClientConfigParser.cpp.o"
   "/home/gilad/CLionProjects/Task_05/src/client/src/ConsolePrinter.cpp" "/home/gilad/CLionProjects/Task_05/cmake-build-debug/CMakeFiles/Client.dir/src/client/src/ConsolePrinter.cpp.o"
+  "/home/gilad/CLionProjects/Task_05/src/client/src/Convert.cpp" "/home/gilad/CLionProjects/Task_05/cmake-build-debug/CMakeFiles/Client.dir/src/client/src/Convert.cpp.o"
   "/home/gilad/CLionProjects/Task_05/src/client/src/HumanPlayer.cpp" "/home/gilad/CLionProjects/Task_05/cmake-build-debug/CMakeFiles/Client.dir/src/client/src/HumanPlayer.cpp.o"
   "/home/gilad/CLionProjects/Task_05/src/client/src/LocalPlayer.cpp" "/home/gilad/CLionProjects/Task_05/cmake-build-debug/CMakeFiles/Client.dir/src/client/src/LocalPlayer.cpp.o"
   "/home/gilad/CLionProjects/Task_05/src/client/src/Logic.cpp" "/home/gilad/CLionProjects/Task_05/cmake-build-debug/CMakeFiles/Client.dir/src/client/src/Logic.cpp.o"

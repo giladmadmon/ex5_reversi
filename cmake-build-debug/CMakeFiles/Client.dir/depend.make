@@ -40,6 +40,9 @@ CMakeFiles/Client.dir/src/client/src/ConsolePrinter.cpp.o: ../src/client/include
 CMakeFiles/Client.dir/src/client/src/ConsolePrinter.cpp.o: ../src/client/include/Printer.h
 CMakeFiles/Client.dir/src/client/src/ConsolePrinter.cpp.o: ../src/client/src/ConsolePrinter.cpp
 
+CMakeFiles/Client.dir/src/client/src/Convert.cpp.o: ../src/client/include/Convert.h
+CMakeFiles/Client.dir/src/client/src/Convert.cpp.o: ../src/client/src/Convert.cpp
+
 CMakeFiles/Client.dir/src/client/src/HumanPlayer.cpp.o: ../src/client/include/Board.h
 CMakeFiles/Client.dir/src/client/src/HumanPlayer.cpp.o: ../src/client/include/HumanPlayer.h
 CMakeFiles/Client.dir/src/client/src/HumanPlayer.cpp.o: ../src/client/include/Player.h
@@ -77,6 +80,7 @@ CMakeFiles/Client.dir/src/client/src/RemotePlayer.cpp.o: ../src/client/include/P
 CMakeFiles/Client.dir/src/client/src/RemotePlayer.cpp.o: ../src/client/include/Printer.h
 CMakeFiles/Client.dir/src/client/src/RemotePlayer.cpp.o: ../src/client/include/RemotePlayer.h
 CMakeFiles/Client.dir/src/client/src/RemotePlayer.cpp.o: ../src/client/src/RemotePlayer.cpp
+CMakeFiles/Client.dir/src/client/src/RemotePlayer.cpp.o: ../src/server/include/Convert.h
 
 CMakeFiles/Client.dir/src/client/src/ReversiGame.cpp.o: ../src/client/include/Board.h
 CMakeFiles/Client.dir/src/client/src/ReversiGame.cpp.o: ../src/client/include/Client.h

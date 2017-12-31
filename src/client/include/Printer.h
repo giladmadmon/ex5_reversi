@@ -6,6 +6,8 @@
 #ifndef ASS2_PRINTER_H
 #define ASS2_PRINTER_H
 
+#define GAMES_DELIMITER ' '
+
 #include <vector>
 #include "Board.h"
 #include "Position.h"
@@ -91,25 +93,60 @@ class Printer {
    */
   virtual void PrintAINoMove(PlayerColor color) = 0;
   /**
- * Prints that we are waiting for other player's move
- */
+    * Prints that we are waiting for other player's move
+    */
   virtual void PrintWaiting() = 0;
 
-/**
- * Prints that we are connected and waiting for other player's to connect
- */
-  virtual void PrintConnection() = 0;
+  /**
+    * Prints that we are connected
+    */
+  virtual void PrintConnected() = 0;
 
-/**
- * Prints that the client disconnected to server
- */
-  virtual void PrintMenu() = 0;
+  /**
+    * Prints that we are  waiting for other player's to connect
+    */
+  virtual void PrintWaitingOtherConnection() = 0;
 
-/**
- * Prints that the client disconnected to server
- */
+  /**
+    * Prints that the client disconnected to server
+    */
+  virtual void PrintMainMenu() = 0;
+
+  /**
+    * Prints that the client disconnected to server
+    */
   virtual void PrintWrongMenuInput() = 0;
 
+  /**
+    * Prints the available games.
+    * @param games the available games.
+    */
+  virtual void PrintAvailableGames(vector<string> games) = 0;
+
+  /**
+    * Prints no available games message.
+    */
+  virtual void PrintNoAvailableGames() = 0;
+
+  /**
+   * Prints online game options.
+   */
+  virtual void PrintOnlineMenu() = 0;
+
+  /**
+   * Prints the player to enter the name of the game he wants to open.
+   */
+  virtual void PrintChooseGameName() = 0;
+
+  /**
+   * Prints an error occurred during operation.
+   */
+  virtual void PrintOperationError() = 0;
+
+  /**
+   * Prints that the server was disconnected.
+   */
+  virtual void PrintServerDisconnected() = 0;
 };
 
 #endif //ASS2_PRINTER_H

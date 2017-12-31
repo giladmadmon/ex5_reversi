@@ -7,7 +7,7 @@
 #include <fstream>
 #include <cstdlib>
 #include <string.h>
-#include "ServerConfigParser.h"
+#include "../include/ServerConfigParser.h"
 
 using namespace std;
 
