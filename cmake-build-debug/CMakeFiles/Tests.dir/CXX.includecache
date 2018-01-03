@@ -308,15 +308,15 @@ Printer.h
 iostream
 -
 
-/home/gilad/CLionProjects/Task_05/src/client/include/CommonFunctions.h
-iostream
--
-
 /home/gilad/CLionProjects/Task_05/src/client/include/ConsolePrinter.h
 vector
 -
 Printer.h
 /home/gilad/CLionProjects/Task_05/src/client/include/Printer.h
+
+/home/gilad/CLionProjects/Task_05/src/client/include/Convert.h
+iostream
+-
 
 /home/gilad/CLionProjects/Task_05/src/client/include/HumanPlayer.h
 vector
@@ -412,6 +412,24 @@ vector
 ../include/ClassicLogic.h
 /home/gilad/CLionProjects/Task_05/src/client/include/ClassicLogic.h
 
+/home/gilad/CLionProjects/Task_05/src/client/src/Client.cpp
+../include/Client.h
+/home/gilad/CLionProjects/Task_05/src/client/include/Client.h
+sys/socket.h
+-
+netinet/in.h
+-
+arpa/inet.h
+-
+netdb.h
+-
+string.h
+-
+unistd.h
+-
+cstdlib
+-
+
 /home/gilad/CLionProjects/Task_05/src/client/src/ClientConfigParser.cpp
 iostream
 -
@@ -424,10 +442,6 @@ string.h
 ../include/ClientConfigParser.h
 /home/gilad/CLionProjects/Task_05/src/client/include/ClientConfigParser.h
 
-/home/gilad/CLionProjects/Task_05/src/client/src/CommonFunctions.cpp
-../include/CommonFunctions.h
-/home/gilad/CLionProjects/Task_05/src/client/include/CommonFunctions.h
-
 /home/gilad/CLionProjects/Task_05/src/client/src/ConsolePrinter.cpp
 iostream
 -
@@ -435,6 +449,12 @@ iomanip
 -
 ../include/ConsolePrinter.h
 /home/gilad/CLionProjects/Task_05/src/client/include/ConsolePrinter.h
+
+/home/gilad/CLionProjects/Task_05/src/client/src/Convert.cpp
+sstream
+-
+../include/Convert.h
+/home/gilad/CLionProjects/Task_05/src/client/include/Convert.h
 
 /home/gilad/CLionProjects/Task_05/src/client/src/HumanPlayer.cpp
 limits
@@ -461,8 +481,6 @@ sstream
 /home/gilad/CLionProjects/Task_05/src/client/src/LocalPlayer.cpp
 ../include/LocalPlayer.h
 /home/gilad/CLionProjects/Task_05/src/client/include/LocalPlayer.h
-sstream
--
 
 /home/gilad/CLionProjects/Task_05/src/client/src/Logic.cpp
 ../include/Logic.h
@@ -481,8 +499,8 @@ vector
 /home/gilad/CLionProjects/Task_05/src/client/include/Printer.h
 ../include/RemotePlayer.h
 /home/gilad/CLionProjects/Task_05/src/client/include/RemotePlayer.h
-../../server/Convert.h
-/home/gilad/CLionProjects/Task_05/src/server/Convert.h
+../../server/include/Convert.h
+/home/gilad/CLionProjects/Task_05/src/server/include/Convert.h
 
 /home/gilad/CLionProjects/Task_05/src/client/src/ReversiGame.cpp
 cstdio
@@ -534,7 +552,7 @@ BoardStates.h
 gtest/gtest.h
 -
 
-/home/gilad/CLionProjects/Task_05/src/server/Convert.h
+/home/gilad/CLionProjects/Task_05/src/server/include/Convert.h
 iostream
 -
 

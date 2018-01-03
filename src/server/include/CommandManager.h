@@ -16,8 +16,19 @@ using namespace std;
 
 class CommandManager {
  public:
+  /**
+   * constructor
+   */
   CommandManager();
+  /**
+   * destructor
+   */
   ~CommandManager();
+  /**
+   * execute the command given with the given arguments
+   * @param command the command to perform
+   * @param args the args for the command
+   */
   void ExecuteCommand(string command, vector<string> args);
  private:
   map<string, Command *> command_map_;

@@ -13,12 +13,16 @@ void ReversiGame::PlayGame() {
     PlayOneTurn();
   }
 
-  printer_.PrintBoard(board_);
+  if (!game_closed_) {
+    printer_.PrintBoard(board_);
 
-  printer_.PrintScore(board_.CountColor(Black), board_.CountColor(White));
-  printer_.PrintWinner(logic_.GetWinner(board_));
+    printer_.PrintScore(board_.CountColor(Black), board_.CountColor(White));
+    printer_.PrintWinner(logic_.GetWinner(board_));
 
-  EndTurn();
+    EndTurn();
+  } else {
+    printer_.PrintServerDisconnected();
+  }
 }
 
 void ReversiGame::PlayOneTurn() {

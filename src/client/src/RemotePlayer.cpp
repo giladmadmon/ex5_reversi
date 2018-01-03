@@ -13,6 +13,7 @@
 Position RemotePlayer::MakeAMove(vector<Position> &possible_moves, Printer &printer, PlayerColor color) {
   string msg;
   int chosen_row = FAILURE, chosen_column = FAILURE;
+  printer.PrintWaiting();
   int n = client_.ReadMsg(msg);
 
   if (n != FAILURE && msg != END_GAME_MSG){

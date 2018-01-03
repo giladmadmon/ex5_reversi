@@ -49,7 +49,16 @@ class ReversiGame {
    * Play the game till it ends.
    */
   void PlayGame();
+  /**
+   * Perform an action at the end of the game.
+   */
   void EndTurn();
+  /**
+   * Get the player according to its color.
+   *
+   * @param color the color of the player.
+   * @return the player whom color is the given color.
+   */
   Player *GetPlayer(PlayerColor color);
 };
 

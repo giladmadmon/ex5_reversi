@@ -77,8 +77,6 @@ CMakeFiles/Server.dir/src/server/src/main.cpp.o: ../src/server/include/ClientHan
 CMakeFiles/Server.dir/src/server/src/main.cpp.o: ../src/server/include/Command.h
 CMakeFiles/Server.dir/src/server/src/main.cpp.o: ../src/server/include/CommandManager.h
 CMakeFiles/Server.dir/src/server/src/main.cpp.o: ../src/server/include/ConsoleServerPrinter.h
-CMakeFiles/Server.dir/src/server/src/main.cpp.o: ../src/server/include/Game.h
-CMakeFiles/Server.dir/src/server/src/main.cpp.o: ../src/server/include/GameManager.h
 CMakeFiles/Server.dir/src/server/src/main.cpp.o: ../src/server/include/Server.h
 CMakeFiles/Server.dir/src/server/src/main.cpp.o: ../src/server/include/ServerConfigParser.h
 CMakeFiles/Server.dir/src/server/src/main.cpp.o: ../src/server/include/ServerPrinter.h

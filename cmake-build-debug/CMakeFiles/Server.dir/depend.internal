@@ -78,8 +78,6 @@ CMakeFiles/Server.dir/src/server/src/main.cpp.o
  /home/gilad/CLionProjects/Task_05/src/server/include/Command.h
  /home/gilad/CLionProjects/Task_05/src/server/include/CommandManager.h
  /home/gilad/CLionProjects/Task_05/src/server/include/ConsoleServerPrinter.h
- /home/gilad/CLionProjects/Task_05/src/server/include/Game.h
- /home/gilad/CLionProjects/Task_05/src/server/include/GameManager.h
  /home/gilad/CLionProjects/Task_05/src/server/include/Server.h
  /home/gilad/CLionProjects/Task_05/src/server/include/ServerConfigParser.h
  /home/gilad/CLionProjects/Task_05/src/server/include/ServerPrinter.h

@@ -10,12 +10,14 @@
 #include "../include/GameManager.h"
 ClientHandler::ClientHandler() {
   command_manager_ = new CommandManager();
+  pthread_mutex_init(&socket_queue_mutex_, NULL);
 }
 
-void ClientHandler::Handle(int client_socket) {
+void ClientHandler::Handle() {
   string msg, command;
   int delimiter_pos, prv_delimiter_pos = 0;
   vector<string> args;
+  int client_socket = RemoveSocketFromQueue();
 
   Communication::ReadMsg(client_socket, msg);
 
@@ -34,8 +36,25 @@ void ClientHandler::Handle(int client_socket) {
   command_manager_->ExecuteCommand(command, args);
 }
 void ClientHandler::CloseAll() {
-  GameManager::Instance()->FinishAllGames();
+  GameManager *game_manager = GameManager::Instance();
+  game_manager->FinishAllGames();
+  game_manager->CloseWaitingGames();
 }
 ClientHandler::~ClientHandler() {
   delete command_manager_;
+}
+void ClientHandler::AddSocketToQueue(int client_socket) {
+  pthread_mutex_lock(&socket_queue_mutex_);
+  sockets_queue_.push_back(client_socket);
+  pthread_mutex_unlock(&socket_queue_mutex_);
+}
+int ClientHandler::RemoveSocketFromQueue() {
+  int client_socket = 0;
+  pthread_mutex_lock(&socket_queue_mutex_);
+  if (sockets_queue_.size() > 0) {
+    client_socket = sockets_queue_.at(0);
+    sockets_queue_.erase(sockets_queue_.begin());
+  }
+  pthread_mutex_unlock(&socket_queue_mutex_);
+  return client_socket;
 }

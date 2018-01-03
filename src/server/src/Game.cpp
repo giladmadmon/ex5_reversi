@@ -9,7 +9,6 @@
 #include "../include/GameManager.h"
 
 using namespace std;
-#define SERVER_CLOSING_MSG "ServerClosing"
 #define FIRST_TURN "1"
 #define SECOND_TURN "2"
 
@@ -55,13 +54,11 @@ void Game::Play() {
   close(first_client_socket_);
   close(second_client_socket_);
 
-  if (!is_closed_) {
-    thread_t thread;
-    EndGameArgs *args = new EndGameArgs;
-    args->thread = pthread_self();
-    args->game = this;
-    pthread_create(&thread, NULL, DeleteGame, args);
-  }
+  thread_t thread;
+  EndGameArgs *args = new EndGameArgs;
+  args->thread = pthread_self();
+  args->game = this;
+  pthread_create(&thread, NULL, DeleteGame, args);
 }
 
 void Game::SwapClients(int &currentClient, int &otherClient) {
@@ -98,12 +95,6 @@ GameStatus Game::PlayOneTurn(int currentClient, int otherClient) {
     return CLIENT_DISCONNECTED;
   }
 
-  if (is_closed_) {
-    //Communication::SendMsg(first_client_socket_, SERVER_CLOSING_MSG);
-    //Communication::SendMsg(second_client_socket_, SERVER_CLOSING_MSG);
-    return GAME_ENDED;
-  }
-
   if (msg == "NoMove") {
     status = NO_MOVE;
   } else if (msg == "End") {
@@ -132,15 +123,6 @@ void Game::AddClient(int second_client) {
   second_client_socket_ = second_client;
 }
 void Game::CloseGame() {
-  is_closed_ = 1;
-}
-Game &Game::operator=(Game &game) {
-  first_client_socket_ = game.first_client_socket_;
-  second_client_socket_ = game.second_client_socket_;
-  is_closed_ = game.is_closed_;
-
-  return *this;
-}
-Game::Game(Game &game) {
-  *this = game;
+  close(first_client_socket_);
+  close(second_client_socket_);
 }

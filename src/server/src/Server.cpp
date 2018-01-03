@@ -15,9 +15,8 @@ typedef struct {
   int client_socket;
 } HandleClientArgs;
 
-Server::Server(int port, ServerPrinter &printer)
+Server::Server(int port)
     : is_closed_(0), port_(port), server_socket_(0), client_handler_(ClientHandler()) {
-  printer.PrintServer();
 }
 
 void Server::Start() {
@@ -57,22 +56,18 @@ int Server::WaitForConnection() {
   return client;
 }
 
-void *HandleClient(void *handle_client_args_pointer) {
-  HandleClientArgs *handle_client_args = (HandleClientArgs *) handle_client_args_pointer;
-  ClientHandler *client_handler = handle_client_args->client_handler;
-  int client_socket = handle_client_args->client_socket;
+void *HandleClient(void *args) {
+  ClientHandler *client_handler = (ClientHandler *) args;
 
-  client_handler->Handle(client_socket);
+  client_handler->Handle();
 }
 
 void Server::AcceptConnections() {
   while (!is_closed_) {
     pthread_t pthread;
-    HandleClientArgs args;
 
-    args.client_handler = &client_handler_;
-    args.client_socket = WaitForConnection();
+    client_handler_.AddSocketToQueue(WaitForConnection());
 
-    pthread_create(&pthread, NULL, HandleClient, &args);
+    pthread_create(&pthread, NULL, HandleClient, &client_handler_);
   }
 }

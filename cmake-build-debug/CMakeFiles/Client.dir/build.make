@@ -345,33 +345,9 @@ CMakeFiles/Client.dir/src/client/src/Convert.cpp.o.provides: CMakeFiles/Client.d
 CMakeFiles/Client.dir/src/client/src/Convert.cpp.o.provides.build: CMakeFiles/Client.dir/src/client/src/Convert.cpp.o
 
 
-CMakeFiles/Client.dir/src/client/src/main.cpp.o: CMakeFiles/Client.dir/flags.make
-CMakeFiles/Client.dir/src/client/src/main.cpp.o: ../src/client/src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gilad/CLionProjects/Task_05/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Client.dir/src/client/src/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Client.dir/src/client/src/main.cpp.o -c /home/gilad/CLionProjects/Task_05/src/client/src/main.cpp
-
-CMakeFiles/Client.dir/src/client/src/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Client.dir/src/client/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gilad/CLionProjects/Task_05/src/client/src/main.cpp > CMakeFiles/Client.dir/src/client/src/main.cpp.i
-
-CMakeFiles/Client.dir/src/client/src/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Client.dir/src/client/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gilad/CLionProjects/Task_05/src/client/src/main.cpp -o CMakeFiles/Client.dir/src/client/src/main.cpp.s
-
-CMakeFiles/Client.dir/src/client/src/main.cpp.o.requires:
-
-.PHONY : CMakeFiles/Client.dir/src/client/src/main.cpp.o.requires
-
-CMakeFiles/Client.dir/src/client/src/main.cpp.o.provides: CMakeFiles/Client.dir/src/client/src/main.cpp.o.requires
-	$(MAKE) -f CMakeFiles/Client.dir/build.make CMakeFiles/Client.dir/src/client/src/main.cpp.o.provides.build
-.PHONY : CMakeFiles/Client.dir/src/client/src/main.cpp.o.provides
-
-CMakeFiles/Client.dir/src/client/src/main.cpp.o.provides.build: CMakeFiles/Client.dir/src/client/src/main.cpp.o
-
-
 CMakeFiles/Client.dir/src/client/src/Client.cpp.o: CMakeFiles/Client.dir/flags.make
 CMakeFiles/Client.dir/src/client/src/Client.cpp.o: ../src/client/src/Client.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gilad/CLionProjects/Task_05/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/Client.dir/src/client/src/Client.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gilad/CLionProjects/Task_05/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Client.dir/src/client/src/Client.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Client.dir/src/client/src/Client.cpp.o -c /home/gilad/CLionProjects/Task_05/src/client/src/Client.cpp
 
 CMakeFiles/Client.dir/src/client/src/Client.cpp.i: cmake_force
@@ -393,6 +369,30 @@ CMakeFiles/Client.dir/src/client/src/Client.cpp.o.provides: CMakeFiles/Client.di
 CMakeFiles/Client.dir/src/client/src/Client.cpp.o.provides.build: CMakeFiles/Client.dir/src/client/src/Client.cpp.o
 
 
+CMakeFiles/Client.dir/src/client/src/main.cpp.o: CMakeFiles/Client.dir/flags.make
+CMakeFiles/Client.dir/src/client/src/main.cpp.o: ../src/client/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gilad/CLionProjects/Task_05/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/Client.dir/src/client/src/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Client.dir/src/client/src/main.cpp.o -c /home/gilad/CLionProjects/Task_05/src/client/src/main.cpp
+
+CMakeFiles/Client.dir/src/client/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Client.dir/src/client/src/main.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gilad/CLionProjects/Task_05/src/client/src/main.cpp > CMakeFiles/Client.dir/src/client/src/main.cpp.i
+
+CMakeFiles/Client.dir/src/client/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Client.dir/src/client/src/main.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gilad/CLionProjects/Task_05/src/client/src/main.cpp -o CMakeFiles/Client.dir/src/client/src/main.cpp.s
+
+CMakeFiles/Client.dir/src/client/src/main.cpp.o.requires:
+
+.PHONY : CMakeFiles/Client.dir/src/client/src/main.cpp.o.requires
+
+CMakeFiles/Client.dir/src/client/src/main.cpp.o.provides: CMakeFiles/Client.dir/src/client/src/main.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Client.dir/build.make CMakeFiles/Client.dir/src/client/src/main.cpp.o.provides.build
+.PHONY : CMakeFiles/Client.dir/src/client/src/main.cpp.o.provides
+
+CMakeFiles/Client.dir/src/client/src/main.cpp.o.provides.build: CMakeFiles/Client.dir/src/client/src/main.cpp.o
+
+
 # Object files for target Client
 Client_OBJECTS = \
 "CMakeFiles/Client.dir/src/client/src/Position.cpp.o" \
@@ -407,8 +407,8 @@ Client_OBJECTS = \
 "CMakeFiles/Client.dir/src/client/src/ClientConfigParser.cpp.o" \
 "CMakeFiles/Client.dir/src/client/src/RemotePlayer.cpp.o" \
 "CMakeFiles/Client.dir/src/client/src/Convert.cpp.o" \
-"CMakeFiles/Client.dir/src/client/src/main.cpp.o" \
-"CMakeFiles/Client.dir/src/client/src/Client.cpp.o"
+"CMakeFiles/Client.dir/src/client/src/Client.cpp.o" \
+"CMakeFiles/Client.dir/src/client/src/main.cpp.o"
 
 # External object files for target Client
 Client_EXTERNAL_OBJECTS =
@@ -425,8 +425,8 @@ Client: CMakeFiles/Client.dir/src/client/src/LocalPlayer.cpp.o
 Client: CMakeFiles/Client.dir/src/client/src/ClientConfigParser.cpp.o
 Client: CMakeFiles/Client.dir/src/client/src/RemotePlayer.cpp.o
 Client: CMakeFiles/Client.dir/src/client/src/Convert.cpp.o
-Client: CMakeFiles/Client.dir/src/client/src/main.cpp.o
 Client: CMakeFiles/Client.dir/src/client/src/Client.cpp.o
+Client: CMakeFiles/Client.dir/src/client/src/main.cpp.o
 Client: CMakeFiles/Client.dir/build.make
 Client: CMakeFiles/Client.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/gilad/CLionProjects/Task_05/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable Client"
@@ -449,8 +449,8 @@ CMakeFiles/Client.dir/requires: CMakeFiles/Client.dir/src/client/src/LocalPlayer
 CMakeFiles/Client.dir/requires: CMakeFiles/Client.dir/src/client/src/ClientConfigParser.cpp.o.requires
 CMakeFiles/Client.dir/requires: CMakeFiles/Client.dir/src/client/src/RemotePlayer.cpp.o.requires
 CMakeFiles/Client.dir/requires: CMakeFiles/Client.dir/src/client/src/Convert.cpp.o.requires
-CMakeFiles/Client.dir/requires: CMakeFiles/Client.dir/src/client/src/main.cpp.o.requires
 CMakeFiles/Client.dir/requires: CMakeFiles/Client.dir/src/client/src/Client.cpp.o.requires
+CMakeFiles/Client.dir/requires: CMakeFiles/Client.dir/src/client/src/main.cpp.o.requires
 
 .PHONY : CMakeFiles/Client.dir/requires
 

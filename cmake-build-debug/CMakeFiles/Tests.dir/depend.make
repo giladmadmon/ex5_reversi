@@ -23,11 +23,15 @@ CMakeFiles/Tests.dir/src/client/src/ClassicLogic.cpp.o: ../src/client/include/Po
 CMakeFiles/Tests.dir/src/client/src/ClassicLogic.cpp.o: ../src/client/include/Printer.h
 CMakeFiles/Tests.dir/src/client/src/ClassicLogic.cpp.o: ../src/client/src/ClassicLogic.cpp
 
+CMakeFiles/Tests.dir/src/client/src/Client.cpp.o: ../src/client/include/Board.h
+CMakeFiles/Tests.dir/src/client/src/Client.cpp.o: ../src/client/include/Client.h
+CMakeFiles/Tests.dir/src/client/src/Client.cpp.o: ../src/client/include/PlayerColor.h
+CMakeFiles/Tests.dir/src/client/src/Client.cpp.o: ../src/client/include/Position.h
+CMakeFiles/Tests.dir/src/client/src/Client.cpp.o: ../src/client/include/Printer.h
+CMakeFiles/Tests.dir/src/client/src/Client.cpp.o: ../src/client/src/Client.cpp
+
 CMakeFiles/Tests.dir/src/client/src/ClientConfigParser.cpp.o: ../src/client/include/ClientConfigParser.h
 CMakeFiles/Tests.dir/src/client/src/ClientConfigParser.cpp.o: ../src/client/src/ClientConfigParser.cpp
-
-CMakeFiles/Tests.dir/src/client/src/CommonFunctions.cpp.o: ../src/client/include/CommonFunctions.h
-CMakeFiles/Tests.dir/src/client/src/CommonFunctions.cpp.o: ../src/client/src/CommonFunctions.cpp
 
 CMakeFiles/Tests.dir/src/client/src/ConsolePrinter.cpp.o: ../src/client/include/Board.h
 CMakeFiles/Tests.dir/src/client/src/ConsolePrinter.cpp.o: ../src/client/include/ConsolePrinter.h
@@ -35,6 +39,9 @@ CMakeFiles/Tests.dir/src/client/src/ConsolePrinter.cpp.o: ../src/client/include/
 CMakeFiles/Tests.dir/src/client/src/ConsolePrinter.cpp.o: ../src/client/include/Position.h
 CMakeFiles/Tests.dir/src/client/src/ConsolePrinter.cpp.o: ../src/client/include/Printer.h
 CMakeFiles/Tests.dir/src/client/src/ConsolePrinter.cpp.o: ../src/client/src/ConsolePrinter.cpp
+
+CMakeFiles/Tests.dir/src/client/src/Convert.cpp.o: ../src/client/include/Convert.h
+CMakeFiles/Tests.dir/src/client/src/Convert.cpp.o: ../src/client/src/Convert.cpp
 
 CMakeFiles/Tests.dir/src/client/src/HumanPlayer.cpp.o: ../src/client/include/Board.h
 CMakeFiles/Tests.dir/src/client/src/HumanPlayer.cpp.o: ../src/client/include/HumanPlayer.h
@@ -73,7 +80,7 @@ CMakeFiles/Tests.dir/src/client/src/RemotePlayer.cpp.o: ../src/client/include/Po
 CMakeFiles/Tests.dir/src/client/src/RemotePlayer.cpp.o: ../src/client/include/Printer.h
 CMakeFiles/Tests.dir/src/client/src/RemotePlayer.cpp.o: ../src/client/include/RemotePlayer.h
 CMakeFiles/Tests.dir/src/client/src/RemotePlayer.cpp.o: ../src/client/src/RemotePlayer.cpp
-CMakeFiles/Tests.dir/src/client/src/RemotePlayer.cpp.o: ../src/server/Convert.h
+CMakeFiles/Tests.dir/src/client/src/RemotePlayer.cpp.o: ../src/server/include/Convert.h
 
 CMakeFiles/Tests.dir/src/client/src/ReversiGame.cpp.o: ../src/client/include/Board.h
 CMakeFiles/Tests.dir/src/client/src/ReversiGame.cpp.o: ../src/client/include/Client.h

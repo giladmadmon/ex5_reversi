@@ -17,6 +17,7 @@
 
 #include <limits>
 #include <algorithm>
+#include <signal.h>
 
 #define MAIN_MAX_OPTION 3
 #define MAIN_MIN_OPTION 1
@@ -35,12 +36,18 @@ void OnlineChoice(Player &this_player, Printer &printer, Logic &logic, Board &bo
 void OnlineGameRequest(Client &client, Printer &printer);
 int HandleMenu(Printer &printer, int min_opt, int max_opt);
 
+void BrokenPipeHandle(int sig_num) {
+  signal(SIGPIPE, BrokenPipeHandle);
+}
+
 int main() {
+  // handle SIG_PIPE error
+  signal(SIGPIPE, BrokenPipeHandle);
+
   Board board;
   ClassicLogic logic;
   ConsolePrinter printer;
-  //HumanPlayer this_player;
-  AIPlayer this_player(board, logic);
+  HumanPlayer this_player;
   int option;
 
   printer.PrintMainMenu();
@@ -58,7 +65,13 @@ int main() {
       break;
     }
     case 3: {
-      OnlineChoice(this_player, printer, logic, board);
+      try {
+        OnlineChoice(this_player, printer, logic, board);
+      }
+      catch (const char *msg){
+        cout << msg << endl;
+      }
+
       break;
     }
   }
@@ -124,17 +137,20 @@ void OnlineGameRequest(Client &client, Printer &printer) {
     printer.PrintOnlineMenu();
     choice = HandleMenu(printer, ONLINE_MIN_OPTION, ONLINE_MAX_OPTION);
 
-    client.connectToServer();
     switch (choice) {
-      case 1: printer.PrintChooseGameName();
+      case 1:
+        printer.PrintChooseGameName();
         cin >> msg;
+        client.connectToServer();
         client.SendMsg(START_GAME_COMMAND + msg);
         client.ReadMsg(msg);
         if (msg != ONLINE_OPERATION_ERROR)
           printer.PrintWaitingOtherConnection();
         break;
 
-      case 2:client.SendMsg(LIST_GAMES_COMMAND);
+      case 2:
+        client.connectToServer();
+        client.SendMsg(LIST_GAMES_COMMAND);
         client.ReadMsg(msg);
         if (msg == "") {
           printer.PrintNoAvailableGames();

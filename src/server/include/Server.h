@@ -7,7 +7,7 @@
 #ifndef TASK_05_GAMEMANAGER_H
 #define TASK_05_GAMEMANAGER_H
 
-#define MAX_CONNECTED_CLIENTS 10
+#define MAX_CONNECTED_CLIENTS 30
 
 #include <string>
 #include "ServerPrinter.h"
@@ -15,10 +15,27 @@
 
 class Server {
  public:
-  Server(int port, ServerPrinter &printer);
+  /**
+   * constructor
+   * @param port the port of the server
+   */
+  Server(int port);
+  /**
+   * start the server. open it for accepting clients
+   */
   void Start();
+  /**
+   * accepts client connections
+   */
   void AcceptConnections();
+  /**
+   * stop the server operations
+   */
   void Stop();
+  /**
+   * wait for new client connection
+   * @return the client socket
+   */
   int WaitForConnection();
 
  private:

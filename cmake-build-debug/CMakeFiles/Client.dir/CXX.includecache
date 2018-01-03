@@ -259,6 +259,8 @@ limits
 -
 algorithm
 -
+signal.h
+-
 
 /home/gilad/CLionProjects/Task_05/src/server/include/Convert.h
 iostream

@@ -17,11 +17,15 @@ void *JoinGame(void *args) {
 }
 
 int GameManager::Start(int client_socket, string name) {
-  if (available_game_list_.count(name))
+  pthread_mutex_lock(&available_games_mutex_);
+  if (available_game_list_.count(name)) {
+    pthread_mutex_unlock(&available_games_mutex_);
     return FAILURE;
+  }
 
   pair<string, Game *> new_game(name, new Game(client_socket));
   available_game_list_.insert(new_game);
+  pthread_mutex_unlock(&available_games_mutex_);
 
   return SUCCESS;
 }
@@ -29,9 +33,11 @@ int GameManager::Start(int client_socket, string name) {
 vector<string> GameManager::GameList() {
   vector<string> games_name;
 
+  pthread_mutex_lock(&available_games_mutex_);
   for (map<string, Game *>::iterator it = available_game_list_.begin(); it != available_game_list_.end(); ++it) {
     games_name.push_back(it->first);
   }
+  pthread_mutex_unlock(&available_games_mutex_);
 
   return games_name;
 }
@@ -39,6 +45,8 @@ vector<string> GameManager::GameList() {
 int GameManager::Join(int client_socket, string name) {
   if (available_game_list_.count(name)) {
     pthread_t thread;
+
+    pthread_mutex_lock(&available_games_mutex_);
     map<string, Game *>::iterator game = available_game_list_.find(name);
 
     game->second->AddClient(client_socket);
@@ -48,6 +56,7 @@ int GameManager::Join(int client_socket, string name) {
     games_list_.insert(wanted_game);
 
     available_game_list_.erase(name);
+    pthread_mutex_unlock(&available_games_mutex_);
 
     return SUCCESS;
   }
@@ -61,24 +70,29 @@ GameManager *GameManager::Instance() {
 }
 
 void GameManager::FinishAllGames() {
-  pthread_mutex_lock(&games_closing_mutex_);
-  games_closing = 1;
-  pthread_mutex_unlock(&games_closing_mutex_);
+  pthread_mutex_lock(&available_games_mutex_);
+  games_closing_ = true;
+  pthread_mutex_unlock(&available_games_mutex_);
 
   for (map<Game *, thread_t>::iterator it = games_list_.begin(); it != games_list_.end(); it++) {
     it->first->CloseGame();
+    pthread_cancel(it->second);
   }
 
   for (map<Game *, thread_t>::iterator it = games_list_.begin(); it != games_list_.end(); it++) {
-    pthread_join(it->second, NULL);
     delete it->first;
   }
 }
 void GameManager::GameEnded(Game *game) {
-  pthread_mutex_lock(&games_closing_mutex_);
-  if (!games_closing) {
+  pthread_mutex_lock(&available_games_mutex_);
+  if (!games_closing_) {
     games_list_.erase(game);
     delete game;
   }
-  pthread_mutex_unlock(&games_closing_mutex_);
+  pthread_mutex_unlock(&available_games_mutex_);
+}
+void GameManager::CloseWaitingGames() {
+  for (map<string, Game *>::iterator it = available_game_list_.begin(); it != available_game_list_.end(); it++) {
+    delete it->second;
+  }
 }

@@ -96,9 +96,9 @@ void ConsolePrinter::PrintWaitingOtherConnection() {
 }
 void ConsolePrinter::PrintMainMenu() {
   cout << "Hello! who would you like to play Reversi with?:)" << endl;
-  cout << "(1) Your Friend. " << endl;
-  cout << "(2) The computer. " << endl;
-  cout << "(3) Remote player. " << endl;
+  cout << "1. Your Friend. " << endl;
+  cout << "2. The computer. " << endl;
+  cout << "3. Remote player. " << endl;
 }
 void ConsolePrinter::PrintWrongMenuInput() {
   cout << "wrong input, try again" << endl;
@@ -121,7 +121,7 @@ void ConsolePrinter::PrintNoAvailableGames() {
   cout << "There are no available games." << endl;
 }
 void ConsolePrinter::PrintChooseGameName() {
-  cout << "Enter the name of the game." << endl;
+  cout << "Enter the name of the game. (no spaces allowed)" << endl;
 }
 void ConsolePrinter::PrintOperationError() {
   cout << "Could not complete the request." << endl;
