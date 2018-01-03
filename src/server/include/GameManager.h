@@ -69,7 +69,7 @@ class GameManager {
   /**
    * constructor
    */
-  GameManager() : games_closing_(0) {
+  GameManager() : games_closing_(false) {
     pthread_mutex_init(&available_games_mutex_, NULL);
   }
   /**

@@ -6,143 +6,143 @@
 
 #IncludeRegexTransform: 
 
-/home/gilad/CLionProjects/Task_05 (copy)/src/client/include/AIPlayer.h
+/home/gilad/CLionProjects/Task_05 (real)/src/client/include/AIPlayer.h
 limits.h
 -
 math.h
 -
 Player.h
-/home/gilad/CLionProjects/Task_05 (copy)/src/client/include/Player.h
+/home/gilad/CLionProjects/Task_05 (real)/src/client/include/Player.h
 Logic.h
-/home/gilad/CLionProjects/Task_05 (copy)/src/client/include/Logic.h
+/home/gilad/CLionProjects/Task_05 (real)/src/client/include/Logic.h
 
-/home/gilad/CLionProjects/Task_05 (copy)/src/client/include/Board.h
+/home/gilad/CLionProjects/Task_05 (real)/src/client/include/Board.h
 PlayerColor.h
-/home/gilad/CLionProjects/Task_05 (copy)/src/client/include/PlayerColor.h
+/home/gilad/CLionProjects/Task_05 (real)/src/client/include/PlayerColor.h
 
-/home/gilad/CLionProjects/Task_05 (copy)/src/client/include/ClassicLogic.h
+/home/gilad/CLionProjects/Task_05 (real)/src/client/include/ClassicLogic.h
 Logic.h
-/home/gilad/CLionProjects/Task_05 (copy)/src/client/include/Logic.h
+/home/gilad/CLionProjects/Task_05 (real)/src/client/include/Logic.h
 
-/home/gilad/CLionProjects/Task_05 (copy)/src/client/include/Client.h
+/home/gilad/CLionProjects/Task_05 (real)/src/client/include/Client.h
 string
 -
 sstream
 -
 Printer.h
-/home/gilad/CLionProjects/Task_05 (copy)/src/client/include/Printer.h
+/home/gilad/CLionProjects/Task_05 (real)/src/client/include/Printer.h
 
-/home/gilad/CLionProjects/Task_05 (copy)/src/client/include/ClientConfigParser.h
+/home/gilad/CLionProjects/Task_05 (real)/src/client/include/ClientConfigParser.h
 iostream
 -
 
-/home/gilad/CLionProjects/Task_05 (copy)/src/client/include/ConsolePrinter.h
+/home/gilad/CLionProjects/Task_05 (real)/src/client/include/ConsolePrinter.h
 vector
 -
 Printer.h
-/home/gilad/CLionProjects/Task_05 (copy)/src/client/include/Printer.h
+/home/gilad/CLionProjects/Task_05 (real)/src/client/include/Printer.h
 
-/home/gilad/CLionProjects/Task_05 (copy)/src/client/include/Convert.h
+/home/gilad/CLionProjects/Task_05 (real)/src/client/include/Convert.h
 iostream
 -
 
-/home/gilad/CLionProjects/Task_05 (copy)/src/client/include/HumanPlayer.h
+/home/gilad/CLionProjects/Task_05 (real)/src/client/include/HumanPlayer.h
 vector
 -
 Player.h
-/home/gilad/CLionProjects/Task_05 (copy)/src/client/include/Player.h
+/home/gilad/CLionProjects/Task_05 (real)/src/client/include/Player.h
 Position.h
-/home/gilad/CLionProjects/Task_05 (copy)/src/client/include/Position.h
+/home/gilad/CLionProjects/Task_05 (real)/src/client/include/Position.h
 Printer.h
-/home/gilad/CLionProjects/Task_05 (copy)/src/client/include/Printer.h
+/home/gilad/CLionProjects/Task_05 (real)/src/client/include/Printer.h
 
-/home/gilad/CLionProjects/Task_05 (copy)/src/client/include/LocalPlayer.h
+/home/gilad/CLionProjects/Task_05 (real)/src/client/include/LocalPlayer.h
 Player.h
-/home/gilad/CLionProjects/Task_05 (copy)/src/client/include/Player.h
+/home/gilad/CLionProjects/Task_05 (real)/src/client/include/Player.h
 limits.h
 -
 math.h
 -
 Player.h
-/home/gilad/CLionProjects/Task_05 (copy)/src/client/include/Player.h
+/home/gilad/CLionProjects/Task_05 (real)/src/client/include/Player.h
 Logic.h
-/home/gilad/CLionProjects/Task_05 (copy)/src/client/include/Logic.h
+/home/gilad/CLionProjects/Task_05 (real)/src/client/include/Logic.h
 Client.h
-/home/gilad/CLionProjects/Task_05 (copy)/src/client/include/Client.h
+/home/gilad/CLionProjects/Task_05 (real)/src/client/include/Client.h
 
-/home/gilad/CLionProjects/Task_05 (copy)/src/client/include/Logic.h
+/home/gilad/CLionProjects/Task_05 (real)/src/client/include/Logic.h
 vector
 -
 Player.h
-/home/gilad/CLionProjects/Task_05 (copy)/src/client/include/Player.h
+/home/gilad/CLionProjects/Task_05 (real)/src/client/include/Player.h
 Board.h
-/home/gilad/CLionProjects/Task_05 (copy)/src/client/include/Board.h
+/home/gilad/CLionProjects/Task_05 (real)/src/client/include/Board.h
 Position.h
-/home/gilad/CLionProjects/Task_05 (copy)/src/client/include/Position.h
+/home/gilad/CLionProjects/Task_05 (real)/src/client/include/Position.h
 
-/home/gilad/CLionProjects/Task_05 (copy)/src/client/include/Player.h
+/home/gilad/CLionProjects/Task_05 (real)/src/client/include/Player.h
 iostream
 -
 Player.h
-/home/gilad/CLionProjects/Task_05 (copy)/src/client/include/Player.h
+/home/gilad/CLionProjects/Task_05 (real)/src/client/include/Player.h
 Printer.h
-/home/gilad/CLionProjects/Task_05 (copy)/src/client/include/Printer.h
+/home/gilad/CLionProjects/Task_05 (real)/src/client/include/Printer.h
 
-/home/gilad/CLionProjects/Task_05 (copy)/src/client/include/PlayerColor.h
+/home/gilad/CLionProjects/Task_05 (real)/src/client/include/PlayerColor.h
 
-/home/gilad/CLionProjects/Task_05 (copy)/src/client/include/Position.h
+/home/gilad/CLionProjects/Task_05 (real)/src/client/include/Position.h
 iostream
 -
 
-/home/gilad/CLionProjects/Task_05 (copy)/src/client/include/Printer.h
+/home/gilad/CLionProjects/Task_05 (real)/src/client/include/Printer.h
 vector
 -
 Board.h
-/home/gilad/CLionProjects/Task_05 (copy)/src/client/include/Board.h
+/home/gilad/CLionProjects/Task_05 (real)/src/client/include/Board.h
 Position.h
-/home/gilad/CLionProjects/Task_05 (copy)/src/client/include/Position.h
+/home/gilad/CLionProjects/Task_05 (real)/src/client/include/Position.h
 
-/home/gilad/CLionProjects/Task_05 (copy)/src/client/include/RemotePlayer.h
+/home/gilad/CLionProjects/Task_05 (real)/src/client/include/RemotePlayer.h
 Player.h
-/home/gilad/CLionProjects/Task_05 (copy)/src/client/include/Player.h
+/home/gilad/CLionProjects/Task_05 (real)/src/client/include/Player.h
 Client.h
-/home/gilad/CLionProjects/Task_05 (copy)/src/client/include/Client.h
+/home/gilad/CLionProjects/Task_05 (real)/src/client/include/Client.h
 
-/home/gilad/CLionProjects/Task_05 (copy)/src/client/include/ReversiGame.h
+/home/gilad/CLionProjects/Task_05 (real)/src/client/include/ReversiGame.h
 Player.h
-/home/gilad/CLionProjects/Task_05 (copy)/src/client/include/Player.h
+/home/gilad/CLionProjects/Task_05 (real)/src/client/include/Player.h
 Logic.h
-/home/gilad/CLionProjects/Task_05 (copy)/src/client/include/Logic.h
+/home/gilad/CLionProjects/Task_05 (real)/src/client/include/Logic.h
 Printer.h
-/home/gilad/CLionProjects/Task_05 (copy)/src/client/include/Printer.h
+/home/gilad/CLionProjects/Task_05 (real)/src/client/include/Printer.h
 Client.h
-/home/gilad/CLionProjects/Task_05 (copy)/src/client/include/Client.h
+/home/gilad/CLionProjects/Task_05 (real)/src/client/include/Client.h
 
-/home/gilad/CLionProjects/Task_05 (copy)/src/client/src/AIPlayer.cpp
+/home/gilad/CLionProjects/Task_05 (real)/src/client/src/AIPlayer.cpp
 ../include/Board.h
-/home/gilad/CLionProjects/Task_05 (copy)/src/client/include/Board.h
+/home/gilad/CLionProjects/Task_05 (real)/src/client/include/Board.h
 ../include/AIPlayer.h
-/home/gilad/CLionProjects/Task_05 (copy)/src/client/include/AIPlayer.h
+/home/gilad/CLionProjects/Task_05 (real)/src/client/include/AIPlayer.h
 cstdlib
 -
 cstdio
 -
 
-/home/gilad/CLionProjects/Task_05 (copy)/src/client/src/Board.cpp
+/home/gilad/CLionProjects/Task_05 (real)/src/client/src/Board.cpp
 ../include/Board.h
-/home/gilad/CLionProjects/Task_05 (copy)/src/client/include/Board.h
+/home/gilad/CLionProjects/Task_05 (real)/src/client/include/Board.h
 
-/home/gilad/CLionProjects/Task_05 (copy)/src/client/src/ClassicLogic.cpp
+/home/gilad/CLionProjects/Task_05 (real)/src/client/src/ClassicLogic.cpp
 iostream
 -
 vector
 -
 ../include/ClassicLogic.h
-/home/gilad/CLionProjects/Task_05 (copy)/src/client/include/ClassicLogic.h
+/home/gilad/CLionProjects/Task_05 (real)/src/client/include/ClassicLogic.h
 
-/home/gilad/CLionProjects/Task_05 (copy)/src/client/src/Client.cpp
+/home/gilad/CLionProjects/Task_05 (real)/src/client/src/Client.cpp
 ../include/Client.h
-/home/gilad/CLionProjects/Task_05 (copy)/src/client/include/Client.h
+/home/gilad/CLionProjects/Task_05 (real)/src/client/include/Client.h
 sys/socket.h
 -
 netinet/in.h
@@ -158,7 +158,7 @@ unistd.h
 cstdlib
 -
 
-/home/gilad/CLionProjects/Task_05 (copy)/src/client/src/ClientConfigParser.cpp
+/home/gilad/CLionProjects/Task_05 (real)/src/client/src/ClientConfigParser.cpp
 iostream
 -
 fstream
@@ -168,23 +168,23 @@ cstdlib
 string.h
 -
 ../include/ClientConfigParser.h
-/home/gilad/CLionProjects/Task_05 (copy)/src/client/include/ClientConfigParser.h
+/home/gilad/CLionProjects/Task_05 (real)/src/client/include/ClientConfigParser.h
 
-/home/gilad/CLionProjects/Task_05 (copy)/src/client/src/ConsolePrinter.cpp
+/home/gilad/CLionProjects/Task_05 (real)/src/client/src/ConsolePrinter.cpp
 iostream
 -
 iomanip
 -
 ../include/ConsolePrinter.h
-/home/gilad/CLionProjects/Task_05 (copy)/src/client/include/ConsolePrinter.h
+/home/gilad/CLionProjects/Task_05 (real)/src/client/include/ConsolePrinter.h
 
-/home/gilad/CLionProjects/Task_05 (copy)/src/client/src/Convert.cpp
+/home/gilad/CLionProjects/Task_05 (real)/src/client/src/Convert.cpp
 sstream
 -
 ../include/Convert.h
-/home/gilad/CLionProjects/Task_05 (copy)/src/client/include/Convert.h
+/home/gilad/CLionProjects/Task_05 (real)/src/client/include/Convert.h
 
-/home/gilad/CLionProjects/Task_05 (copy)/src/client/src/HumanPlayer.cpp
+/home/gilad/CLionProjects/Task_05 (real)/src/client/src/HumanPlayer.cpp
 limits
 -
 algorithm
@@ -204,57 +204,57 @@ termio.h
 sstream
 -
 ../include/HumanPlayer.h
-/home/gilad/CLionProjects/Task_05 (copy)/src/client/include/HumanPlayer.h
+/home/gilad/CLionProjects/Task_05 (real)/src/client/include/HumanPlayer.h
 
-/home/gilad/CLionProjects/Task_05 (copy)/src/client/src/LocalPlayer.cpp
+/home/gilad/CLionProjects/Task_05 (real)/src/client/src/LocalPlayer.cpp
 ../include/LocalPlayer.h
-/home/gilad/CLionProjects/Task_05 (copy)/src/client/include/LocalPlayer.h
+/home/gilad/CLionProjects/Task_05 (real)/src/client/include/LocalPlayer.h
 
-/home/gilad/CLionProjects/Task_05 (copy)/src/client/src/Logic.cpp
+/home/gilad/CLionProjects/Task_05 (real)/src/client/src/Logic.cpp
 ../include/Logic.h
-/home/gilad/CLionProjects/Task_05 (copy)/src/client/include/Logic.h
+/home/gilad/CLionProjects/Task_05 (real)/src/client/include/Logic.h
 
-/home/gilad/CLionProjects/Task_05 (copy)/src/client/src/Position.cpp
+/home/gilad/CLionProjects/Task_05 (real)/src/client/src/Position.cpp
 ../include/Position.h
-/home/gilad/CLionProjects/Task_05 (copy)/src/client/include/Position.h
+/home/gilad/CLionProjects/Task_05 (real)/src/client/include/Position.h
 
-/home/gilad/CLionProjects/Task_05 (copy)/src/client/src/RemotePlayer.cpp
+/home/gilad/CLionProjects/Task_05 (real)/src/client/src/RemotePlayer.cpp
 vector
 -
 ../include/Position.h
-/home/gilad/CLionProjects/Task_05 (copy)/src/client/include/Position.h
+/home/gilad/CLionProjects/Task_05 (real)/src/client/include/Position.h
 ../include/Printer.h
-/home/gilad/CLionProjects/Task_05 (copy)/src/client/include/Printer.h
+/home/gilad/CLionProjects/Task_05 (real)/src/client/include/Printer.h
 ../include/RemotePlayer.h
-/home/gilad/CLionProjects/Task_05 (copy)/src/client/include/RemotePlayer.h
+/home/gilad/CLionProjects/Task_05 (real)/src/client/include/RemotePlayer.h
 ../../server/include/Convert.h
-/home/gilad/CLionProjects/Task_05 (copy)/src/server/include/Convert.h
+/home/gilad/CLionProjects/Task_05 (real)/src/server/include/Convert.h
 
-/home/gilad/CLionProjects/Task_05 (copy)/src/client/src/ReversiGame.cpp
+/home/gilad/CLionProjects/Task_05 (real)/src/client/src/ReversiGame.cpp
 cstdio
 -
 ../include/ReversiGame.h
-/home/gilad/CLionProjects/Task_05 (copy)/src/client/include/ReversiGame.h
+/home/gilad/CLionProjects/Task_05 (real)/src/client/include/ReversiGame.h
 
-/home/gilad/CLionProjects/Task_05 (copy)/src/client/src/main.cpp
+/home/gilad/CLionProjects/Task_05 (real)/src/client/src/main.cpp
 iostream
 -
 ../include/ClassicLogic.h
-/home/gilad/CLionProjects/Task_05 (copy)/src/client/include/ClassicLogic.h
+/home/gilad/CLionProjects/Task_05 (real)/src/client/include/ClassicLogic.h
 ../include/ClientConfigParser.h
-/home/gilad/CLionProjects/Task_05 (copy)/src/client/include/ClientConfigParser.h
+/home/gilad/CLionProjects/Task_05 (real)/src/client/include/ClientConfigParser.h
 ../include/LocalPlayer.h
-/home/gilad/CLionProjects/Task_05 (copy)/src/client/include/LocalPlayer.h
+/home/gilad/CLionProjects/Task_05 (real)/src/client/include/LocalPlayer.h
 ../include/AIPlayer.h
-/home/gilad/CLionProjects/Task_05 (copy)/src/client/include/AIPlayer.h
+/home/gilad/CLionProjects/Task_05 (real)/src/client/include/AIPlayer.h
 ../include/HumanPlayer.h
-/home/gilad/CLionProjects/Task_05 (copy)/src/client/include/HumanPlayer.h
+/home/gilad/CLionProjects/Task_05 (real)/src/client/include/HumanPlayer.h
 ../include/ReversiGame.h
-/home/gilad/CLionProjects/Task_05 (copy)/src/client/include/ReversiGame.h
+/home/gilad/CLionProjects/Task_05 (real)/src/client/include/ReversiGame.h
 ../include/ConsolePrinter.h
-/home/gilad/CLionProjects/Task_05 (copy)/src/client/include/ConsolePrinter.h
+/home/gilad/CLionProjects/Task_05 (real)/src/client/include/ConsolePrinter.h
 ../include/RemotePlayer.h
-/home/gilad/CLionProjects/Task_05 (copy)/src/client/include/RemotePlayer.h
+/home/gilad/CLionProjects/Task_05 (real)/src/client/include/RemotePlayer.h
 limits
 -
 algorithm
@@ -262,7 +262,7 @@ algorithm
 signal.h
 -
 
-/home/gilad/CLionProjects/Task_05 (copy)/src/server/include/Convert.h
+/home/gilad/CLionProjects/Task_05 (real)/src/server/include/Convert.h
 iostream
 -
 

@@ -4,19 +4,19 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/gilad/CLionProjects/Task_05 (copy)/src/server/src/ClientHandler.cpp" "/home/gilad/CLionProjects/Task_05 (copy)/cmake-build-debug/CMakeFiles/Server.dir/src/server/src/ClientHandler.cpp.o"
-  "/home/gilad/CLionProjects/Task_05 (copy)/src/server/src/CommandJoin.cpp" "/home/gilad/CLionProjects/Task_05 (copy)/cmake-build-debug/CMakeFiles/Server.dir/src/server/src/CommandJoin.cpp.o"
-  "/home/gilad/CLionProjects/Task_05 (copy)/src/server/src/CommandListGames.cpp" "/home/gilad/CLionProjects/Task_05 (copy)/cmake-build-debug/CMakeFiles/Server.dir/src/server/src/CommandListGames.cpp.o"
-  "/home/gilad/CLionProjects/Task_05 (copy)/src/server/src/CommandManager.cpp" "/home/gilad/CLionProjects/Task_05 (copy)/cmake-build-debug/CMakeFiles/Server.dir/src/server/src/CommandManager.cpp.o"
-  "/home/gilad/CLionProjects/Task_05 (copy)/src/server/src/CommandStart.cpp" "/home/gilad/CLionProjects/Task_05 (copy)/cmake-build-debug/CMakeFiles/Server.dir/src/server/src/CommandStart.cpp.o"
-  "/home/gilad/CLionProjects/Task_05 (copy)/src/server/src/Communication.cpp" "/home/gilad/CLionProjects/Task_05 (copy)/cmake-build-debug/CMakeFiles/Server.dir/src/server/src/Communication.cpp.o"
-  "/home/gilad/CLionProjects/Task_05 (copy)/src/server/src/ConsoleServerPrinter.cpp" "/home/gilad/CLionProjects/Task_05 (copy)/cmake-build-debug/CMakeFiles/Server.dir/src/server/src/ConsoleServerPrinter.cpp.o"
-  "/home/gilad/CLionProjects/Task_05 (copy)/src/server/src/Convert.cpp" "/home/gilad/CLionProjects/Task_05 (copy)/cmake-build-debug/CMakeFiles/Server.dir/src/server/src/Convert.cpp.o"
-  "/home/gilad/CLionProjects/Task_05 (copy)/src/server/src/Game.cpp" "/home/gilad/CLionProjects/Task_05 (copy)/cmake-build-debug/CMakeFiles/Server.dir/src/server/src/Game.cpp.o"
-  "/home/gilad/CLionProjects/Task_05 (copy)/src/server/src/GameManager.cpp" "/home/gilad/CLionProjects/Task_05 (copy)/cmake-build-debug/CMakeFiles/Server.dir/src/server/src/GameManager.cpp.o"
-  "/home/gilad/CLionProjects/Task_05 (copy)/src/server/src/Server.cpp" "/home/gilad/CLionProjects/Task_05 (copy)/cmake-build-debug/CMakeFiles/Server.dir/src/server/src/Server.cpp.o"
-  "/home/gilad/CLionProjects/Task_05 (copy)/src/server/src/ServerConfigParser.cpp" "/home/gilad/CLionProjects/Task_05 (copy)/cmake-build-debug/CMakeFiles/Server.dir/src/server/src/ServerConfigParser.cpp.o"
-  "/home/gilad/CLionProjects/Task_05 (copy)/src/server/src/main.cpp" "/home/gilad/CLionProjects/Task_05 (copy)/cmake-build-debug/CMakeFiles/Server.dir/src/server/src/main.cpp.o"
+  "/home/gilad/CLionProjects/Task_05 (real)/src/server/src/ClientHandler.cpp" "/home/gilad/CLionProjects/Task_05 (real)/cmake-build-debug/CMakeFiles/Server.dir/src/server/src/ClientHandler.cpp.o"
+  "/home/gilad/CLionProjects/Task_05 (real)/src/server/src/CommandJoin.cpp" "/home/gilad/CLionProjects/Task_05 (real)/cmake-build-debug/CMakeFiles/Server.dir/src/server/src/CommandJoin.cpp.o"
+  "/home/gilad/CLionProjects/Task_05 (real)/src/server/src/CommandListGames.cpp" "/home/gilad/CLionProjects/Task_05 (real)/cmake-build-debug/CMakeFiles/Server.dir/src/server/src/CommandListGames.cpp.o"
+  "/home/gilad/CLionProjects/Task_05 (real)/src/server/src/CommandManager.cpp" "/home/gilad/CLionProjects/Task_05 (real)/cmake-build-debug/CMakeFiles/Server.dir/src/server/src/CommandManager.cpp.o"
+  "/home/gilad/CLionProjects/Task_05 (real)/src/server/src/CommandStart.cpp" "/home/gilad/CLionProjects/Task_05 (real)/cmake-build-debug/CMakeFiles/Server.dir/src/server/src/CommandStart.cpp.o"
+  "/home/gilad/CLionProjects/Task_05 (real)/src/server/src/Communication.cpp" "/home/gilad/CLionProjects/Task_05 (real)/cmake-build-debug/CMakeFiles/Server.dir/src/server/src/Communication.cpp.o"
+  "/home/gilad/CLionProjects/Task_05 (real)/src/server/src/ConsoleServerPrinter.cpp" "/home/gilad/CLionProjects/Task_05 (real)/cmake-build-debug/CMakeFiles/Server.dir/src/server/src/ConsoleServerPrinter.cpp.o"
+  "/home/gilad/CLionProjects/Task_05 (real)/src/server/src/Convert.cpp" "/home/gilad/CLionProjects/Task_05 (real)/cmake-build-debug/CMakeFiles/Server.dir/src/server/src/Convert.cpp.o"
+  "/home/gilad/CLionProjects/Task_05 (real)/src/server/src/Game.cpp" "/home/gilad/CLionProjects/Task_05 (real)/cmake-build-debug/CMakeFiles/Server.dir/src/server/src/Game.cpp.o"
+  "/home/gilad/CLionProjects/Task_05 (real)/src/server/src/GameManager.cpp" "/home/gilad/CLionProjects/Task_05 (real)/cmake-build-debug/CMakeFiles/Server.dir/src/server/src/GameManager.cpp.o"
+  "/home/gilad/CLionProjects/Task_05 (real)/src/server/src/Server.cpp" "/home/gilad/CLionProjects/Task_05 (real)/cmake-build-debug/CMakeFiles/Server.dir/src/server/src/Server.cpp.o"
+  "/home/gilad/CLionProjects/Task_05 (real)/src/server/src/ServerConfigParser.cpp" "/home/gilad/CLionProjects/Task_05 (real)/cmake-build-debug/CMakeFiles/Server.dir/src/server/src/ServerConfigParser.cpp.o"
+  "/home/gilad/CLionProjects/Task_05 (real)/src/server/src/main.cpp" "/home/gilad/CLionProjects/Task_05 (real)/cmake-build-debug/CMakeFiles/Server.dir/src/server/src/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

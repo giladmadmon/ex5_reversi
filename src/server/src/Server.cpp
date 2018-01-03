@@ -9,6 +9,7 @@
 #include <memory.h>
 #include <unistd.h>
 #include "../include/Server.h"
+#include "../include/GameManager.h"
 
 typedef struct {
   ClientHandler *client_handler;
@@ -41,7 +42,9 @@ void Server::Start() {
 
 void Server::Stop() {
   is_closed_ = 1;
-  client_handler_.CloseAll();
+  GameManager *game_manager = GameManager::Instance();
+  game_manager->FinishAllGames();
+  game_manager->CloseWaitingGames();
   close(server_socket_);
 }
 int Server::WaitForConnection() {

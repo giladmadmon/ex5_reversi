@@ -37,8 +37,6 @@ void ClientHandler::Handle() {
 }
 void ClientHandler::CloseAll() {
   GameManager *game_manager = GameManager::Instance();
-  game_manager->FinishAllGames();
-  game_manager->CloseWaitingGames();
 }
 ClientHandler::~ClientHandler() {
   delete command_manager_;

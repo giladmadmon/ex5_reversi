@@ -66,6 +66,8 @@ CMakeFiles/Server.dir/src/server/src/GameManager.cpp.o: ../src/server/src/GameMa
 CMakeFiles/Server.dir/src/server/src/Server.cpp.o: ../src/server/include/ClientHandler.h
 CMakeFiles/Server.dir/src/server/src/Server.cpp.o: ../src/server/include/Command.h
 CMakeFiles/Server.dir/src/server/src/Server.cpp.o: ../src/server/include/CommandManager.h
+CMakeFiles/Server.dir/src/server/src/Server.cpp.o: ../src/server/include/Game.h
+CMakeFiles/Server.dir/src/server/src/Server.cpp.o: ../src/server/include/GameManager.h
 CMakeFiles/Server.dir/src/server/src/Server.cpp.o: ../src/server/include/Server.h
 CMakeFiles/Server.dir/src/server/src/Server.cpp.o: ../src/server/include/ServerPrinter.h
 CMakeFiles/Server.dir/src/server/src/Server.cpp.o: ../src/server/src/Server.cpp

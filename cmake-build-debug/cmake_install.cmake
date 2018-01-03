@@ -1,4 +1,4 @@
-# Install script for directory: /home/gilad/CLionProjects/Task_05 (copy)
+# Install script for directory: /home/gilad/CLionProjects/Task_05 (real)
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/gilad/CLionProjects/Task_05 (copy)/cmake-build-debug/src/client/gtest_src/googletest-release-1.8.0/cmake_install.cmake")
+  include("/home/gilad/CLionProjects/Task_05 (real)/cmake-build-debug/src/client/gtest_src/googletest-release-1.8.0/cmake_install.cmake")
 
 endif()
 
@@ -46,5 +46,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/gilad/CLionProjects/Task_05 (copy)/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/gilad/CLionProjects/Task_05 (real)/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

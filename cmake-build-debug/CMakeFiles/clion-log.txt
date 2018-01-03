@@ -1,4 +1,4 @@
-/opt/clion-2017.2.3/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" "/home/gilad/CLionProjects/Task_05 (copy)"
+/opt/clion-2017.2.3/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" "/home/gilad/CLionProjects/Task_05 (real)"
 -- The C compiler identification is GNU 5.4.0
 -- The CXX compiler identification is GNU 5.4.0
 -- Check for working C compiler: /usr/bin/cc
@@ -25,4 +25,4 @@
 -- Found Threads: TRUE  
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/gilad/CLionProjects/Task_05 (copy)/cmake-build-debug
+-- Build files have been written to: /home/gilad/CLionProjects/Task_05 (real)/cmake-build-debug

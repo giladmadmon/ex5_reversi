@@ -6,5 +6,5 @@ CXX_FLAGS =  -pthread -g    -pthread -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexce
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I"/home/gilad/CLionProjects/Task_05 (copy)/src/client/gtest_src/googletest-release-1.8.0/googletest/include" -I"/home/gilad/CLionProjects/Task_05 (copy)/src/client/gtest_src/googletest-release-1.8.0/googletest" 
+CXX_INCLUDES = -I"/home/gilad/CLionProjects/Task_05 (real)/src/client/gtest_src/googletest-release-1.8.0/googletest/include" -I"/home/gilad/CLionProjects/Task_05 (real)/src/client/gtest_src/googletest-release-1.8.0/googletest" 
 

@@ -43,10 +43,10 @@ RM = /opt/clion-2017.2.3/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/gilad/CLionProjects/Task_05 (copy)"
+CMAKE_SOURCE_DIR = "/home/gilad/CLionProjects/Task_05 (real)"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/gilad/CLionProjects/Task_05 (copy)/cmake-build-debug"
+CMAKE_BINARY_DIR = "/home/gilad/CLionProjects/Task_05 (real)/cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include src/client/gtest_src/googletest-release-1.8.0/googlemock/CMakeFiles/gmock.dir/depend.make
@@ -59,16 +59,16 @@ include src/client/gtest_src/googletest-release-1.8.0/googlemock/CMakeFiles/gmoc
 
 src/client/gtest_src/googletest-release-1.8.0/googlemock/CMakeFiles/gmock.dir/__/googletest/src/gtest-all.cc.o: src/client/gtest_src/googletest-release-1.8.0/googlemock/CMakeFiles/gmock.dir/flags.make
 src/client/gtest_src/googletest-release-1.8.0/googlemock/CMakeFiles/gmock.dir/__/googletest/src/gtest-all.cc.o: ../src/client/gtest_src/googletest-release-1.8.0/googletest/src/gtest-all.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/gilad/CLionProjects/Task_05 (copy)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/client/gtest_src/googletest-release-1.8.0/googlemock/CMakeFiles/gmock.dir/__/googletest/src/gtest-all.cc.o"
-	cd "/home/gilad/CLionProjects/Task_05 (copy)/cmake-build-debug/src/client/gtest_src/googletest-release-1.8.0/googlemock" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gmock.dir/__/googletest/src/gtest-all.cc.o -c "/home/gilad/CLionProjects/Task_05 (copy)/src/client/gtest_src/googletest-release-1.8.0/googletest/src/gtest-all.cc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/gilad/CLionProjects/Task_05 (real)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/client/gtest_src/googletest-release-1.8.0/googlemock/CMakeFiles/gmock.dir/__/googletest/src/gtest-all.cc.o"
+	cd "/home/gilad/CLionProjects/Task_05 (real)/cmake-build-debug/src/client/gtest_src/googletest-release-1.8.0/googlemock" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gmock.dir/__/googletest/src/gtest-all.cc.o -c "/home/gilad/CLionProjects/Task_05 (real)/src/client/gtest_src/googletest-release-1.8.0/googletest/src/gtest-all.cc"
 
 src/client/gtest_src/googletest-release-1.8.0/googlemock/CMakeFiles/gmock.dir/__/googletest/src/gtest-all.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gmock.dir/__/googletest/src/gtest-all.cc.i"
-	cd "/home/gilad/CLionProjects/Task_05 (copy)/cmake-build-debug/src/client/gtest_src/googletest-release-1.8.0/googlemock" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/gilad/CLionProjects/Task_05 (copy)/src/client/gtest_src/googletest-release-1.8.0/googletest/src/gtest-all.cc" > CMakeFiles/gmock.dir/__/googletest/src/gtest-all.cc.i
+	cd "/home/gilad/CLionProjects/Task_05 (real)/cmake-build-debug/src/client/gtest_src/googletest-release-1.8.0/googlemock" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/gilad/CLionProjects/Task_05 (real)/src/client/gtest_src/googletest-release-1.8.0/googletest/src/gtest-all.cc" > CMakeFiles/gmock.dir/__/googletest/src/gtest-all.cc.i
 
 src/client/gtest_src/googletest-release-1.8.0/googlemock/CMakeFiles/gmock.dir/__/googletest/src/gtest-all.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gmock.dir/__/googletest/src/gtest-all.cc.s"
-	cd "/home/gilad/CLionProjects/Task_05 (copy)/cmake-build-debug/src/client/gtest_src/googletest-release-1.8.0/googlemock" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/gilad/CLionProjects/Task_05 (copy)/src/client/gtest_src/googletest-release-1.8.0/googletest/src/gtest-all.cc" -o CMakeFiles/gmock.dir/__/googletest/src/gtest-all.cc.s
+	cd "/home/gilad/CLionProjects/Task_05 (real)/cmake-build-debug/src/client/gtest_src/googletest-release-1.8.0/googlemock" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/gilad/CLionProjects/Task_05 (real)/src/client/gtest_src/googletest-release-1.8.0/googletest/src/gtest-all.cc" -o CMakeFiles/gmock.dir/__/googletest/src/gtest-all.cc.s
 
 src/client/gtest_src/googletest-release-1.8.0/googlemock/CMakeFiles/gmock.dir/__/googletest/src/gtest-all.cc.o.requires:
 
@@ -83,16 +83,16 @@ src/client/gtest_src/googletest-release-1.8.0/googlemock/CMakeFiles/gmock.dir/__
 
 src/client/gtest_src/googletest-release-1.8.0/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o: src/client/gtest_src/googletest-release-1.8.0/googlemock/CMakeFiles/gmock.dir/flags.make
 src/client/gtest_src/googletest-release-1.8.0/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o: ../src/client/gtest_src/googletest-release-1.8.0/googlemock/src/gmock-all.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/gilad/CLionProjects/Task_05 (copy)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/client/gtest_src/googletest-release-1.8.0/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o"
-	cd "/home/gilad/CLionProjects/Task_05 (copy)/cmake-build-debug/src/client/gtest_src/googletest-release-1.8.0/googlemock" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gmock.dir/src/gmock-all.cc.o -c "/home/gilad/CLionProjects/Task_05 (copy)/src/client/gtest_src/googletest-release-1.8.0/googlemock/src/gmock-all.cc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/gilad/CLionProjects/Task_05 (real)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/client/gtest_src/googletest-release-1.8.0/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o"
+	cd "/home/gilad/CLionProjects/Task_05 (real)/cmake-build-debug/src/client/gtest_src/googletest-release-1.8.0/googlemock" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gmock.dir/src/gmock-all.cc.o -c "/home/gilad/CLionProjects/Task_05 (real)/src/client/gtest_src/googletest-release-1.8.0/googlemock/src/gmock-all.cc"
 
 src/client/gtest_src/googletest-release-1.8.0/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gmock.dir/src/gmock-all.cc.i"
-	cd "/home/gilad/CLionProjects/Task_05 (copy)/cmake-build-debug/src/client/gtest_src/googletest-release-1.8.0/googlemock" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/gilad/CLionProjects/Task_05 (copy)/src/client/gtest_src/googletest-release-1.8.0/googlemock/src/gmock-all.cc" > CMakeFiles/gmock.dir/src/gmock-all.cc.i
+	cd "/home/gilad/CLionProjects/Task_05 (real)/cmake-build-debug/src/client/gtest_src/googletest-release-1.8.0/googlemock" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/gilad/CLionProjects/Task_05 (real)/src/client/gtest_src/googletest-release-1.8.0/googlemock/src/gmock-all.cc" > CMakeFiles/gmock.dir/src/gmock-all.cc.i
 
 src/client/gtest_src/googletest-release-1.8.0/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gmock.dir/src/gmock-all.cc.s"
-	cd "/home/gilad/CLionProjects/Task_05 (copy)/cmake-build-debug/src/client/gtest_src/googletest-release-1.8.0/googlemock" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/gilad/CLionProjects/Task_05 (copy)/src/client/gtest_src/googletest-release-1.8.0/googlemock/src/gmock-all.cc" -o CMakeFiles/gmock.dir/src/gmock-all.cc.s
+	cd "/home/gilad/CLionProjects/Task_05 (real)/cmake-build-debug/src/client/gtest_src/googletest-release-1.8.0/googlemock" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/gilad/CLionProjects/Task_05 (real)/src/client/gtest_src/googletest-release-1.8.0/googlemock/src/gmock-all.cc" -o CMakeFiles/gmock.dir/src/gmock-all.cc.s
 
 src/client/gtest_src/googletest-release-1.8.0/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o.requires:
 
@@ -117,9 +117,9 @@ src/client/gtest_src/googletest-release-1.8.0/googlemock/libgmock.a: src/client/
 src/client/gtest_src/googletest-release-1.8.0/googlemock/libgmock.a: src/client/gtest_src/googletest-release-1.8.0/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o
 src/client/gtest_src/googletest-release-1.8.0/googlemock/libgmock.a: src/client/gtest_src/googletest-release-1.8.0/googlemock/CMakeFiles/gmock.dir/build.make
 src/client/gtest_src/googletest-release-1.8.0/googlemock/libgmock.a: src/client/gtest_src/googletest-release-1.8.0/googlemock/CMakeFiles/gmock.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/gilad/CLionProjects/Task_05 (copy)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libgmock.a"
-	cd "/home/gilad/CLionProjects/Task_05 (copy)/cmake-build-debug/src/client/gtest_src/googletest-release-1.8.0/googlemock" && $(CMAKE_COMMAND) -P CMakeFiles/gmock.dir/cmake_clean_target.cmake
-	cd "/home/gilad/CLionProjects/Task_05 (copy)/cmake-build-debug/src/client/gtest_src/googletest-release-1.8.0/googlemock" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gmock.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/gilad/CLionProjects/Task_05 (real)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libgmock.a"
+	cd "/home/gilad/CLionProjects/Task_05 (real)/cmake-build-debug/src/client/gtest_src/googletest-release-1.8.0/googlemock" && $(CMAKE_COMMAND) -P CMakeFiles/gmock.dir/cmake_clean_target.cmake
+	cd "/home/gilad/CLionProjects/Task_05 (real)/cmake-build-debug/src/client/gtest_src/googletest-release-1.8.0/googlemock" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gmock.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/client/gtest_src/googletest-release-1.8.0/googlemock/CMakeFiles/gmock.dir/build: src/client/gtest_src/googletest-release-1.8.0/googlemock/libgmock.a
@@ -132,10 +132,10 @@ src/client/gtest_src/googletest-release-1.8.0/googlemock/CMakeFiles/gmock.dir/re
 .PHONY : src/client/gtest_src/googletest-release-1.8.0/googlemock/CMakeFiles/gmock.dir/requires
 
 src/client/gtest_src/googletest-release-1.8.0/googlemock/CMakeFiles/gmock.dir/clean:
-	cd "/home/gilad/CLionProjects/Task_05 (copy)/cmake-build-debug/src/client/gtest_src/googletest-release-1.8.0/googlemock" && $(CMAKE_COMMAND) -P CMakeFiles/gmock.dir/cmake_clean.cmake
+	cd "/home/gilad/CLionProjects/Task_05 (real)/cmake-build-debug/src/client/gtest_src/googletest-release-1.8.0/googlemock" && $(CMAKE_COMMAND) -P CMakeFiles/gmock.dir/cmake_clean.cmake
 .PHONY : src/client/gtest_src/googletest-release-1.8.0/googlemock/CMakeFiles/gmock.dir/clean
 
 src/client/gtest_src/googletest-release-1.8.0/googlemock/CMakeFiles/gmock.dir/depend:
-	cd "/home/gilad/CLionProjects/Task_05 (copy)/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/gilad/CLionProjects/Task_05 (copy)" "/home/gilad/CLionProjects/Task_05 (copy)/src/client/gtest_src/googletest-release-1.8.0/googlemock" "/home/gilad/CLionProjects/Task_05 (copy)/cmake-build-debug" "/home/gilad/CLionProjects/Task_05 (copy)/cmake-build-debug/src/client/gtest_src/googletest-release-1.8.0/googlemock" "/home/gilad/CLionProjects/Task_05 (copy)/cmake-build-debug/src/client/gtest_src/googletest-release-1.8.0/googlemock/CMakeFiles/gmock.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/home/gilad/CLionProjects/Task_05 (real)/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/gilad/CLionProjects/Task_05 (real)" "/home/gilad/CLionProjects/Task_05 (real)/src/client/gtest_src/googletest-release-1.8.0/googlemock" "/home/gilad/CLionProjects/Task_05 (real)/cmake-build-debug" "/home/gilad/CLionProjects/Task_05 (real)/cmake-build-debug/src/client/gtest_src/googletest-release-1.8.0/googlemock" "/home/gilad/CLionProjects/Task_05 (real)/cmake-build-debug/src/client/gtest_src/googletest-release-1.8.0/googlemock/CMakeFiles/gmock.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : src/client/gtest_src/googletest-release-1.8.0/googlemock/CMakeFiles/gmock.dir/depend
 

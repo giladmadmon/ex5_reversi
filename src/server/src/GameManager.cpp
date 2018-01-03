@@ -82,6 +82,8 @@ void GameManager::FinishAllGames() {
   for (map<Game *, thread_t>::iterator it = games_list_.begin(); it != games_list_.end(); it++) {
     delete it->first;
   }
+
+  games_list_.clear();
 }
 void GameManager::GameEnded(Game *game) {
   pthread_mutex_lock(&available_games_mutex_);
@@ -92,7 +94,10 @@ void GameManager::GameEnded(Game *game) {
   pthread_mutex_unlock(&available_games_mutex_);
 }
 void GameManager::CloseWaitingGames() {
+  pthread_mutex_lock(&available_games_mutex_);
   for (map<string, Game *>::iterator it = available_game_list_.begin(); it != available_game_list_.end(); it++) {
     delete it->second;
   }
+  available_game_list_.clear();
+  pthread_mutex_unlock(&available_games_mutex_);
 }
