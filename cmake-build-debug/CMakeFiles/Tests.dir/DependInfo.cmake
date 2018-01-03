@@ -4,23 +4,23 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/gilad/CLionProjects/Task_05/src/client/src/AIPlayer.cpp" "/home/gilad/CLionProjects/Task_05/cmake-build-debug/CMakeFiles/Tests.dir/src/client/src/AIPlayer.cpp.o"
-  "/home/gilad/CLionProjects/Task_05/src/client/src/Board.cpp" "/home/gilad/CLionProjects/Task_05/cmake-build-debug/CMakeFiles/Tests.dir/src/client/src/Board.cpp.o"
-  "/home/gilad/CLionProjects/Task_05/src/client/src/ClassicLogic.cpp" "/home/gilad/CLionProjects/Task_05/cmake-build-debug/CMakeFiles/Tests.dir/src/client/src/ClassicLogic.cpp.o"
-  "/home/gilad/CLionProjects/Task_05/src/client/src/Client.cpp" "/home/gilad/CLionProjects/Task_05/cmake-build-debug/CMakeFiles/Tests.dir/src/client/src/Client.cpp.o"
-  "/home/gilad/CLionProjects/Task_05/src/client/src/ClientConfigParser.cpp" "/home/gilad/CLionProjects/Task_05/cmake-build-debug/CMakeFiles/Tests.dir/src/client/src/ClientConfigParser.cpp.o"
-  "/home/gilad/CLionProjects/Task_05/src/client/src/ConsolePrinter.cpp" "/home/gilad/CLionProjects/Task_05/cmake-build-debug/CMakeFiles/Tests.dir/src/client/src/ConsolePrinter.cpp.o"
-  "/home/gilad/CLionProjects/Task_05/src/client/src/Convert.cpp" "/home/gilad/CLionProjects/Task_05/cmake-build-debug/CMakeFiles/Tests.dir/src/client/src/Convert.cpp.o"
-  "/home/gilad/CLionProjects/Task_05/src/client/src/HumanPlayer.cpp" "/home/gilad/CLionProjects/Task_05/cmake-build-debug/CMakeFiles/Tests.dir/src/client/src/HumanPlayer.cpp.o"
-  "/home/gilad/CLionProjects/Task_05/src/client/src/LocalPlayer.cpp" "/home/gilad/CLionProjects/Task_05/cmake-build-debug/CMakeFiles/Tests.dir/src/client/src/LocalPlayer.cpp.o"
-  "/home/gilad/CLionProjects/Task_05/src/client/src/Logic.cpp" "/home/gilad/CLionProjects/Task_05/cmake-build-debug/CMakeFiles/Tests.dir/src/client/src/Logic.cpp.o"
-  "/home/gilad/CLionProjects/Task_05/src/client/src/Position.cpp" "/home/gilad/CLionProjects/Task_05/cmake-build-debug/CMakeFiles/Tests.dir/src/client/src/Position.cpp.o"
-  "/home/gilad/CLionProjects/Task_05/src/client/src/RemotePlayer.cpp" "/home/gilad/CLionProjects/Task_05/cmake-build-debug/CMakeFiles/Tests.dir/src/client/src/RemotePlayer.cpp.o"
-  "/home/gilad/CLionProjects/Task_05/src/client/src/ReversiGame.cpp" "/home/gilad/CLionProjects/Task_05/cmake-build-debug/CMakeFiles/Tests.dir/src/client/src/ReversiGame.cpp.o"
-  "/home/gilad/CLionProjects/Task_05/src/client/test/AIPlayerTest.cpp" "/home/gilad/CLionProjects/Task_05/cmake-build-debug/CMakeFiles/Tests.dir/src/client/test/AIPlayerTest.cpp.o"
-  "/home/gilad/CLionProjects/Task_05/src/client/test/BoardTest.cpp" "/home/gilad/CLionProjects/Task_05/cmake-build-debug/CMakeFiles/Tests.dir/src/client/test/BoardTest.cpp.o"
-  "/home/gilad/CLionProjects/Task_05/src/client/test/ClassicLogicTest.cpp" "/home/gilad/CLionProjects/Task_05/cmake-build-debug/CMakeFiles/Tests.dir/src/client/test/ClassicLogicTest.cpp.o"
-  "/home/gilad/CLionProjects/Task_05/src/client/test/main.cpp" "/home/gilad/CLionProjects/Task_05/cmake-build-debug/CMakeFiles/Tests.dir/src/client/test/main.cpp.o"
+  "/home/gilad/CLionProjects/Task_05 (copy)/src/client/src/AIPlayer.cpp" "/home/gilad/CLionProjects/Task_05 (copy)/cmake-build-debug/CMakeFiles/Tests.dir/src/client/src/AIPlayer.cpp.o"
+  "/home/gilad/CLionProjects/Task_05 (copy)/src/client/src/Board.cpp" "/home/gilad/CLionProjects/Task_05 (copy)/cmake-build-debug/CMakeFiles/Tests.dir/src/client/src/Board.cpp.o"
+  "/home/gilad/CLionProjects/Task_05 (copy)/src/client/src/ClassicLogic.cpp" "/home/gilad/CLionProjects/Task_05 (copy)/cmake-build-debug/CMakeFiles/Tests.dir/src/client/src/ClassicLogic.cpp.o"
+  "/home/gilad/CLionProjects/Task_05 (copy)/src/client/src/Client.cpp" "/home/gilad/CLionProjects/Task_05 (copy)/cmake-build-debug/CMakeFiles/Tests.dir/src/client/src/Client.cpp.o"
+  "/home/gilad/CLionProjects/Task_05 (copy)/src/client/src/ClientConfigParser.cpp" "/home/gilad/CLionProjects/Task_05 (copy)/cmake-build-debug/CMakeFiles/Tests.dir/src/client/src/ClientConfigParser.cpp.o"
+  "/home/gilad/CLionProjects/Task_05 (copy)/src/client/src/ConsolePrinter.cpp" "/home/gilad/CLionProjects/Task_05 (copy)/cmake-build-debug/CMakeFiles/Tests.dir/src/client/src/ConsolePrinter.cpp.o"
+  "/home/gilad/CLionProjects/Task_05 (copy)/src/client/src/Convert.cpp" "/home/gilad/CLionProjects/Task_05 (copy)/cmake-build-debug/CMakeFiles/Tests.dir/src/client/src/Convert.cpp.o"
+  "/home/gilad/CLionProjects/Task_05 (copy)/src/client/src/HumanPlayer.cpp" "/home/gilad/CLionProjects/Task_05 (copy)/cmake-build-debug/CMakeFiles/Tests.dir/src/client/src/HumanPlayer.cpp.o"
+  "/home/gilad/CLionProjects/Task_05 (copy)/src/client/src/LocalPlayer.cpp" "/home/gilad/CLionProjects/Task_05 (copy)/cmake-build-debug/CMakeFiles/Tests.dir/src/client/src/LocalPlayer.cpp.o"
+  "/home/gilad/CLionProjects/Task_05 (copy)/src/client/src/Logic.cpp" "/home/gilad/CLionProjects/Task_05 (copy)/cmake-build-debug/CMakeFiles/Tests.dir/src/client/src/Logic.cpp.o"
+  "/home/gilad/CLionProjects/Task_05 (copy)/src/client/src/Position.cpp" "/home/gilad/CLionProjects/Task_05 (copy)/cmake-build-debug/CMakeFiles/Tests.dir/src/client/src/Position.cpp.o"
+  "/home/gilad/CLionProjects/Task_05 (copy)/src/client/src/RemotePlayer.cpp" "/home/gilad/CLionProjects/Task_05 (copy)/cmake-build-debug/CMakeFiles/Tests.dir/src/client/src/RemotePlayer.cpp.o"
+  "/home/gilad/CLionProjects/Task_05 (copy)/src/client/src/ReversiGame.cpp" "/home/gilad/CLionProjects/Task_05 (copy)/cmake-build-debug/CMakeFiles/Tests.dir/src/client/src/ReversiGame.cpp.o"
+  "/home/gilad/CLionProjects/Task_05 (copy)/src/client/test/AIPlayerTest.cpp" "/home/gilad/CLionProjects/Task_05 (copy)/cmake-build-debug/CMakeFiles/Tests.dir/src/client/test/AIPlayerTest.cpp.o"
+  "/home/gilad/CLionProjects/Task_05 (copy)/src/client/test/BoardTest.cpp" "/home/gilad/CLionProjects/Task_05 (copy)/cmake-build-debug/CMakeFiles/Tests.dir/src/client/test/BoardTest.cpp.o"
+  "/home/gilad/CLionProjects/Task_05 (copy)/src/client/test/ClassicLogicTest.cpp" "/home/gilad/CLionProjects/Task_05 (copy)/cmake-build-debug/CMakeFiles/Tests.dir/src/client/test/ClassicLogicTest.cpp.o"
+  "/home/gilad/CLionProjects/Task_05 (copy)/src/client/test/main.cpp" "/home/gilad/CLionProjects/Task_05 (copy)/cmake-build-debug/CMakeFiles/Tests.dir/src/client/test/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -37,9 +37,9 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/gilad/CLionProjects/Task_05/cmake-build-debug/src/client/gtest_src/googletest-release-1.8.0/googlemock/gtest/CMakeFiles/gtest.dir/DependInfo.cmake"
-  "/home/gilad/CLionProjects/Task_05/cmake-build-debug/src/client/gtest_src/googletest-release-1.8.0/googlemock/gtest/CMakeFiles/gtest_main.dir/DependInfo.cmake"
-  "/home/gilad/CLionProjects/Task_05/cmake-build-debug/src/client/gtest_src/googletest-release-1.8.0/googlemock/CMakeFiles/gmock.dir/DependInfo.cmake"
+  "/home/gilad/CLionProjects/Task_05 (copy)/cmake-build-debug/src/client/gtest_src/googletest-release-1.8.0/googlemock/gtest/CMakeFiles/gtest.dir/DependInfo.cmake"
+  "/home/gilad/CLionProjects/Task_05 (copy)/cmake-build-debug/src/client/gtest_src/googletest-release-1.8.0/googlemock/gtest/CMakeFiles/gtest_main.dir/DependInfo.cmake"
+  "/home/gilad/CLionProjects/Task_05 (copy)/cmake-build-debug/src/client/gtest_src/googletest-release-1.8.0/googlemock/CMakeFiles/gmock.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

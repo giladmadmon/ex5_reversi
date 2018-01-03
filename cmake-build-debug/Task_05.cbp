@@ -8,65 +8,65 @@
 		<Option virtualFolders="CMake Files\;CMake Files\src\;CMake Files\src\client\;CMake Files\src\client\gtest_src\;CMake Files\src\client\gtest_src\googletest-release-1.8.0\;CMake Files\src\client\gtest_src\googletest-release-1.8.0\googlemock\;CMake Files\src\client\gtest_src\googletest-release-1.8.0\googletest\;CMake Files\src\client\gtest_src\googletest-release-1.8.0\googletest\cmake\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/gilad/CLionProjects/Task_05/cmake-build-debug"/>
+				<Option working_dir="/home/gilad/CLionProjects/Task_05 (copy)/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05\ (copy)/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05\ (copy)/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05\ (copy)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05\ (copy)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="install/strip">
-				<Option working_dir="/home/gilad/CLionProjects/Task_05/cmake-build-debug"/>
+				<Option working_dir="/home/gilad/CLionProjects/Task_05 (copy)/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05\ (copy)/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05\ (copy)/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05\ (copy)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05\ (copy)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="install/local">
-				<Option working_dir="/home/gilad/CLionProjects/Task_05/cmake-build-debug"/>
+				<Option working_dir="/home/gilad/CLionProjects/Task_05 (copy)/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05\ (copy)/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05\ (copy)/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05\ (copy)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05\ (copy)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/gilad/CLionProjects/Task_05/cmake-build-debug"/>
+				<Option working_dir="/home/gilad/CLionProjects/Task_05 (copy)/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05\ (copy)/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05\ (copy)/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05\ (copy)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05\ (copy)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/gilad/CLionProjects/Task_05/cmake-build-debug"/>
+				<Option working_dir="/home/gilad/CLionProjects/Task_05 (copy)/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05\ (copy)/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05\ (copy)/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05\ (copy)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05\ (copy)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Server">
-				<Option output="/home/gilad/CLionProjects/Task_05/cmake-build-debug/Server" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/gilad/CLionProjects/Task_05/cmake-build-debug"/>
+				<Option output="/home/gilad/CLionProjects/Task_05 (copy)/cmake-build-debug/Server" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/gilad/CLionProjects/Task_05 (copy)/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DCLION_RUN"/>
-					<Add directory="/home/gilad/CLionProjects/Task_05/src/client/gtest_src/googletest-release-1.8.0/googletest/include"/>
-					<Add directory="/home/gilad/CLionProjects/Task_05/src/client/gtest_src/googletest-release-1.8.0/googlemock/include"/>
+					<Add directory="/home/gilad/CLionProjects/Task_05 (copy)/src/client/gtest_src/googletest-release-1.8.0/googletest/include"/>
+					<Add directory="/home/gilad/CLionProjects/Task_05 (copy)/src/client/gtest_src/googletest-release-1.8.0/googlemock/include"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
 					<Add directory="/usr/include/c++/5/backward"/>
@@ -77,22 +77,22 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05/cmake-build-debug/Makefile&quot;  VERBOSE=1 Server"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05\ (copy)/cmake-build-debug/Makefile&quot;  VERBOSE=1 Server"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05\ (copy)/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05\ (copy)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05\ (copy)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Server/fast">
-				<Option output="/home/gilad/CLionProjects/Task_05/cmake-build-debug/Server" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/gilad/CLionProjects/Task_05/cmake-build-debug"/>
+				<Option output="/home/gilad/CLionProjects/Task_05 (copy)/cmake-build-debug/Server" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/gilad/CLionProjects/Task_05 (copy)/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DCLION_RUN"/>
-					<Add directory="/home/gilad/CLionProjects/Task_05/src/client/gtest_src/googletest-release-1.8.0/googletest/include"/>
-					<Add directory="/home/gilad/CLionProjects/Task_05/src/client/gtest_src/googletest-release-1.8.0/googlemock/include"/>
+					<Add directory="/home/gilad/CLionProjects/Task_05 (copy)/src/client/gtest_src/googletest-release-1.8.0/googletest/include"/>
+					<Add directory="/home/gilad/CLionProjects/Task_05 (copy)/src/client/gtest_src/googletest-release-1.8.0/googlemock/include"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
 					<Add directory="/usr/include/c++/5/backward"/>
@@ -103,42 +103,42 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05/cmake-build-debug/Makefile&quot;  VERBOSE=1 Server/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05\ (copy)/cmake-build-debug/Makefile&quot;  VERBOSE=1 Server/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05\ (copy)/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05\ (copy)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05\ (copy)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="install">
-				<Option working_dir="/home/gilad/CLionProjects/Task_05/cmake-build-debug"/>
+				<Option working_dir="/home/gilad/CLionProjects/Task_05 (copy)/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05\ (copy)/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05\ (copy)/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05\ (copy)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05\ (copy)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="list_install_components">
-				<Option working_dir="/home/gilad/CLionProjects/Task_05/cmake-build-debug"/>
+				<Option working_dir="/home/gilad/CLionProjects/Task_05 (copy)/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05\ (copy)/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05\ (copy)/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05\ (copy)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05\ (copy)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Tests">
-				<Option output="/home/gilad/CLionProjects/Task_05/cmake-build-debug/Tests" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/gilad/CLionProjects/Task_05/cmake-build-debug"/>
+				<Option output="/home/gilad/CLionProjects/Task_05 (copy)/cmake-build-debug/Tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/gilad/CLionProjects/Task_05 (copy)/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DCLION_RUN"/>
-					<Add directory="/home/gilad/CLionProjects/Task_05/src/client/gtest_src/googletest-release-1.8.0/googletest/include"/>
-					<Add directory="/home/gilad/CLionProjects/Task_05/src/client/gtest_src/googletest-release-1.8.0/googlemock/include"/>
+					<Add directory="/home/gilad/CLionProjects/Task_05 (copy)/src/client/gtest_src/googletest-release-1.8.0/googletest/include"/>
+					<Add directory="/home/gilad/CLionProjects/Task_05 (copy)/src/client/gtest_src/googletest-release-1.8.0/googlemock/include"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
 					<Add directory="/usr/include/c++/5/backward"/>
@@ -149,22 +149,22 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05/cmake-build-debug/Makefile&quot;  VERBOSE=1 Tests"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05\ (copy)/cmake-build-debug/Makefile&quot;  VERBOSE=1 Tests"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05\ (copy)/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05\ (copy)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05\ (copy)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Tests/fast">
-				<Option output="/home/gilad/CLionProjects/Task_05/cmake-build-debug/Tests" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/gilad/CLionProjects/Task_05/cmake-build-debug"/>
+				<Option output="/home/gilad/CLionProjects/Task_05 (copy)/cmake-build-debug/Tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/gilad/CLionProjects/Task_05 (copy)/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DCLION_RUN"/>
-					<Add directory="/home/gilad/CLionProjects/Task_05/src/client/gtest_src/googletest-release-1.8.0/googletest/include"/>
-					<Add directory="/home/gilad/CLionProjects/Task_05/src/client/gtest_src/googletest-release-1.8.0/googlemock/include"/>
+					<Add directory="/home/gilad/CLionProjects/Task_05 (copy)/src/client/gtest_src/googletest-release-1.8.0/googletest/include"/>
+					<Add directory="/home/gilad/CLionProjects/Task_05 (copy)/src/client/gtest_src/googletest-release-1.8.0/googlemock/include"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
 					<Add directory="/usr/include/c++/5/backward"/>
@@ -175,22 +175,22 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05/cmake-build-debug/Makefile&quot;  VERBOSE=1 Tests/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05\ (copy)/cmake-build-debug/Makefile&quot;  VERBOSE=1 Tests/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05\ (copy)/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05\ (copy)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05\ (copy)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Client">
-				<Option output="/home/gilad/CLionProjects/Task_05/cmake-build-debug/Client" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/gilad/CLionProjects/Task_05/cmake-build-debug"/>
+				<Option output="/home/gilad/CLionProjects/Task_05 (copy)/cmake-build-debug/Client" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/gilad/CLionProjects/Task_05 (copy)/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DCLION_RUN"/>
-					<Add directory="/home/gilad/CLionProjects/Task_05/src/client/gtest_src/googletest-release-1.8.0/googletest/include"/>
-					<Add directory="/home/gilad/CLionProjects/Task_05/src/client/gtest_src/googletest-release-1.8.0/googlemock/include"/>
+					<Add directory="/home/gilad/CLionProjects/Task_05 (copy)/src/client/gtest_src/googletest-release-1.8.0/googletest/include"/>
+					<Add directory="/home/gilad/CLionProjects/Task_05 (copy)/src/client/gtest_src/googletest-release-1.8.0/googlemock/include"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
 					<Add directory="/usr/include/c++/5/backward"/>
@@ -201,22 +201,22 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05/cmake-build-debug/Makefile&quot;  VERBOSE=1 Client"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05\ (copy)/cmake-build-debug/Makefile&quot;  VERBOSE=1 Client"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05\ (copy)/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05\ (copy)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05\ (copy)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Client/fast">
-				<Option output="/home/gilad/CLionProjects/Task_05/cmake-build-debug/Client" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/gilad/CLionProjects/Task_05/cmake-build-debug"/>
+				<Option output="/home/gilad/CLionProjects/Task_05 (copy)/cmake-build-debug/Client" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/gilad/CLionProjects/Task_05 (copy)/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DCLION_RUN"/>
-					<Add directory="/home/gilad/CLionProjects/Task_05/src/client/gtest_src/googletest-release-1.8.0/googletest/include"/>
-					<Add directory="/home/gilad/CLionProjects/Task_05/src/client/gtest_src/googletest-release-1.8.0/googlemock/include"/>
+					<Add directory="/home/gilad/CLionProjects/Task_05 (copy)/src/client/gtest_src/googletest-release-1.8.0/googletest/include"/>
+					<Add directory="/home/gilad/CLionProjects/Task_05 (copy)/src/client/gtest_src/googletest-release-1.8.0/googlemock/include"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
 					<Add directory="/usr/include/c++/5/backward"/>
@@ -227,23 +227,23 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05/cmake-build-debug/Makefile&quot;  VERBOSE=1 Client/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05\ (copy)/cmake-build-debug/Makefile&quot;  VERBOSE=1 Client/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05\ (copy)/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05\ (copy)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05\ (copy)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gmock_main">
-				<Option output="/home/gilad/CLionProjects/Task_05/cmake-build-debug/src/client/gtest_src/googletest-release-1.8.0/googlemock/libgmock_main.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/gilad/CLionProjects/Task_05/cmake-build-debug/src/client/gtest_src/googletest-release-1.8.0/googlemock"/>
+				<Option output="/home/gilad/CLionProjects/Task_05 (copy)/cmake-build-debug/src/client/gtest_src/googletest-release-1.8.0/googlemock/libgmock_main.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/gilad/CLionProjects/Task_05 (copy)/cmake-build-debug/src/client/gtest_src/googletest-release-1.8.0/googlemock"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/gilad/CLionProjects/Task_05/src/client/gtest_src/googletest-release-1.8.0/googlemock/include"/>
-					<Add directory="/home/gilad/CLionProjects/Task_05/src/client/gtest_src/googletest-release-1.8.0/googlemock"/>
-					<Add directory="/home/gilad/CLionProjects/Task_05/src/client/gtest_src/googletest-release-1.8.0/googletest/include"/>
-					<Add directory="/home/gilad/CLionProjects/Task_05/src/client/gtest_src/googletest-release-1.8.0/googletest"/>
+					<Add directory="/home/gilad/CLionProjects/Task_05 (copy)/src/client/gtest_src/googletest-release-1.8.0/googlemock/include"/>
+					<Add directory="/home/gilad/CLionProjects/Task_05 (copy)/src/client/gtest_src/googletest-release-1.8.0/googlemock"/>
+					<Add directory="/home/gilad/CLionProjects/Task_05 (copy)/src/client/gtest_src/googletest-release-1.8.0/googletest/include"/>
+					<Add directory="/home/gilad/CLionProjects/Task_05 (copy)/src/client/gtest_src/googletest-release-1.8.0/googletest"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
 					<Add directory="/usr/include/c++/5/backward"/>
@@ -254,23 +254,23 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05/cmake-build-debug/src/client/gtest_src/googletest-release-1.8.0/googlemock/Makefile&quot;  VERBOSE=1 gmock_main"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05/cmake-build-debug/src/client/gtest_src/googletest-release-1.8.0/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05/cmake-build-debug/src/client/gtest_src/googletest-release-1.8.0/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05/cmake-build-debug/src/client/gtest_src/googletest-release-1.8.0/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05\ (copy)/cmake-build-debug/src/client/gtest_src/googletest-release-1.8.0/googlemock/Makefile&quot;  VERBOSE=1 gmock_main"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05\ (copy)/cmake-build-debug/src/client/gtest_src/googletest-release-1.8.0/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05\ (copy)/cmake-build-debug/src/client/gtest_src/googletest-release-1.8.0/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05\ (copy)/cmake-build-debug/src/client/gtest_src/googletest-release-1.8.0/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gmock_main/fast">
-				<Option output="/home/gilad/CLionProjects/Task_05/cmake-build-debug/src/client/gtest_src/googletest-release-1.8.0/googlemock/libgmock_main.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/gilad/CLionProjects/Task_05/cmake-build-debug/src/client/gtest_src/googletest-release-1.8.0/googlemock"/>
+				<Option output="/home/gilad/CLionProjects/Task_05 (copy)/cmake-build-debug/src/client/gtest_src/googletest-release-1.8.0/googlemock/libgmock_main.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/gilad/CLionProjects/Task_05 (copy)/cmake-build-debug/src/client/gtest_src/googletest-release-1.8.0/googlemock"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/gilad/CLionProjects/Task_05/src/client/gtest_src/googletest-release-1.8.0/googlemock/include"/>
-					<Add directory="/home/gilad/CLionProjects/Task_05/src/client/gtest_src/googletest-release-1.8.0/googlemock"/>
-					<Add directory="/home/gilad/CLionProjects/Task_05/src/client/gtest_src/googletest-release-1.8.0/googletest/include"/>
-					<Add directory="/home/gilad/CLionProjects/Task_05/src/client/gtest_src/googletest-release-1.8.0/googletest"/>
+					<Add directory="/home/gilad/CLionProjects/Task_05 (copy)/src/client/gtest_src/googletest-release-1.8.0/googlemock/include"/>
+					<Add directory="/home/gilad/CLionProjects/Task_05 (copy)/src/client/gtest_src/googletest-release-1.8.0/googlemock"/>
+					<Add directory="/home/gilad/CLionProjects/Task_05 (copy)/src/client/gtest_src/googletest-release-1.8.0/googletest/include"/>
+					<Add directory="/home/gilad/CLionProjects/Task_05 (copy)/src/client/gtest_src/googletest-release-1.8.0/googletest"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
 					<Add directory="/usr/include/c++/5/backward"/>
@@ -281,23 +281,23 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05/cmake-build-debug/src/client/gtest_src/googletest-release-1.8.0/googlemock/Makefile&quot;  VERBOSE=1 gmock_main/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05/cmake-build-debug/src/client/gtest_src/googletest-release-1.8.0/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05/cmake-build-debug/src/client/gtest_src/googletest-release-1.8.0/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05/cmake-build-debug/src/client/gtest_src/googletest-release-1.8.0/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05\ (copy)/cmake-build-debug/src/client/gtest_src/googletest-release-1.8.0/googlemock/Makefile&quot;  VERBOSE=1 gmock_main/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05\ (copy)/cmake-build-debug/src/client/gtest_src/googletest-release-1.8.0/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05\ (copy)/cmake-build-debug/src/client/gtest_src/googletest-release-1.8.0/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05\ (copy)/cmake-build-debug/src/client/gtest_src/googletest-release-1.8.0/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gmock">
-				<Option output="/home/gilad/CLionProjects/Task_05/cmake-build-debug/src/client/gtest_src/googletest-release-1.8.0/googlemock/libgmock.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/gilad/CLionProjects/Task_05/cmake-build-debug/src/client/gtest_src/googletest-release-1.8.0/googlemock"/>
+				<Option output="/home/gilad/CLionProjects/Task_05 (copy)/cmake-build-debug/src/client/gtest_src/googletest-release-1.8.0/googlemock/libgmock.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/gilad/CLionProjects/Task_05 (copy)/cmake-build-debug/src/client/gtest_src/googletest-release-1.8.0/googlemock"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/gilad/CLionProjects/Task_05/src/client/gtest_src/googletest-release-1.8.0/googlemock/include"/>
-					<Add directory="/home/gilad/CLionProjects/Task_05/src/client/gtest_src/googletest-release-1.8.0/googlemock"/>
-					<Add directory="/home/gilad/CLionProjects/Task_05/src/client/gtest_src/googletest-release-1.8.0/googletest/include"/>
-					<Add directory="/home/gilad/CLionProjects/Task_05/src/client/gtest_src/googletest-release-1.8.0/googletest"/>
+					<Add directory="/home/gilad/CLionProjects/Task_05 (copy)/src/client/gtest_src/googletest-release-1.8.0/googlemock/include"/>
+					<Add directory="/home/gilad/CLionProjects/Task_05 (copy)/src/client/gtest_src/googletest-release-1.8.0/googlemock"/>
+					<Add directory="/home/gilad/CLionProjects/Task_05 (copy)/src/client/gtest_src/googletest-release-1.8.0/googletest/include"/>
+					<Add directory="/home/gilad/CLionProjects/Task_05 (copy)/src/client/gtest_src/googletest-release-1.8.0/googletest"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
 					<Add directory="/usr/include/c++/5/backward"/>
@@ -308,23 +308,23 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05/cmake-build-debug/src/client/gtest_src/googletest-release-1.8.0/googlemock/Makefile&quot;  VERBOSE=1 gmock"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05/cmake-build-debug/src/client/gtest_src/googletest-release-1.8.0/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05/cmake-build-debug/src/client/gtest_src/googletest-release-1.8.0/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05/cmake-build-debug/src/client/gtest_src/googletest-release-1.8.0/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05\ (copy)/cmake-build-debug/src/client/gtest_src/googletest-release-1.8.0/googlemock/Makefile&quot;  VERBOSE=1 gmock"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05\ (copy)/cmake-build-debug/src/client/gtest_src/googletest-release-1.8.0/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05\ (copy)/cmake-build-debug/src/client/gtest_src/googletest-release-1.8.0/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05\ (copy)/cmake-build-debug/src/client/gtest_src/googletest-release-1.8.0/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gmock/fast">
-				<Option output="/home/gilad/CLionProjects/Task_05/cmake-build-debug/src/client/gtest_src/googletest-release-1.8.0/googlemock/libgmock.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/gilad/CLionProjects/Task_05/cmake-build-debug/src/client/gtest_src/googletest-release-1.8.0/googlemock"/>
+				<Option output="/home/gilad/CLionProjects/Task_05 (copy)/cmake-build-debug/src/client/gtest_src/googletest-release-1.8.0/googlemock/libgmock.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/gilad/CLionProjects/Task_05 (copy)/cmake-build-debug/src/client/gtest_src/googletest-release-1.8.0/googlemock"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/gilad/CLionProjects/Task_05/src/client/gtest_src/googletest-release-1.8.0/googlemock/include"/>
-					<Add directory="/home/gilad/CLionProjects/Task_05/src/client/gtest_src/googletest-release-1.8.0/googlemock"/>
-					<Add directory="/home/gilad/CLionProjects/Task_05/src/client/gtest_src/googletest-release-1.8.0/googletest/include"/>
-					<Add directory="/home/gilad/CLionProjects/Task_05/src/client/gtest_src/googletest-release-1.8.0/googletest"/>
+					<Add directory="/home/gilad/CLionProjects/Task_05 (copy)/src/client/gtest_src/googletest-release-1.8.0/googlemock/include"/>
+					<Add directory="/home/gilad/CLionProjects/Task_05 (copy)/src/client/gtest_src/googletest-release-1.8.0/googlemock"/>
+					<Add directory="/home/gilad/CLionProjects/Task_05 (copy)/src/client/gtest_src/googletest-release-1.8.0/googletest/include"/>
+					<Add directory="/home/gilad/CLionProjects/Task_05 (copy)/src/client/gtest_src/googletest-release-1.8.0/googletest"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
 					<Add directory="/usr/include/c++/5/backward"/>
@@ -335,21 +335,21 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05/cmake-build-debug/src/client/gtest_src/googletest-release-1.8.0/googlemock/Makefile&quot;  VERBOSE=1 gmock/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05/cmake-build-debug/src/client/gtest_src/googletest-release-1.8.0/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05/cmake-build-debug/src/client/gtest_src/googletest-release-1.8.0/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05/cmake-build-debug/src/client/gtest_src/googletest-release-1.8.0/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05\ (copy)/cmake-build-debug/src/client/gtest_src/googletest-release-1.8.0/googlemock/Makefile&quot;  VERBOSE=1 gmock/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05\ (copy)/cmake-build-debug/src/client/gtest_src/googletest-release-1.8.0/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05\ (copy)/cmake-build-debug/src/client/gtest_src/googletest-release-1.8.0/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05\ (copy)/cmake-build-debug/src/client/gtest_src/googletest-release-1.8.0/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gtest_main">
-				<Option output="/home/gilad/CLionProjects/Task_05/cmake-build-debug/src/client/gtest_src/googletest-release-1.8.0/googlemock/gtest/libgtest_main.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/gilad/CLionProjects/Task_05/cmake-build-debug/src/client/gtest_src/googletest-release-1.8.0/googlemock/gtest"/>
+				<Option output="/home/gilad/CLionProjects/Task_05 (copy)/cmake-build-debug/src/client/gtest_src/googletest-release-1.8.0/googlemock/gtest/libgtest_main.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/gilad/CLionProjects/Task_05 (copy)/cmake-build-debug/src/client/gtest_src/googletest-release-1.8.0/googlemock/gtest"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/gilad/CLionProjects/Task_05/src/client/gtest_src/googletest-release-1.8.0/googletest/include"/>
-					<Add directory="/home/gilad/CLionProjects/Task_05/src/client/gtest_src/googletest-release-1.8.0/googletest"/>
+					<Add directory="/home/gilad/CLionProjects/Task_05 (copy)/src/client/gtest_src/googletest-release-1.8.0/googletest/include"/>
+					<Add directory="/home/gilad/CLionProjects/Task_05 (copy)/src/client/gtest_src/googletest-release-1.8.0/googletest"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
 					<Add directory="/usr/include/c++/5/backward"/>
@@ -360,21 +360,21 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05/cmake-build-debug/src/client/gtest_src/googletest-release-1.8.0/googlemock/gtest/Makefile&quot;  VERBOSE=1 gtest_main"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05/cmake-build-debug/src/client/gtest_src/googletest-release-1.8.0/googlemock/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05/cmake-build-debug/src/client/gtest_src/googletest-release-1.8.0/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05/cmake-build-debug/src/client/gtest_src/googletest-release-1.8.0/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05\ (copy)/cmake-build-debug/src/client/gtest_src/googletest-release-1.8.0/googlemock/gtest/Makefile&quot;  VERBOSE=1 gtest_main"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05\ (copy)/cmake-build-debug/src/client/gtest_src/googletest-release-1.8.0/googlemock/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05\ (copy)/cmake-build-debug/src/client/gtest_src/googletest-release-1.8.0/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05\ (copy)/cmake-build-debug/src/client/gtest_src/googletest-release-1.8.0/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gtest_main/fast">
-				<Option output="/home/gilad/CLionProjects/Task_05/cmake-build-debug/src/client/gtest_src/googletest-release-1.8.0/googlemock/gtest/libgtest_main.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/gilad/CLionProjects/Task_05/cmake-build-debug/src/client/gtest_src/googletest-release-1.8.0/googlemock/gtest"/>
+				<Option output="/home/gilad/CLionProjects/Task_05 (copy)/cmake-build-debug/src/client/gtest_src/googletest-release-1.8.0/googlemock/gtest/libgtest_main.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/gilad/CLionProjects/Task_05 (copy)/cmake-build-debug/src/client/gtest_src/googletest-release-1.8.0/googlemock/gtest"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/gilad/CLionProjects/Task_05/src/client/gtest_src/googletest-release-1.8.0/googletest/include"/>
-					<Add directory="/home/gilad/CLionProjects/Task_05/src/client/gtest_src/googletest-release-1.8.0/googletest"/>
+					<Add directory="/home/gilad/CLionProjects/Task_05 (copy)/src/client/gtest_src/googletest-release-1.8.0/googletest/include"/>
+					<Add directory="/home/gilad/CLionProjects/Task_05 (copy)/src/client/gtest_src/googletest-release-1.8.0/googletest"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
 					<Add directory="/usr/include/c++/5/backward"/>
@@ -385,21 +385,21 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05/cmake-build-debug/src/client/gtest_src/googletest-release-1.8.0/googlemock/gtest/Makefile&quot;  VERBOSE=1 gtest_main/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05/cmake-build-debug/src/client/gtest_src/googletest-release-1.8.0/googlemock/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05/cmake-build-debug/src/client/gtest_src/googletest-release-1.8.0/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05/cmake-build-debug/src/client/gtest_src/googletest-release-1.8.0/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05\ (copy)/cmake-build-debug/src/client/gtest_src/googletest-release-1.8.0/googlemock/gtest/Makefile&quot;  VERBOSE=1 gtest_main/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05\ (copy)/cmake-build-debug/src/client/gtest_src/googletest-release-1.8.0/googlemock/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05\ (copy)/cmake-build-debug/src/client/gtest_src/googletest-release-1.8.0/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05\ (copy)/cmake-build-debug/src/client/gtest_src/googletest-release-1.8.0/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gtest">
-				<Option output="/home/gilad/CLionProjects/Task_05/cmake-build-debug/src/client/gtest_src/googletest-release-1.8.0/googlemock/gtest/libgtest.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/gilad/CLionProjects/Task_05/cmake-build-debug/src/client/gtest_src/googletest-release-1.8.0/googlemock/gtest"/>
+				<Option output="/home/gilad/CLionProjects/Task_05 (copy)/cmake-build-debug/src/client/gtest_src/googletest-release-1.8.0/googlemock/gtest/libgtest.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/gilad/CLionProjects/Task_05 (copy)/cmake-build-debug/src/client/gtest_src/googletest-release-1.8.0/googlemock/gtest"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/gilad/CLionProjects/Task_05/src/client/gtest_src/googletest-release-1.8.0/googletest/include"/>
-					<Add directory="/home/gilad/CLionProjects/Task_05/src/client/gtest_src/googletest-release-1.8.0/googletest"/>
+					<Add directory="/home/gilad/CLionProjects/Task_05 (copy)/src/client/gtest_src/googletest-release-1.8.0/googletest/include"/>
+					<Add directory="/home/gilad/CLionProjects/Task_05 (copy)/src/client/gtest_src/googletest-release-1.8.0/googletest"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
 					<Add directory="/usr/include/c++/5/backward"/>
@@ -410,21 +410,21 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05/cmake-build-debug/src/client/gtest_src/googletest-release-1.8.0/googlemock/gtest/Makefile&quot;  VERBOSE=1 gtest"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05/cmake-build-debug/src/client/gtest_src/googletest-release-1.8.0/googlemock/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05/cmake-build-debug/src/client/gtest_src/googletest-release-1.8.0/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05/cmake-build-debug/src/client/gtest_src/googletest-release-1.8.0/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05\ (copy)/cmake-build-debug/src/client/gtest_src/googletest-release-1.8.0/googlemock/gtest/Makefile&quot;  VERBOSE=1 gtest"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05\ (copy)/cmake-build-debug/src/client/gtest_src/googletest-release-1.8.0/googlemock/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05\ (copy)/cmake-build-debug/src/client/gtest_src/googletest-release-1.8.0/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05\ (copy)/cmake-build-debug/src/client/gtest_src/googletest-release-1.8.0/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gtest/fast">
-				<Option output="/home/gilad/CLionProjects/Task_05/cmake-build-debug/src/client/gtest_src/googletest-release-1.8.0/googlemock/gtest/libgtest.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/gilad/CLionProjects/Task_05/cmake-build-debug/src/client/gtest_src/googletest-release-1.8.0/googlemock/gtest"/>
+				<Option output="/home/gilad/CLionProjects/Task_05 (copy)/cmake-build-debug/src/client/gtest_src/googletest-release-1.8.0/googlemock/gtest/libgtest.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/gilad/CLionProjects/Task_05 (copy)/cmake-build-debug/src/client/gtest_src/googletest-release-1.8.0/googlemock/gtest"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/gilad/CLionProjects/Task_05/src/client/gtest_src/googletest-release-1.8.0/googletest/include"/>
-					<Add directory="/home/gilad/CLionProjects/Task_05/src/client/gtest_src/googletest-release-1.8.0/googletest"/>
+					<Add directory="/home/gilad/CLionProjects/Task_05 (copy)/src/client/gtest_src/googletest-release-1.8.0/googletest/include"/>
+					<Add directory="/home/gilad/CLionProjects/Task_05 (copy)/src/client/gtest_src/googletest-release-1.8.0/googletest"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
 					<Add directory="/usr/include/c++/5/backward"/>
@@ -435,283 +435,283 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05/cmake-build-debug/src/client/gtest_src/googletest-release-1.8.0/googlemock/gtest/Makefile&quot;  VERBOSE=1 gtest/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05/cmake-build-debug/src/client/gtest_src/googletest-release-1.8.0/googlemock/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05/cmake-build-debug/src/client/gtest_src/googletest-release-1.8.0/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05/cmake-build-debug/src/client/gtest_src/googletest-release-1.8.0/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05\ (copy)/cmake-build-debug/src/client/gtest_src/googletest-release-1.8.0/googlemock/gtest/Makefile&quot;  VERBOSE=1 gtest/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05\ (copy)/cmake-build-debug/src/client/gtest_src/googletest-release-1.8.0/googlemock/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05\ (copy)/cmake-build-debug/src/client/gtest_src/googletest-release-1.8.0/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_05\ (copy)/cmake-build-debug/src/client/gtest_src/googletest-release-1.8.0/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/gilad/CLionProjects/Task_05/src/client/gtest_src/googletest-release-1.8.0/googlemock/src/gmock-all.cc">
+		<Unit filename="/home/gilad/CLionProjects/Task_05 (copy)/src/client/gtest_src/googletest-release-1.8.0/googlemock/src/gmock-all.cc">
 			<Option target="gmock_main"/>
 			<Option target="gmock"/>
 		</Unit>
-		<Unit filename="/home/gilad/CLionProjects/Task_05/src/client/gtest_src/googletest-release-1.8.0/googlemock/src/gmock_main.cc">
+		<Unit filename="/home/gilad/CLionProjects/Task_05 (copy)/src/client/gtest_src/googletest-release-1.8.0/googlemock/src/gmock_main.cc">
 			<Option target="gmock_main"/>
 		</Unit>
-		<Unit filename="/home/gilad/CLionProjects/Task_05/src/client/gtest_src/googletest-release-1.8.0/googletest/src/gtest-all.cc">
+		<Unit filename="/home/gilad/CLionProjects/Task_05 (copy)/src/client/gtest_src/googletest-release-1.8.0/googletest/src/gtest-all.cc">
 			<Option target="gmock_main"/>
 			<Option target="gmock"/>
 			<Option target="gtest"/>
 		</Unit>
-		<Unit filename="/home/gilad/CLionProjects/Task_05/src/client/gtest_src/googletest-release-1.8.0/googletest/src/gtest_main.cc">
+		<Unit filename="/home/gilad/CLionProjects/Task_05 (copy)/src/client/gtest_src/googletest-release-1.8.0/googletest/src/gtest_main.cc">
 			<Option target="gtest_main"/>
 		</Unit>
-		<Unit filename="/home/gilad/CLionProjects/Task_05/src/client/include/AIPlayer.h">
+		<Unit filename="/home/gilad/CLionProjects/Task_05 (copy)/src/client/include/AIPlayer.h">
 			<Option target="Tests"/>
 			<Option target="Client"/>
 		</Unit>
-		<Unit filename="/home/gilad/CLionProjects/Task_05/src/client/include/Board.h">
+		<Unit filename="/home/gilad/CLionProjects/Task_05 (copy)/src/client/include/Board.h">
 			<Option target="Tests"/>
 			<Option target="Client"/>
 		</Unit>
-		<Unit filename="/home/gilad/CLionProjects/Task_05/src/client/include/ClassicLogic.h">
+		<Unit filename="/home/gilad/CLionProjects/Task_05 (copy)/src/client/include/ClassicLogic.h">
 			<Option target="Tests"/>
 			<Option target="Client"/>
 		</Unit>
-		<Unit filename="/home/gilad/CLionProjects/Task_05/src/client/include/Client.h">
+		<Unit filename="/home/gilad/CLionProjects/Task_05 (copy)/src/client/include/Client.h">
 			<Option target="Tests"/>
 			<Option target="Client"/>
 		</Unit>
-		<Unit filename="/home/gilad/CLionProjects/Task_05/src/client/include/ClientConfigParser.h">
+		<Unit filename="/home/gilad/CLionProjects/Task_05 (copy)/src/client/include/ClientConfigParser.h">
 			<Option target="Tests"/>
 			<Option target="Client"/>
 		</Unit>
-		<Unit filename="/home/gilad/CLionProjects/Task_05/src/client/include/ConsolePrinter.h">
+		<Unit filename="/home/gilad/CLionProjects/Task_05 (copy)/src/client/include/ConsolePrinter.h">
 			<Option target="Tests"/>
 			<Option target="Client"/>
 		</Unit>
-		<Unit filename="/home/gilad/CLionProjects/Task_05/src/client/include/Convert.h">
+		<Unit filename="/home/gilad/CLionProjects/Task_05 (copy)/src/client/include/Convert.h">
 			<Option target="Tests"/>
 			<Option target="Client"/>
 		</Unit>
-		<Unit filename="/home/gilad/CLionProjects/Task_05/src/client/include/HumanPlayer.h">
+		<Unit filename="/home/gilad/CLionProjects/Task_05 (copy)/src/client/include/HumanPlayer.h">
 			<Option target="Tests"/>
 			<Option target="Client"/>
 		</Unit>
-		<Unit filename="/home/gilad/CLionProjects/Task_05/src/client/include/LocalPlayer.h">
+		<Unit filename="/home/gilad/CLionProjects/Task_05 (copy)/src/client/include/LocalPlayer.h">
 			<Option target="Tests"/>
 			<Option target="Client"/>
 		</Unit>
-		<Unit filename="/home/gilad/CLionProjects/Task_05/src/client/include/Logic.h">
+		<Unit filename="/home/gilad/CLionProjects/Task_05 (copy)/src/client/include/Logic.h">
 			<Option target="Tests"/>
 			<Option target="Client"/>
 		</Unit>
-		<Unit filename="/home/gilad/CLionProjects/Task_05/src/client/include/Player.h">
+		<Unit filename="/home/gilad/CLionProjects/Task_05 (copy)/src/client/include/Player.h">
 			<Option target="Tests"/>
 			<Option target="Client"/>
 		</Unit>
-		<Unit filename="/home/gilad/CLionProjects/Task_05/src/client/include/PlayerColor.h">
+		<Unit filename="/home/gilad/CLionProjects/Task_05 (copy)/src/client/include/PlayerColor.h">
 			<Option target="Tests"/>
 			<Option target="Client"/>
 		</Unit>
-		<Unit filename="/home/gilad/CLionProjects/Task_05/src/client/include/Position.h">
+		<Unit filename="/home/gilad/CLionProjects/Task_05 (copy)/src/client/include/Position.h">
 			<Option target="Tests"/>
 			<Option target="Client"/>
 		</Unit>
-		<Unit filename="/home/gilad/CLionProjects/Task_05/src/client/include/Printer.h">
+		<Unit filename="/home/gilad/CLionProjects/Task_05 (copy)/src/client/include/Printer.h">
 			<Option target="Tests"/>
 			<Option target="Client"/>
 		</Unit>
-		<Unit filename="/home/gilad/CLionProjects/Task_05/src/client/include/RemotePlayer.h">
+		<Unit filename="/home/gilad/CLionProjects/Task_05 (copy)/src/client/include/RemotePlayer.h">
 			<Option target="Tests"/>
 			<Option target="Client"/>
 		</Unit>
-		<Unit filename="/home/gilad/CLionProjects/Task_05/src/client/include/ReversiGame.h">
+		<Unit filename="/home/gilad/CLionProjects/Task_05 (copy)/src/client/include/ReversiGame.h">
 			<Option target="Tests"/>
 			<Option target="Client"/>
 		</Unit>
-		<Unit filename="/home/gilad/CLionProjects/Task_05/src/client/src/AIPlayer.cpp">
+		<Unit filename="/home/gilad/CLionProjects/Task_05 (copy)/src/client/src/AIPlayer.cpp">
 			<Option target="Tests"/>
 			<Option target="Client"/>
 		</Unit>
-		<Unit filename="/home/gilad/CLionProjects/Task_05/src/client/src/Board.cpp">
+		<Unit filename="/home/gilad/CLionProjects/Task_05 (copy)/src/client/src/Board.cpp">
 			<Option target="Tests"/>
 			<Option target="Client"/>
 		</Unit>
-		<Unit filename="/home/gilad/CLionProjects/Task_05/src/client/src/ClassicLogic.cpp">
+		<Unit filename="/home/gilad/CLionProjects/Task_05 (copy)/src/client/src/ClassicLogic.cpp">
 			<Option target="Tests"/>
 			<Option target="Client"/>
 		</Unit>
-		<Unit filename="/home/gilad/CLionProjects/Task_05/src/client/src/Client.cpp">
+		<Unit filename="/home/gilad/CLionProjects/Task_05 (copy)/src/client/src/Client.cpp">
 			<Option target="Tests"/>
 			<Option target="Client"/>
 		</Unit>
-		<Unit filename="/home/gilad/CLionProjects/Task_05/src/client/src/ClientConfigParser.cpp">
+		<Unit filename="/home/gilad/CLionProjects/Task_05 (copy)/src/client/src/ClientConfigParser.cpp">
 			<Option target="Tests"/>
 			<Option target="Client"/>
 		</Unit>
-		<Unit filename="/home/gilad/CLionProjects/Task_05/src/client/src/ConsolePrinter.cpp">
+		<Unit filename="/home/gilad/CLionProjects/Task_05 (copy)/src/client/src/ConsolePrinter.cpp">
 			<Option target="Tests"/>
 			<Option target="Client"/>
 		</Unit>
-		<Unit filename="/home/gilad/CLionProjects/Task_05/src/client/src/Convert.cpp">
+		<Unit filename="/home/gilad/CLionProjects/Task_05 (copy)/src/client/src/Convert.cpp">
 			<Option target="Tests"/>
 			<Option target="Client"/>
 		</Unit>
-		<Unit filename="/home/gilad/CLionProjects/Task_05/src/client/src/HumanPlayer.cpp">
+		<Unit filename="/home/gilad/CLionProjects/Task_05 (copy)/src/client/src/HumanPlayer.cpp">
 			<Option target="Tests"/>
 			<Option target="Client"/>
 		</Unit>
-		<Unit filename="/home/gilad/CLionProjects/Task_05/src/client/src/LocalPlayer.cpp">
+		<Unit filename="/home/gilad/CLionProjects/Task_05 (copy)/src/client/src/LocalPlayer.cpp">
 			<Option target="Tests"/>
 			<Option target="Client"/>
 		</Unit>
-		<Unit filename="/home/gilad/CLionProjects/Task_05/src/client/src/Logic.cpp">
+		<Unit filename="/home/gilad/CLionProjects/Task_05 (copy)/src/client/src/Logic.cpp">
 			<Option target="Tests"/>
 			<Option target="Client"/>
 		</Unit>
-		<Unit filename="/home/gilad/CLionProjects/Task_05/src/client/src/Position.cpp">
+		<Unit filename="/home/gilad/CLionProjects/Task_05 (copy)/src/client/src/Position.cpp">
 			<Option target="Tests"/>
 			<Option target="Client"/>
 		</Unit>
-		<Unit filename="/home/gilad/CLionProjects/Task_05/src/client/src/RemotePlayer.cpp">
+		<Unit filename="/home/gilad/CLionProjects/Task_05 (copy)/src/client/src/RemotePlayer.cpp">
 			<Option target="Tests"/>
 			<Option target="Client"/>
 		</Unit>
-		<Unit filename="/home/gilad/CLionProjects/Task_05/src/client/src/ReversiGame.cpp">
+		<Unit filename="/home/gilad/CLionProjects/Task_05 (copy)/src/client/src/ReversiGame.cpp">
 			<Option target="Tests"/>
 			<Option target="Client"/>
 		</Unit>
-		<Unit filename="/home/gilad/CLionProjects/Task_05/src/client/src/main.cpp">
+		<Unit filename="/home/gilad/CLionProjects/Task_05 (copy)/src/client/src/main.cpp">
 			<Option target="Client"/>
 		</Unit>
-		<Unit filename="/home/gilad/CLionProjects/Task_05/src/client/test/AIPlayerTest.cpp">
+		<Unit filename="/home/gilad/CLionProjects/Task_05 (copy)/src/client/test/AIPlayerTest.cpp">
 			<Option target="Tests"/>
 		</Unit>
-		<Unit filename="/home/gilad/CLionProjects/Task_05/src/client/test/BoardStates.h">
+		<Unit filename="/home/gilad/CLionProjects/Task_05 (copy)/src/client/test/BoardStates.h">
 			<Option target="Tests"/>
 		</Unit>
-		<Unit filename="/home/gilad/CLionProjects/Task_05/src/client/test/BoardTest.cpp">
+		<Unit filename="/home/gilad/CLionProjects/Task_05 (copy)/src/client/test/BoardTest.cpp">
 			<Option target="Tests"/>
 		</Unit>
-		<Unit filename="/home/gilad/CLionProjects/Task_05/src/client/test/ClassicLogicTest.cpp">
+		<Unit filename="/home/gilad/CLionProjects/Task_05 (copy)/src/client/test/ClassicLogicTest.cpp">
 			<Option target="Tests"/>
 		</Unit>
-		<Unit filename="/home/gilad/CLionProjects/Task_05/src/client/test/main.cpp">
+		<Unit filename="/home/gilad/CLionProjects/Task_05 (copy)/src/client/test/main.cpp">
 			<Option target="Tests"/>
 		</Unit>
-		<Unit filename="/home/gilad/CLionProjects/Task_05/src/server/include/ClientHandler.h">
+		<Unit filename="/home/gilad/CLionProjects/Task_05 (copy)/src/server/include/ClientHandler.h">
 			<Option target="Server"/>
 		</Unit>
-		<Unit filename="/home/gilad/CLionProjects/Task_05/src/server/include/Command.h">
+		<Unit filename="/home/gilad/CLionProjects/Task_05 (copy)/src/server/include/Command.h">
 			<Option target="Server"/>
 		</Unit>
-		<Unit filename="/home/gilad/CLionProjects/Task_05/src/server/include/CommandJoin.h">
+		<Unit filename="/home/gilad/CLionProjects/Task_05 (copy)/src/server/include/CommandJoin.h">
 			<Option target="Server"/>
 		</Unit>
-		<Unit filename="/home/gilad/CLionProjects/Task_05/src/server/include/CommandListGames.h">
+		<Unit filename="/home/gilad/CLionProjects/Task_05 (copy)/src/server/include/CommandListGames.h">
 			<Option target="Server"/>
 		</Unit>
-		<Unit filename="/home/gilad/CLionProjects/Task_05/src/server/include/CommandManager.h">
+		<Unit filename="/home/gilad/CLionProjects/Task_05 (copy)/src/server/include/CommandManager.h">
 			<Option target="Server"/>
 		</Unit>
-		<Unit filename="/home/gilad/CLionProjects/Task_05/src/server/include/CommandStart.h">
+		<Unit filename="/home/gilad/CLionProjects/Task_05 (copy)/src/server/include/CommandStart.h">
 			<Option target="Server"/>
 		</Unit>
-		<Unit filename="/home/gilad/CLionProjects/Task_05/src/server/include/Communication.h">
+		<Unit filename="/home/gilad/CLionProjects/Task_05 (copy)/src/server/include/Communication.h">
 			<Option target="Server"/>
 		</Unit>
-		<Unit filename="/home/gilad/CLionProjects/Task_05/src/server/include/ConsoleServerPrinter.h">
+		<Unit filename="/home/gilad/CLionProjects/Task_05 (copy)/src/server/include/ConsoleServerPrinter.h">
 			<Option target="Server"/>
 		</Unit>
-		<Unit filename="/home/gilad/CLionProjects/Task_05/src/server/include/Convert.h">
+		<Unit filename="/home/gilad/CLionProjects/Task_05 (copy)/src/server/include/Convert.h">
 			<Option target="Server"/>
 		</Unit>
-		<Unit filename="/home/gilad/CLionProjects/Task_05/src/server/include/Game.h">
+		<Unit filename="/home/gilad/CLionProjects/Task_05 (copy)/src/server/include/Game.h">
 			<Option target="Server"/>
 		</Unit>
-		<Unit filename="/home/gilad/CLionProjects/Task_05/src/server/include/GameManager.h">
+		<Unit filename="/home/gilad/CLionProjects/Task_05 (copy)/src/server/include/GameManager.h">
 			<Option target="Server"/>
 		</Unit>
-		<Unit filename="/home/gilad/CLionProjects/Task_05/src/server/include/Server.h">
+		<Unit filename="/home/gilad/CLionProjects/Task_05 (copy)/src/server/include/Server.h">
 			<Option target="Server"/>
 		</Unit>
-		<Unit filename="/home/gilad/CLionProjects/Task_05/src/server/include/ServerConfigParser.h">
+		<Unit filename="/home/gilad/CLionProjects/Task_05 (copy)/src/server/include/ServerConfigParser.h">
 			<Option target="Server"/>
 		</Unit>
-		<Unit filename="/home/gilad/CLionProjects/Task_05/src/server/include/ServerPrinter.h">
+		<Unit filename="/home/gilad/CLionProjects/Task_05 (copy)/src/server/include/ServerPrinter.h">
 			<Option target="Server"/>
 		</Unit>
-		<Unit filename="/home/gilad/CLionProjects/Task_05/src/server/src/ClientHandler.cpp">
+		<Unit filename="/home/gilad/CLionProjects/Task_05 (copy)/src/server/src/ClientHandler.cpp">
 			<Option target="Server"/>
 		</Unit>
-		<Unit filename="/home/gilad/CLionProjects/Task_05/src/server/src/CommandJoin.cpp">
+		<Unit filename="/home/gilad/CLionProjects/Task_05 (copy)/src/server/src/CommandJoin.cpp">
 			<Option target="Server"/>
 		</Unit>
-		<Unit filename="/home/gilad/CLionProjects/Task_05/src/server/src/CommandListGames.cpp">
+		<Unit filename="/home/gilad/CLionProjects/Task_05 (copy)/src/server/src/CommandListGames.cpp">
 			<Option target="Server"/>
 		</Unit>
-		<Unit filename="/home/gilad/CLionProjects/Task_05/src/server/src/CommandManager.cpp">
+		<Unit filename="/home/gilad/CLionProjects/Task_05 (copy)/src/server/src/CommandManager.cpp">
 			<Option target="Server"/>
 		</Unit>
-		<Unit filename="/home/gilad/CLionProjects/Task_05/src/server/src/CommandStart.cpp">
+		<Unit filename="/home/gilad/CLionProjects/Task_05 (copy)/src/server/src/CommandStart.cpp">
 			<Option target="Server"/>
 		</Unit>
-		<Unit filename="/home/gilad/CLionProjects/Task_05/src/server/src/Communication.cpp">
+		<Unit filename="/home/gilad/CLionProjects/Task_05 (copy)/src/server/src/Communication.cpp">
 			<Option target="Server"/>
 		</Unit>
-		<Unit filename="/home/gilad/CLionProjects/Task_05/src/server/src/ConsoleServerPrinter.cpp">
+		<Unit filename="/home/gilad/CLionProjects/Task_05 (copy)/src/server/src/ConsoleServerPrinter.cpp">
 			<Option target="Server"/>
 		</Unit>
-		<Unit filename="/home/gilad/CLionProjects/Task_05/src/server/src/Convert.cpp">
+		<Unit filename="/home/gilad/CLionProjects/Task_05 (copy)/src/server/src/Convert.cpp">
 			<Option target="Server"/>
 		</Unit>
-		<Unit filename="/home/gilad/CLionProjects/Task_05/src/server/src/Game.cpp">
+		<Unit filename="/home/gilad/CLionProjects/Task_05 (copy)/src/server/src/Game.cpp">
 			<Option target="Server"/>
 		</Unit>
-		<Unit filename="/home/gilad/CLionProjects/Task_05/src/server/src/GameManager.cpp">
+		<Unit filename="/home/gilad/CLionProjects/Task_05 (copy)/src/server/src/GameManager.cpp">
 			<Option target="Server"/>
 		</Unit>
-		<Unit filename="/home/gilad/CLionProjects/Task_05/src/server/src/Server.cpp">
+		<Unit filename="/home/gilad/CLionProjects/Task_05 (copy)/src/server/src/Server.cpp">
 			<Option target="Server"/>
 		</Unit>
-		<Unit filename="/home/gilad/CLionProjects/Task_05/src/server/src/ServerConfigParser.cpp">
+		<Unit filename="/home/gilad/CLionProjects/Task_05 (copy)/src/server/src/ServerConfigParser.cpp">
 			<Option target="Server"/>
 		</Unit>
-		<Unit filename="/home/gilad/CLionProjects/Task_05/src/server/src/main.cpp">
+		<Unit filename="/home/gilad/CLionProjects/Task_05 (copy)/src/server/src/main.cpp">
 			<Option target="Server"/>
 		</Unit>
-		<Unit filename="/home/gilad/CLionProjects/Task_05/CMakeLists.txt">
+		<Unit filename="/home/gilad/CLionProjects/Task_05 (copy)/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/home/gilad/CLionProjects/Task_05/src/client/gtest_src/googletest-release-1.8.0/CMakeLists.txt">
+		<Unit filename="/home/gilad/CLionProjects/Task_05 (copy)/src/client/gtest_src/googletest-release-1.8.0/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\src\client\gtest_src\googletest-release-1.8.0\"/>
 		</Unit>
-		<Unit filename="/home/gilad/CLionProjects/Task_05/src/client/gtest_src/googletest-release-1.8.0/CMakeLists.txt">
+		<Unit filename="/home/gilad/CLionProjects/Task_05 (copy)/src/client/gtest_src/googletest-release-1.8.0/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\src\client\gtest_src\googletest-release-1.8.0\"/>
 		</Unit>
-		<Unit filename="/home/gilad/CLionProjects/Task_05/src/client/gtest_src/googletest-release-1.8.0/googlemock/CMakeLists.txt">
+		<Unit filename="/home/gilad/CLionProjects/Task_05 (copy)/src/client/gtest_src/googletest-release-1.8.0/googlemock/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\src\client\gtest_src\googletest-release-1.8.0\googlemock\"/>
 		</Unit>
-		<Unit filename="/home/gilad/CLionProjects/Task_05/src/client/gtest_src/googletest-release-1.8.0/googlemock/CMakeLists.txt">
+		<Unit filename="/home/gilad/CLionProjects/Task_05 (copy)/src/client/gtest_src/googletest-release-1.8.0/googlemock/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\src\client\gtest_src\googletest-release-1.8.0\googlemock\"/>
 		</Unit>
-		<Unit filename="/home/gilad/CLionProjects/Task_05/src/client/gtest_src/googletest-release-1.8.0/googlemock/CMakeLists.txt">
+		<Unit filename="/home/gilad/CLionProjects/Task_05 (copy)/src/client/gtest_src/googletest-release-1.8.0/googlemock/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\src\client\gtest_src\googletest-release-1.8.0\googlemock\"/>
 		</Unit>
-		<Unit filename="/home/gilad/CLionProjects/Task_05/src/client/gtest_src/googletest-release-1.8.0/googletest/CMakeLists.txt">
+		<Unit filename="/home/gilad/CLionProjects/Task_05 (copy)/src/client/gtest_src/googletest-release-1.8.0/googletest/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\src\client\gtest_src\googletest-release-1.8.0\googletest\"/>
 		</Unit>
-		<Unit filename="/home/gilad/CLionProjects/Task_05/src/client/gtest_src/googletest-release-1.8.0/googletest/CMakeLists.txt">
+		<Unit filename="/home/gilad/CLionProjects/Task_05 (copy)/src/client/gtest_src/googletest-release-1.8.0/googletest/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\src\client\gtest_src\googletest-release-1.8.0\googletest\"/>
 		</Unit>
-		<Unit filename="/home/gilad/CLionProjects/Task_05/src/client/gtest_src/googletest-release-1.8.0/googletest/CMakeLists.txt">
+		<Unit filename="/home/gilad/CLionProjects/Task_05 (copy)/src/client/gtest_src/googletest-release-1.8.0/googletest/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\src\client\gtest_src\googletest-release-1.8.0\googletest\"/>
 		</Unit>
-		<Unit filename="/home/gilad/CLionProjects/Task_05/src/client/gtest_src/googletest-release-1.8.0/googletest/CMakeLists.txt">
+		<Unit filename="/home/gilad/CLionProjects/Task_05 (copy)/src/client/gtest_src/googletest-release-1.8.0/googletest/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\src\client\gtest_src\googletest-release-1.8.0\googletest\"/>
 		</Unit>
-		<Unit filename="/home/gilad/CLionProjects/Task_05/src/client/gtest_src/googletest-release-1.8.0/googletest/cmake/internal_utils.cmake">
+		<Unit filename="/home/gilad/CLionProjects/Task_05 (copy)/src/client/gtest_src/googletest-release-1.8.0/googletest/cmake/internal_utils.cmake">
 			<Option virtualFolder="CMake Files\src\client\gtest_src\googletest-release-1.8.0\googletest\cmake\"/>
 		</Unit>
-		<Unit filename="/home/gilad/CLionProjects/Task_05/src/client/gtest_src/googletest-release-1.8.0/googletest/cmake/internal_utils.cmake">
+		<Unit filename="/home/gilad/CLionProjects/Task_05 (copy)/src/client/gtest_src/googletest-release-1.8.0/googletest/cmake/internal_utils.cmake">
 			<Option virtualFolder="CMake Files\src\client\gtest_src\googletest-release-1.8.0\googletest\cmake\"/>
 		</Unit>
-		<Unit filename="/home/gilad/CLionProjects/Task_05/src/client/gtest_src/googletest-release-1.8.0/googletest/cmake/internal_utils.cmake">
+		<Unit filename="/home/gilad/CLionProjects/Task_05 (copy)/src/client/gtest_src/googletest-release-1.8.0/googletest/cmake/internal_utils.cmake">
 			<Option virtualFolder="CMake Files\src\client\gtest_src\googletest-release-1.8.0\googletest\cmake\"/>
 		</Unit>
-		<Unit filename="/home/gilad/CLionProjects/Task_05/src/client/gtest_src/googletest-release-1.8.0/googletest/cmake/internal_utils.cmake">
+		<Unit filename="/home/gilad/CLionProjects/Task_05 (copy)/src/client/gtest_src/googletest-release-1.8.0/googletest/cmake/internal_utils.cmake">
 			<Option virtualFolder="CMake Files\src\client\gtest_src\googletest-release-1.8.0\googletest\cmake\"/>
 		</Unit>
 	</Project>

@@ -6,29 +6,29 @@
 
 #IncludeRegexTransform: 
 
-/home/gilad/CLionProjects/Task_05/src/server/include/ClientHandler.h
+/home/gilad/CLionProjects/Task_05 (copy)/src/server/include/ClientHandler.h
 CommandManager.h
-/home/gilad/CLionProjects/Task_05/src/server/include/CommandManager.h
+/home/gilad/CLionProjects/Task_05 (copy)/src/server/include/CommandManager.h
 
-/home/gilad/CLionProjects/Task_05/src/server/include/Command.h
+/home/gilad/CLionProjects/Task_05 (copy)/src/server/include/Command.h
 iostream
 -
 vector
 -
 
-/home/gilad/CLionProjects/Task_05/src/server/include/CommandJoin.h
+/home/gilad/CLionProjects/Task_05 (copy)/src/server/include/CommandJoin.h
 Command.h
-/home/gilad/CLionProjects/Task_05/src/server/include/Command.h
+/home/gilad/CLionProjects/Task_05 (copy)/src/server/include/Command.h
 GameManager.h
-/home/gilad/CLionProjects/Task_05/src/server/include/GameManager.h
+/home/gilad/CLionProjects/Task_05 (copy)/src/server/include/GameManager.h
 
-/home/gilad/CLionProjects/Task_05/src/server/include/CommandListGames.h
+/home/gilad/CLionProjects/Task_05 (copy)/src/server/include/CommandListGames.h
 Command.h
-/home/gilad/CLionProjects/Task_05/src/server/include/Command.h
+/home/gilad/CLionProjects/Task_05 (copy)/src/server/include/Command.h
 GameManager.h
-/home/gilad/CLionProjects/Task_05/src/server/include/GameManager.h
+/home/gilad/CLionProjects/Task_05 (copy)/src/server/include/GameManager.h
 
-/home/gilad/CLionProjects/Task_05/src/server/include/CommandManager.h
+/home/gilad/CLionProjects/Task_05 (copy)/src/server/include/CommandManager.h
 iostream
 -
 vector
@@ -36,35 +36,35 @@ vector
 map
 -
 Command.h
-/home/gilad/CLionProjects/Task_05/src/server/include/Command.h
+/home/gilad/CLionProjects/Task_05 (copy)/src/server/include/Command.h
 
-/home/gilad/CLionProjects/Task_05/src/server/include/CommandStart.h
+/home/gilad/CLionProjects/Task_05 (copy)/src/server/include/CommandStart.h
 Command.h
-/home/gilad/CLionProjects/Task_05/src/server/include/Command.h
+/home/gilad/CLionProjects/Task_05 (copy)/src/server/include/Command.h
 GameManager.h
-/home/gilad/CLionProjects/Task_05/src/server/include/GameManager.h
+/home/gilad/CLionProjects/Task_05 (copy)/src/server/include/GameManager.h
 
-/home/gilad/CLionProjects/Task_05/src/server/include/Communication.h
+/home/gilad/CLionProjects/Task_05 (copy)/src/server/include/Communication.h
 unistd.h
 -
 sstream
 -
 
-/home/gilad/CLionProjects/Task_05/src/server/include/ConsoleServerPrinter.h
+/home/gilad/CLionProjects/Task_05 (copy)/src/server/include/ConsoleServerPrinter.h
 ServerPrinter.h
-/home/gilad/CLionProjects/Task_05/src/server/include/ServerPrinter.h
+/home/gilad/CLionProjects/Task_05 (copy)/src/server/include/ServerPrinter.h
 
-/home/gilad/CLionProjects/Task_05/src/server/include/Convert.h
+/home/gilad/CLionProjects/Task_05 (copy)/src/server/include/Convert.h
 iostream
 -
 
-/home/gilad/CLionProjects/Task_05/src/server/include/Game.h
+/home/gilad/CLionProjects/Task_05 (copy)/src/server/include/Game.h
 memory.h
 -
 
-/home/gilad/CLionProjects/Task_05/src/server/include/GameManager.h
+/home/gilad/CLionProjects/Task_05 (copy)/src/server/include/GameManager.h
 Game.h
-/home/gilad/CLionProjects/Task_05/src/server/include/Game.h
+/home/gilad/CLionProjects/Task_05 (copy)/src/server/include/Game.h
 map
 -
 vector
@@ -72,101 +72,101 @@ vector
 thread_db.h
 -
 
-/home/gilad/CLionProjects/Task_05/src/server/include/Server.h
+/home/gilad/CLionProjects/Task_05 (copy)/src/server/include/Server.h
 string
 -
 ServerPrinter.h
-/home/gilad/CLionProjects/Task_05/src/server/include/ServerPrinter.h
+/home/gilad/CLionProjects/Task_05 (copy)/src/server/include/ServerPrinter.h
 ClientHandler.h
-/home/gilad/CLionProjects/Task_05/src/server/include/ClientHandler.h
+/home/gilad/CLionProjects/Task_05 (copy)/src/server/include/ClientHandler.h
 
-/home/gilad/CLionProjects/Task_05/src/server/include/ServerConfigParser.h
+/home/gilad/CLionProjects/Task_05 (copy)/src/server/include/ServerConfigParser.h
 iostream
 -
 
-/home/gilad/CLionProjects/Task_05/src/server/include/ServerPrinter.h
+/home/gilad/CLionProjects/Task_05 (copy)/src/server/include/ServerPrinter.h
 vector
 -
 
-/home/gilad/CLionProjects/Task_05/src/server/src/ClientHandler.cpp
+/home/gilad/CLionProjects/Task_05 (copy)/src/server/src/ClientHandler.cpp
 ../include/ClientHandler.h
-/home/gilad/CLionProjects/Task_05/src/server/include/ClientHandler.h
+/home/gilad/CLionProjects/Task_05 (copy)/src/server/include/ClientHandler.h
 ../include/Communication.h
-/home/gilad/CLionProjects/Task_05/src/server/include/Communication.h
+/home/gilad/CLionProjects/Task_05 (copy)/src/server/include/Communication.h
 ../include/Convert.h
-/home/gilad/CLionProjects/Task_05/src/server/include/Convert.h
+/home/gilad/CLionProjects/Task_05 (copy)/src/server/include/Convert.h
 ../include/GameManager.h
-/home/gilad/CLionProjects/Task_05/src/server/include/GameManager.h
+/home/gilad/CLionProjects/Task_05 (copy)/src/server/include/GameManager.h
 
-/home/gilad/CLionProjects/Task_05/src/server/src/CommandJoin.cpp
+/home/gilad/CLionProjects/Task_05 (copy)/src/server/src/CommandJoin.cpp
 ../include/Convert.h
-/home/gilad/CLionProjects/Task_05/src/server/include/Convert.h
+/home/gilad/CLionProjects/Task_05 (copy)/src/server/include/Convert.h
 ../include/Communication.h
-/home/gilad/CLionProjects/Task_05/src/server/include/Communication.h
+/home/gilad/CLionProjects/Task_05 (copy)/src/server/include/Communication.h
 ../include/CommandJoin.h
-/home/gilad/CLionProjects/Task_05/src/server/include/CommandJoin.h
+/home/gilad/CLionProjects/Task_05 (copy)/src/server/include/CommandJoin.h
 
-/home/gilad/CLionProjects/Task_05/src/server/src/CommandListGames.cpp
+/home/gilad/CLionProjects/Task_05 (copy)/src/server/src/CommandListGames.cpp
 unistd.h
 -
 ../include/CommandListGames.h
-/home/gilad/CLionProjects/Task_05/src/server/include/CommandListGames.h
+/home/gilad/CLionProjects/Task_05 (copy)/src/server/include/CommandListGames.h
 ../include/Convert.h
-/home/gilad/CLionProjects/Task_05/src/server/include/Convert.h
+/home/gilad/CLionProjects/Task_05 (copy)/src/server/include/Convert.h
 ../include/Communication.h
-/home/gilad/CLionProjects/Task_05/src/server/include/Communication.h
+/home/gilad/CLionProjects/Task_05 (copy)/src/server/include/Communication.h
 
-/home/gilad/CLionProjects/Task_05/src/server/src/CommandManager.cpp
+/home/gilad/CLionProjects/Task_05 (copy)/src/server/src/CommandManager.cpp
 ../include/CommandManager.h
-/home/gilad/CLionProjects/Task_05/src/server/include/CommandManager.h
+/home/gilad/CLionProjects/Task_05 (copy)/src/server/include/CommandManager.h
 ../include/CommandStart.h
-/home/gilad/CLionProjects/Task_05/src/server/include/CommandStart.h
+/home/gilad/CLionProjects/Task_05 (copy)/src/server/include/CommandStart.h
 ../include/CommandListGames.h
-/home/gilad/CLionProjects/Task_05/src/server/include/CommandListGames.h
+/home/gilad/CLionProjects/Task_05 (copy)/src/server/include/CommandListGames.h
 ../include/CommandJoin.h
-/home/gilad/CLionProjects/Task_05/src/server/include/CommandJoin.h
+/home/gilad/CLionProjects/Task_05 (copy)/src/server/include/CommandJoin.h
 
-/home/gilad/CLionProjects/Task_05/src/server/src/CommandStart.cpp
+/home/gilad/CLionProjects/Task_05 (copy)/src/server/src/CommandStart.cpp
 ../include/Convert.h
-/home/gilad/CLionProjects/Task_05/src/server/include/Convert.h
+/home/gilad/CLionProjects/Task_05 (copy)/src/server/include/Convert.h
 ../include/Communication.h
-/home/gilad/CLionProjects/Task_05/src/server/include/Communication.h
+/home/gilad/CLionProjects/Task_05 (copy)/src/server/include/Communication.h
 ../include/CommandStart.h
-/home/gilad/CLionProjects/Task_05/src/server/include/CommandStart.h
+/home/gilad/CLionProjects/Task_05 (copy)/src/server/include/CommandStart.h
 
-/home/gilad/CLionProjects/Task_05/src/server/src/Communication.cpp
+/home/gilad/CLionProjects/Task_05 (copy)/src/server/src/Communication.cpp
 ../include/Communication.h
-/home/gilad/CLionProjects/Task_05/src/server/include/Communication.h
+/home/gilad/CLionProjects/Task_05 (copy)/src/server/include/Communication.h
 
-/home/gilad/CLionProjects/Task_05/src/server/src/ConsoleServerPrinter.cpp
+/home/gilad/CLionProjects/Task_05 (copy)/src/server/src/ConsoleServerPrinter.cpp
 ../include/ConsoleServerPrinter.h
-/home/gilad/CLionProjects/Task_05/src/server/include/ConsoleServerPrinter.h
+/home/gilad/CLionProjects/Task_05 (copy)/src/server/include/ConsoleServerPrinter.h
 iostream
 -
 
-/home/gilad/CLionProjects/Task_05/src/server/src/Convert.cpp
+/home/gilad/CLionProjects/Task_05 (copy)/src/server/src/Convert.cpp
 sstream
 -
 ../include/Convert.h
-/home/gilad/CLionProjects/Task_05/src/server/include/Convert.h
+/home/gilad/CLionProjects/Task_05 (copy)/src/server/include/Convert.h
 
-/home/gilad/CLionProjects/Task_05/src/server/src/Game.cpp
+/home/gilad/CLionProjects/Task_05 (copy)/src/server/src/Game.cpp
 ../include/Game.h
-/home/gilad/CLionProjects/Task_05/src/server/include/Game.h
+/home/gilad/CLionProjects/Task_05 (copy)/src/server/include/Game.h
 ../include/Communication.h
-/home/gilad/CLionProjects/Task_05/src/server/include/Communication.h
+/home/gilad/CLionProjects/Task_05 (copy)/src/server/include/Communication.h
 ../include/GameManager.h
-/home/gilad/CLionProjects/Task_05/src/server/include/GameManager.h
+/home/gilad/CLionProjects/Task_05 (copy)/src/server/include/GameManager.h
 
-/home/gilad/CLionProjects/Task_05/src/server/src/GameManager.cpp
+/home/gilad/CLionProjects/Task_05 (copy)/src/server/src/GameManager.cpp
 sstream
 -
 ../include/GameManager.h
-/home/gilad/CLionProjects/Task_05/src/server/include/GameManager.h
+/home/gilad/CLionProjects/Task_05 (copy)/src/server/include/GameManager.h
 ../include/Communication.h
-/home/gilad/CLionProjects/Task_05/src/server/include/Communication.h
+/home/gilad/CLionProjects/Task_05 (copy)/src/server/include/Communication.h
 
-/home/gilad/CLionProjects/Task_05/src/server/src/Server.cpp
+/home/gilad/CLionProjects/Task_05 (copy)/src/server/src/Server.cpp
 sys/socket.h
 -
 netinet/in.h
@@ -176,9 +176,9 @@ memory.h
 unistd.h
 -
 ../include/Server.h
-/home/gilad/CLionProjects/Task_05/src/server/include/Server.h
+/home/gilad/CLionProjects/Task_05 (copy)/src/server/include/Server.h
 
-/home/gilad/CLionProjects/Task_05/src/server/src/ServerConfigParser.cpp
+/home/gilad/CLionProjects/Task_05 (copy)/src/server/src/ServerConfigParser.cpp
 iostream
 -
 fstream
@@ -188,15 +188,15 @@ cstdlib
 string.h
 -
 ../include/ServerConfigParser.h
-/home/gilad/CLionProjects/Task_05/src/server/include/ServerConfigParser.h
+/home/gilad/CLionProjects/Task_05 (copy)/src/server/include/ServerConfigParser.h
 
-/home/gilad/CLionProjects/Task_05/src/server/src/main.cpp
+/home/gilad/CLionProjects/Task_05 (copy)/src/server/src/main.cpp
 ../include/ConsoleServerPrinter.h
-/home/gilad/CLionProjects/Task_05/src/server/include/ConsoleServerPrinter.h
+/home/gilad/CLionProjects/Task_05 (copy)/src/server/include/ConsoleServerPrinter.h
 ../include/ServerConfigParser.h
-/home/gilad/CLionProjects/Task_05/src/server/include/ServerConfigParser.h
+/home/gilad/CLionProjects/Task_05 (copy)/src/server/include/ServerConfigParser.h
 ../include/Server.h
-/home/gilad/CLionProjects/Task_05/src/server/include/Server.h
+/home/gilad/CLionProjects/Task_05 (copy)/src/server/include/Server.h
 stdlib.h
 -
 signal.h
